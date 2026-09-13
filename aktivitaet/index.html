@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Server-Aktivität</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow"></div>
+
+<header class="page-header">
+  <h1>Server&#8209;Aktivität</h1>
+  <p class="subtitle">Wer schreibt am meisten, wer ist am längsten im Voice-Chat, wer ist wann dazugekommen.</p>
+</header>
+
+<section class="stat-cards" id="stat-cards">
+  <div class="stat-card">
+    <span class="stat-value" id="stat-messages">–</span>
+    <span class="stat-label">Nachrichten gesamt</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value" id="stat-voice">–</span>
+    <span class="stat-label">Voice-Zeit gesamt</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value" id="stat-members">–</span>
+    <span class="stat-label">Mitglieder erfasst</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value" id="stat-updated">–</span>
+    <span class="stat-label">Letztes Update</span>
+  </div>
+</section>
+
+<main class="panel">
+  <div class="panel-top">
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="messages" role="tab">💬 Nachrichten</button>
+      <button class="tab" data-tab="voice" role="tab">🎙️ Voice-Zeit</button>
+      <button class="tab" data-tab="joins" role="tab">📅 Beigetreten</button>
+    </div>
+    <input type="search" id="search" placeholder="Nutzer suchen…" autocomplete="off">
+  </div>
+
+  <ol class="leaderboard" id="leaderboard"></ol>
+  <p class="empty-state" id="empty-state" hidden>Keine Einträge gefunden.</p>
+</main>
+
+<footer>
+  <p id="footer-note">Daten werden automatisch 4× täglich aktualisiert.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

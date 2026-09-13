@@ -1,0 +1,6 @@
+activity.db
+voicelog_raw_dump.txt
+.env
+__pycache__/
+*.pyc
+member-dashboard/
