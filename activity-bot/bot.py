@@ -67,7 +67,8 @@ def init_db():
             channel_id TEXT NOT NULL,
             channel_name TEXT NOT NULL,
             char_length INTEGER NOT NULL,
-            timestamp TEXT NOT NULL
+            timestamp TEXT NOT NULL,
+            UNIQUE(user_id, channel_id, timestamp, char_length)
         )
     """)
     cur.execute("""
@@ -112,7 +113,7 @@ def upsert_member(user_id, username, avatar_url, joined_at=None):
 def log_message(user_id, username, channel_id, channel_name, char_length):
     con = sqlite3.connect(DB_PATH)
     con.execute(
-        "INSERT INTO messages (user_id, username, channel_id, channel_name, char_length, timestamp) "
+        "INSERT OR IGNORE INTO messages (user_id, username, channel_id, channel_name, char_length, timestamp) "
         "VALUES (?, ?, ?, ?, ?, ?)",
         (str(user_id), username, str(channel_id), channel_name, char_length,
          datetime.datetime.utcnow().isoformat())
