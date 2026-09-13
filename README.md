@@ -41,7 +41,14 @@ Discord-Bot-Application ist bereits angelegt und eingeladen: `Bot_FNA#4474`.
   `aktivitaet/data.json`.
 - `activity-bot/backfill_messages.py` — einmaliges Skript, holt die
   **komplette bisherige** Nachrichten-Historie aller Text-Channels + Threads
-  über die Discord-API nach (rückwirkend möglich, im Gegensatz zu Voice-Daten)
+  über die Discord-API nach
+- `activity-bot/backfill_voice.py` — einmaliges Skript, rekonstruiert
+  historische Voice-Sessions aus Carl-bots Log in `#voice` (Join/Leave-Paare
+  → Sitzungsdauer), da Voice-Historie sich nicht direkt über die Discord-API
+  abfragen lässt
+- `activity-bot/backfill_joins.py` — einmaliges Skript, holt historische
+  Beitrittsdaten aus Carl-bots Log in `#join-leave` nach, inkl. mittlerweile
+  ausgetretener Mitglieder
 - `activity-bot/export_stats.py` — aggregiert `activity.db` zu
   `aktivitaet/data.json` und pusht die Änderung per Git; wird von `bot.py`
   automatisch aufgerufen, kann aber auch manuell mit `python export_stats.py`
@@ -53,14 +60,25 @@ Discord-Bot-Application ist bereits angelegt und eingeladen: `Bot_FNA#4474`.
   über GitHub Pages ausgeliefert (Unterpfad des bestehenden Repos, berührt
   `index.html` im Root nicht).
 
-### Offener Punkt (nicht Teil der aktuellen Rangliste)
+### Historische Daten einmalig nachladen
 
-Carl-bot hat einen langjährigen **Voice-Log** in `#voice` (Join/Leave pro
-Voice-Channel, auch aus der Zeit vor diesem Bot). Da Voice-Historie sich
-nicht nachträglich über die Discord-API rekonstruieren lässt, könnte dieser
-Log später als zusätzliche Datenquelle geparst werden, um auch ältere
-Voice-Zeiten einzubeziehen — aktuell zählt nur Voice-Zeit **ab dem Start
-von `bot.py`**.
+Die drei Backfill-Skripte holen alles nach, was vor dem ersten Start von
+`bot.py` bereits passiert ist (Nachrichten komplett, Voice-Zeit + Beitritte
+aus den bestehenden Carl-bot-Logs in `#voice` / `#join-leave`). **Reihenfolge
+und Timing wichtig:**
+
+```
+python activity-bot/backfill_messages.py
+python activity-bot/backfill_voice.py
+python activity-bot/backfill_joins.py
+python activity-bot/export_stats.py
+```
+
+- Nacheinander ausführen, nie parallel (ein Discord-Bot-Prozess pro Token
+  gleichzeitig, siehe Sicherheitshinweise)
+- Vor dem dauerhaften Start von `bot.py` einmalig laufen lassen, sonst
+  können sich historische und live erfasste Voice-Sessions überschneiden
+- Danach läuft `bot.py` normal weiter und trackt nur noch neue Ereignisse
 
 ### Setup
 

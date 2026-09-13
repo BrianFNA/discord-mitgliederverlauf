@@ -4,3 +4,4 @@ voicelog_raw_dump.txt
 __pycache__/
 *.pyc
 member-dashboard/
+.claude/

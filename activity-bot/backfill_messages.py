@@ -18,6 +18,9 @@ import sqlite3
 import datetime
 
 import discord
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "activity.db")
 TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "HIER_DEIN_BOT_TOKEN_EINTRAGEN")

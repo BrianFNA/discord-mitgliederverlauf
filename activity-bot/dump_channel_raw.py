@@ -16,6 +16,9 @@ Nutzung:
 
 import os
 import discord
+from dotenv import load_dotenv
+
+load_dotenv()
 
 TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "HIER_DEIN_BOT_TOKEN_EINTRAGEN")
 CHANNEL_ID = os.environ.get("DISCORD_CHANNEL_ID", "")  # z.B. "123456789012345678"
