@@ -52,6 +52,25 @@
   <p id="footer-note">Daten werden automatisch 4× täglich aktualisiert.</p>
 </footer>
 
+<div id="vlog-overlay" class="vlog-overlay" hidden>
+  <div class="vlog-modal">
+    <div class="vlog-header">
+      <div class="vlog-tabs">
+        <button class="vlog-tab active" data-vtab="user" type="button">Pro Nutzer</button>
+        <button class="vlog-tab" data-vtab="date" type="button">Pro Datum</button>
+      </div>
+      <button class="vlog-close" id="vlog-close" type="button" aria-label="Schließen">✕</button>
+    </div>
+    <div class="vlog-body">
+      <aside class="vlog-sidebar" id="vlog-sidebar"></aside>
+      <div class="vlog-detail" id="vlog-detail">
+        <p class="vlog-hint">Links auswählen, um Details zu sehen.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script src="script.js"></script>
+<script src="voicelog.js"></script>
 </body>
 </html>

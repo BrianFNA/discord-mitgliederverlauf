@@ -15,6 +15,7 @@ import sqlite3
 DB_PATH = os.path.join(os.path.dirname(__file__), "activity.db")
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_PATH = os.path.join(REPO_ROOT, "aktivitaet", "data.json")
+VOICELOG_OUT_PATH = os.path.join(REPO_ROOT, "aktivitaet", "voicelog.json")
 
 
 def fetch_all(con, query):
@@ -70,11 +71,40 @@ def build_export():
     return export
 
 
+def build_voicelog():
+    """Exportiert jede einzelne Voice-Session (für das versteckte Voice-Log-Panel)."""
+    con = sqlite3.connect(DB_PATH)
+    members = fetch_all(con, "SELECT user_id, username, avatar_url FROM members")
+    sessions = fetch_all(
+        con,
+        "SELECT user_id, channel_name, joined_at, left_at, duration_seconds "
+        "FROM voice_sessions ORDER BY joined_at ASC"
+    )
+    con.close()
+
+    users = {m["user_id"]: {"username": m["username"], "avatar_url": m["avatar_url"]} for m in members}
+    for s in sessions:
+        users.setdefault(s["user_id"], {"username": "Unbekannt", "avatar_url": None})
+
+    voicelog = {
+        "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "users": users,
+        "sessions": sessions,
+    }
+
+    os.makedirs(os.path.dirname(VOICELOG_OUT_PATH), exist_ok=True)
+    with open(VOICELOG_OUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(voicelog, f, ensure_ascii=False, indent=2)
+
+    print(f"Voice-Log geschrieben nach {VOICELOG_OUT_PATH} ({len(sessions)} Sessions).")
+    return voicelog
+
+
 def push_to_github():
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     try:
         subprocess.run(
-            ["git", "add", "aktivitaet/data.json"],
+            ["git", "add", "aktivitaet/data.json", "aktivitaet/voicelog.json"],
             cwd=REPO_ROOT, check=True, capture_output=True, text=True,
         )
         commit = subprocess.run(
@@ -98,3 +128,4 @@ def push_to_github():
 
 if __name__ == "__main__":
     build_export()
+    build_voicelog()

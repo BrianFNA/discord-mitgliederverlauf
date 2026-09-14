@@ -59,6 +59,16 @@ Discord-Bot-Application ist bereits angelegt und eingeladen: `Bot_FNA#4474`.
   `script.js`, `data.json`). Statisch, kein Build-Schritt nötig, wird direkt
   über GitHub Pages ausgeliefert (Unterpfad des bestehenden Repos, berührt
   `index.html` im Root nicht).
+- `aktivitaet/voicelog.js` + `aktivitaet/voicelog.json` — verstecktes
+  Detail-Panel mit jeder einzelnen Voice-Session, aufrufbar durch Eintippen
+  von **`voicelog`** irgendwo auf der Seite (außerhalb des Suchfelds), Escape
+  oder Klick daneben schließt es wieder. Zwei Ansichten: "Pro Nutzer" (Jahr →
+  Monat → Tag → Sessions für einen ausgewählten Nutzer) und "Pro Datum"
+  (gleiche Baumstruktur, aber serverweit, mit Nutzer-Aufschlüsselung pro Tag).
+  **Kein echter Zugriffsschutz** — nur UI-seitig versteckt, da die Seite rein
+  statisch ist (`voicelog.json` bleibt über die URL direkt abrufbar für alle,
+  die sie kennen/erraten). Der Auslöse-Text lässt sich in `voicelog.js`
+  (Konstante `VLOG_SECRET`) ändern.
 
 ### Historische Daten einmalig nachladen
 
