@@ -80,7 +80,8 @@ def init_db():
             channel_name TEXT NOT NULL,
             joined_at TEXT NOT NULL,
             left_at TEXT NOT NULL,
-            duration_seconds INTEGER NOT NULL
+            duration_seconds INTEGER NOT NULL,
+            UNIQUE(user_id, channel_name, joined_at)
         )
     """)
     con.commit()
@@ -128,7 +129,7 @@ def log_voice_session(user_id, username, channel_id, channel_name, joined_at, le
         return
     con = sqlite3.connect(DB_PATH)
     con.execute(
-        "INSERT INTO voice_sessions (user_id, username, channel_id, channel_name, joined_at, left_at, duration_seconds) "
+        "INSERT OR IGNORE INTO voice_sessions (user_id, username, channel_id, channel_name, joined_at, left_at, duration_seconds) "
         "VALUES (?, ?, ?, ?, ?, ?, ?)",
         (str(user_id), username, str(channel_id), channel_name,
          joined_at.isoformat(), left_at.isoformat(), duration)
