@@ -39,6 +39,12 @@ load_dotenv()
 DB_PATH = os.path.join(os.path.dirname(__file__), "activity.db")
 TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "")
 
+# Sicherheitsnetz gegen "Geister"-Voice-Sessions (Client crasht, Discord
+# meldet nie ein VOICE_STATE_UPDATE zum Verlassen) - eine einzelne
+# durchgehende Session über mehr als 24h ist praktisch immer Fehldaten,
+# keine echte Anwesenheit.
+MAX_SESSION_SECONDS = 24 * 60 * 60
+
 PUBLISH_TIMES = [
     datetime.time(hour=0, minute=0),
     datetime.time(hour=6, minute=0),
@@ -126,6 +132,9 @@ def log_message(user_id, username, channel_id, channel_name, char_length):
 def log_voice_session(user_id, username, channel_id, channel_name, joined_at, left_at):
     duration = int((left_at - joined_at).total_seconds())
     if duration <= 0:
+        return
+    if duration > MAX_SESSION_SECONDS:
+        print(f"Voice-Session verworfen (unplausibel lang, {duration/3600:.1f}h): {username} in #{channel_name}")
         return
     con = sqlite3.connect(DB_PATH)
     con.execute(

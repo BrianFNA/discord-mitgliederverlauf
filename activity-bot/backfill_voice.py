@@ -33,6 +33,14 @@ CHANNEL_ID = os.environ.get("DISCORD_VOICE_LOG_CHANNEL_ID", "889201063410941962"
 
 DESC_RE = re.compile(r"^\*\*(.+?)\*\* (?:joined|left) #(.+)$")
 
+# Carl-bots Log hat vereinzelt Lücken (z.B. durch Downtime oder "Geister"-
+# Voice-Verbindungen nach einem Client-Crash, bei denen Discord den Leave nie
+# meldet) - dadurch wird ein "joined" fälschlich mit einem viel späteren
+# "left" gepaart und ergibt Sessions über Tage/Wochen. Da wir die echte
+# Dauer in diesem Fall nicht kennen, verwerfen wir solche Paarungen statt
+# eine erfundene Zahl einzutragen.
+MAX_SESSION_SECONDS = 24 * 60 * 60
+
 
 def init_db():
     con = sqlite3.connect(DB_PATH)
@@ -56,6 +64,10 @@ def init_db():
 def log_voice_session(user_id, username, channel_name, joined_at, left_at):
     duration = int((left_at - joined_at).total_seconds())
     if duration <= 0:
+        return
+    if duration > MAX_SESSION_SECONDS:
+        print(f"  Verworfen (unplausibel lang, {duration/3600:.1f}h): {username} in #{channel_name}, "
+              f"{joined_at.isoformat()} -> {left_at.isoformat()} (fehlendes Leave-Event im Carl-bot-Log?)")
         return
     con = sqlite3.connect(DB_PATH)
     con.execute(
