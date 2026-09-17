@@ -162,7 +162,7 @@ async function load() {
     document.getElementById("stat-updated").textContent = formatRelativeUpdate(data.generated_at);
 
     render();
-    if (window.initJoinChart) window.initJoinChart(allUsers);
+    if (window.initJoinChart) window.initJoinChart(data.member_events || []);
   } catch (err) {
     emptyStateEl.hidden = false;
     emptyStateEl.textContent = "Daten konnten nicht geladen werden.";

@@ -69,12 +69,14 @@ Discord-Bot-Application ist bereits angelegt und eingeladen: `Bot_FNA#4474`.
   statisch ist (`voicelog.json` bleibt über die URL direkt abrufbar für alle,
   die sie kennen/erraten). Der Auslöse-Text lässt sich in `voicelog.js`
   (Konstante `VLOG_SECRET`) ändern.
-- `aktivitaet/join-chart.js` — zoombarer Mitgliederverlauf (D3, kumulierte
-  Beitritte über Zeit) oberhalb der Liste im "Beigetreten"-Tab, abgelöst vom
-  früheren eigenständigen `member-dashboard/`-Chart, jetzt gespeist aus den
-  live getrackten Bot-Daten statt einer manuell kopierten Logdatei. Zeigt nur
-  Beitritte (keine Austritte, die trackt der Bot aktuell nicht) — die Linie
-  ist daher monoton steigend.
+- `aktivitaet/join-chart.js` — zoombarer Mitgliederverlauf (D3, echte
+  Mitgliederzahl über Zeit inkl. Austritte, nicht nur kumulierte Beitritte)
+  oberhalb der Liste im "Beigetreten"-Tab, abgelöst vom früheren
+  eigenständigen `member-dashboard/`-Chart, jetzt gespeist aus den live
+  getrackten Bot-Daten (Tabelle `member_events`, per `on_member_join`/
+  `on_member_remove` in `bot.py` sowie historisch aus `#join-leave`
+  nachgeladen von `backfill_joins.py`) statt einer manuell kopierten
+  Logdatei. Grüne Punkte = Beitritt, rote = Austritt.
 
 Nutzer ohne Eintrag in der `members`-Tabelle (z. B. sehr alte Nachrichten/
 Voice-Sessions von jemandem, der vor dem ersten Bot-Start bereits wieder

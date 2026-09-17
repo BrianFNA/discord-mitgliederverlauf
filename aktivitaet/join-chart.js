@@ -1,9 +1,8 @@
-/* Zoombarer Mitgliederverlauf (kumulierte Beitritte über Zeit) für den
- * "Beigetreten"-Tab. Ersetzt/integriert die frühere eigenständige
- * D3-Grafik (member-dashboard) - hier gespeist aus den live vom Bot
- * getrackten Beitrittsdaten statt einer manuell kopierten Logdatei.
- * Hinweis: Es werden nur Beitritte gezählt, keine Austritte (die trackt
- * der Bot aktuell nicht) - die Linie ist daher monoton steigend. */
+/* Zoombarer Mitgliederverlauf (tatsächliche Mitgliederzahl über Zeit,
+ * Beitritte UND Austritte) für den "Beigetreten"-Tab. Ersetzt/integriert
+ * die frühere eigenständige D3-Grafik (member-dashboard) - hier gespeist
+ * aus den live vom Bot getrackten Mitglieder-Events statt einer manuell
+ * kopierten Logdatei. */
 
 const JOIN_MARGIN = { top: 10, right: 14, bottom: 26, left: 38 };
 const JOIN_VW = 900, JOIN_VH = 320;
@@ -27,10 +26,12 @@ function hideJoinTooltip() {
 
 function showJoinTooltip(d, clientX, clientY) {
   if (!joinTooltipEl) return;
+  const isJoin = d.event_type === "join";
   joinTooltipEl.innerHTML = `
     <div class="jt-name">${d.username.replace(/#0$/, "")}</div>
-    <div class="jt-row">${formatDate(d.joined_at)}</div>
-    <div class="jt-row">${d.count}. Beitritt</div>
+    <div class="jt-row ${isJoin ? "jt-join" : "jt-leave"}">${isJoin ? "→ ist beigetreten" : "← hat den Server verlassen"}</div>
+    <div class="jt-row">${formatDate(d.timestamp)}</div>
+    <div class="jt-row">Mitglieder danach: <b>${d.count}</b></div>
   `;
   joinTooltipEl.classList.add("show");
   const tw = 220;
@@ -44,14 +45,17 @@ function showJoinTooltip(d, clientX, clientY) {
   joinTooltipEl.style.top = top + "px";
 }
 
-function initJoinChart(users) {
+function initJoinChart(events) {
   if (typeof d3 === "undefined") return;
 
-  joinChartData = users
-    .filter((u) => u.joined_at)
-    .map((u) => ({ ...u, epoch: joinEpoch(u.joined_at) }))
+  let running = 0;
+  joinChartData = events
+    .map((e) => ({ ...e, epoch: joinEpoch(e.timestamp) }))
     .sort((a, b) => a.epoch - b.epoch)
-    .map((u, i) => ({ ...u, count: i + 1 }));
+    .map((e) => {
+      running += e.event_type === "join" ? 1 : -1;
+      return { ...e, count: running };
+    });
 
   const svgEl = document.getElementById("join-chart");
   if (!svgEl || joinChartData.length === 0) return;
@@ -67,10 +71,12 @@ function initJoinChart(users) {
 
   const minDate = new Date(joinChartData[0].epoch);
   const maxDate = new Date(joinChartData[joinChartData.length - 1].epoch);
-  const maxCount = joinChartData.length + 2;
+  const counts = joinChartData.map((d) => d.count);
+  const minCount = Math.min(0, ...counts);
+  const maxCount = Math.max(...counts) + 2;
 
   const xScale = d3.scaleTime().domain([minDate, maxDate]).range([0, JOIN_WIDTH]);
-  const yScale = d3.scaleLinear().domain([0, maxCount]).range([JOIN_HEIGHT, 0]);
+  const yScale = d3.scaleLinear().domain([minCount, maxCount]).range([JOIN_HEIGHT, 0]);
 
   const yAxisG = root.append("g").attr("class", "join-axis");
   yAxisG.call(d3.axisLeft(yScale).ticks(5).tickSize(-JOIN_WIDTH));
@@ -97,7 +103,7 @@ function initJoinChart(users) {
     .attr("cx", (d) => xScale(d.epoch))
     .attr("cy", (d) => yScale(d.count))
     .attr("r", 3.2)
-    .attr("fill", "#23a55a")
+    .attr("fill", (d) => (d.event_type === "join" ? "#23a55a" : "#f23f42"))
     .style("cursor", "pointer")
     .on("click", (event, d) => {
       event.stopPropagation();

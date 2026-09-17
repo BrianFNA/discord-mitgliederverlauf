@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T18:24:34.494062Z",
+  "generated_at": "2026-09-17T18:54:19.614877Z",
   "total_messages": 218850,
   "total_voice_seconds": 40454442,
   "member_count": 411,
@@ -3291,6 +3291,3808 @@
       "message_count": 0,
       "voice_seconds": 0,
       "joined_at": "2026-02-05T10:25:59.339000"
+    }
+  ],
+  "member_events": [
+    {
+      "username": "Mr. Blank#2709",
+      "event_type": "join",
+      "timestamp": "2021-09-22T18:03:14.873000"
+    },
+    {
+      "username": "back2kill#9926",
+      "event_type": "join",
+      "timestamp": "2021-09-22T18:38:43.058000"
+    },
+    {
+      "username": "ferienjh#3432",
+      "event_type": "join",
+      "timestamp": "2021-09-24T19:41:13.060000"
+    },
+    {
+      "username": "Just_Kevin#7961",
+      "event_type": "join",
+      "timestamp": "2021-09-25T10:09:06.285000"
+    },
+    {
+      "username": "Sofiaaa#7379",
+      "event_type": "join",
+      "timestamp": "2021-09-25T10:16:36.159000"
+    },
+    {
+      "username": "Justus#6408",
+      "event_type": "join",
+      "timestamp": "2021-09-25T16:14:17.659000"
+    },
+    {
+      "username": "Nikilaus#6097",
+      "event_type": "join",
+      "timestamp": "2021-09-25T16:41:04.954000"
+    },
+    {
+      "username": "Nikilaus#6097",
+      "event_type": "leave",
+      "timestamp": "2021-09-25T16:41:29.940000"
+    },
+    {
+      "username": "zMuh_sw#8432",
+      "event_type": "join",
+      "timestamp": "2021-09-25T17:03:31.887000"
+    },
+    {
+      "username": "_Soul_Heart_#2709",
+      "event_type": "join",
+      "timestamp": "2021-09-25T20:12:37.659000"
+    },
+    {
+      "username": "T3mo#6619",
+      "event_type": "join",
+      "timestamp": "2021-09-26T09:09:38.357000"
+    },
+    {
+      "username": "Lets Tim#1012",
+      "event_type": "join",
+      "timestamp": "2021-09-26T16:52:13.824000"
+    },
+    {
+      "username": "Nick L.#1734",
+      "event_type": "join",
+      "timestamp": "2021-09-27T14:00:53.092000"
+    },
+    {
+      "username": "Mr. Blank#4216",
+      "event_type": "join",
+      "timestamp": "2021-10-01T19:08:07.371000"
+    },
+    {
+      "username": "SkirataShadow#0001",
+      "event_type": "join",
+      "timestamp": "2021-10-02T15:33:10.858000"
+    },
+    {
+      "username": "Nive#1323",
+      "event_type": "join",
+      "timestamp": "2021-10-02T15:55:15.235000"
+    },
+    {
+      "username": "PaulPaul07#8589",
+      "event_type": "join",
+      "timestamp": "2021-10-02T15:55:20.207000"
+    },
+    {
+      "username": "Dyno__#0711",
+      "event_type": "join",
+      "timestamp": "2021-10-02T15:56:15.336000"
+    },
+    {
+      "username": "Lennart#9095",
+      "event_type": "join",
+      "timestamp": "2021-10-02T23:23:17.477000"
+    },
+    {
+      "username": "elixm68#8382",
+      "event_type": "join",
+      "timestamp": "2021-10-03T10:44:03.492000"
+    },
+    {
+      "username": "Nutella°`° ψ#4845",
+      "event_type": "leave",
+      "timestamp": "2021-10-03T21:51:13.266000"
+    },
+    {
+      "username": "Nutella°`° ψ#4845",
+      "event_type": "join",
+      "timestamp": "2021-10-04T18:38:16.443000"
+    },
+    {
+      "username": "Ich Bin ein Alien kein Mensch#1196",
+      "event_type": "join",
+      "timestamp": "2021-10-07T15:45:08.894000"
+    },
+    {
+      "username": "Donphinaldo#0659",
+      "event_type": "join",
+      "timestamp": "2021-10-07T15:57:13.810000"
+    },
+    {
+      "username": "Bin ich lost oder bin ichLogisch#0312",
+      "event_type": "join",
+      "timestamp": "2021-10-07T16:01:48.816000"
+    },
+    {
+      "username": "DerJxnnik#9579",
+      "event_type": "join",
+      "timestamp": "2021-10-07T16:36:03.808000"
+    },
+    {
+      "username": "Dievergammelte Banane#3749",
+      "event_type": "join",
+      "timestamp": "2021-10-08T19:13:30.871000"
+    },
+    {
+      "username": "CatLui#2472",
+      "event_type": "join",
+      "timestamp": "2021-10-09T13:40:48.918000"
+    },
+    {
+      "username": "CatLui#2472",
+      "event_type": "leave",
+      "timestamp": "2021-10-09T14:20:23.850000"
+    },
+    {
+      "username": "Gamedude_TV#6332",
+      "event_type": "join",
+      "timestamp": "2021-10-09T14:46:23.862000"
+    },
+    {
+      "username": "Feljsso#6345",
+      "event_type": "join",
+      "timestamp": "2021-10-09T14:54:14.268000"
+    },
+    {
+      "username": "Txomxs070#6583",
+      "event_type": "join",
+      "timestamp": "2021-10-09T16:09:40.055000"
+    },
+    {
+      "username": "eindeutigBohne#4921",
+      "event_type": "join",
+      "timestamp": "2021-10-09T16:17:20.076000"
+    },
+    {
+      "username": "Kyzoo#5645",
+      "event_type": "join",
+      "timestamp": "2021-10-09T16:17:35.075000"
+    },
+    {
+      "username": "Lea die echte#9752",
+      "event_type": "join",
+      "timestamp": "2021-10-09T16:18:25.046000"
+    },
+    {
+      "username": "JulianFame#5589",
+      "event_type": "join",
+      "timestamp": "2021-10-09T19:36:08.929000"
+    },
+    {
+      "username": "Tramalama#8918",
+      "event_type": "join",
+      "timestamp": "2021-10-09T19:37:08.874000"
+    },
+    {
+      "username": "The_Kiana_Baum#0093",
+      "event_type": "join",
+      "timestamp": "2021-10-09T21:24:45.997000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "leave",
+      "timestamp": "2021-10-09T21:29:51.030000"
+    },
+    {
+      "username": "The_Kiana_Baum#0093",
+      "event_type": "leave",
+      "timestamp": "2021-10-09T21:32:45.917000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "join",
+      "timestamp": "2021-10-09T22:18:36.035000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "leave",
+      "timestamp": "2021-10-09T22:21:36.071000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "join",
+      "timestamp": "2021-10-10T06:59:00.164000"
+    },
+    {
+      "username": "Ellen#3127",
+      "event_type": "leave",
+      "timestamp": "2021-10-10T10:15:00.994000"
+    },
+    {
+      "username": "Ellen#3127",
+      "event_type": "join",
+      "timestamp": "2021-10-10T10:15:10.993000"
+    },
+    {
+      "username": "Panda_704#4841",
+      "event_type": "join",
+      "timestamp": "2021-10-10T10:39:55.978000"
+    },
+    {
+      "username": "𝓱𝓮𝓵𝓸𝓿𝓮𝓼𝓶𝓮 ^^#7214",
+      "event_type": "join",
+      "timestamp": "2021-10-10T10:43:30.975000"
+    },
+    {
+      "username": "Jaxify#4231",
+      "event_type": "join",
+      "timestamp": "2021-10-10T13:09:28.052000"
+    },
+    {
+      "username": "Alpollo#1317",
+      "event_type": "join",
+      "timestamp": "2021-10-10T13:48:03.094000"
+    },
+    {
+      "username": "Bananenbrot#8021",
+      "event_type": "join",
+      "timestamp": "2021-10-10T14:40:23.888000"
+    },
+    {
+      "username": "Alpollo#1317",
+      "event_type": "leave",
+      "timestamp": "2021-10-10T16:34:56.014000"
+    },
+    {
+      "username": "Alpollo#1317",
+      "event_type": "join",
+      "timestamp": "2021-10-10T16:44:35.999000"
+    },
+    {
+      "username": "pixelsp33d#4916",
+      "event_type": "join",
+      "timestamp": "2021-10-10T19:35:35.412000"
+    },
+    {
+      "username": "cacyy#2382",
+      "event_type": "join",
+      "timestamp": "2021-10-10T19:48:00.513000"
+    },
+    {
+      "username": "hundimoon_#0069",
+      "event_type": "join",
+      "timestamp": "2021-10-10T19:59:10.570000"
+    },
+    {
+      "username": "Brian_FNA_Handy#5263",
+      "event_type": "join",
+      "timestamp": "2021-10-10T20:48:55.579000"
+    },
+    {
+      "username": "Akku_Lea#6688",
+      "event_type": "join",
+      "timestamp": "2021-10-11T11:16:12.349000"
+    },
+    {
+      "username": "FifiHD#7733",
+      "event_type": "join",
+      "timestamp": "2021-10-11T11:42:42.299000"
+    },
+    {
+      "username": "zLeqitKnxck#6781",
+      "event_type": "join",
+      "timestamp": "2021-10-11T20:55:20.602000"
+    },
+    {
+      "username": "InvisKickt#3093",
+      "event_type": "join",
+      "timestamp": "2021-10-11T20:55:40.540000"
+    },
+    {
+      "username": "SkirataShadow#0001",
+      "event_type": "leave",
+      "timestamp": "2021-10-12T17:34:17.311000"
+    },
+    {
+      "username": "Hannimoon#8165",
+      "event_type": "join",
+      "timestamp": "2021-10-13T14:06:49.991000"
+    },
+    {
+      "username": "FortniteProAlpollo#6203",
+      "event_type": "join",
+      "timestamp": "2021-10-13T17:09:47.448000"
+    },
+    {
+      "username": "Alpollo but with another account#2023",
+      "event_type": "join",
+      "timestamp": "2021-10-13T17:13:11.142000"
+    },
+    {
+      "username": "AbsolutNichtAlpollo#0060",
+      "event_type": "join",
+      "timestamp": "2021-10-13T17:15:01.165000"
+    },
+    {
+      "username": "FortniteProAlpollo#6203",
+      "event_type": "leave",
+      "timestamp": "2021-10-13T17:16:16.133000"
+    },
+    {
+      "username": "AbsolutNichtAlpollo#0060",
+      "event_type": "leave",
+      "timestamp": "2021-10-13T17:16:26.021000"
+    },
+    {
+      "username": "KimoTV | Luis#0495",
+      "event_type": "join",
+      "timestamp": "2021-10-13T17:54:56.151000"
+    },
+    {
+      "username": "Chaos#5297",
+      "event_type": "join",
+      "timestamp": "2021-10-13T18:20:31.163000"
+    },
+    {
+      "username": "𝖘𝖎𝖒𝖔𝖓#1525",
+      "event_type": "join",
+      "timestamp": "2021-10-13T18:58:36.126000"
+    },
+    {
+      "username": "CleanShadow.#2716",
+      "event_type": "join",
+      "timestamp": "2021-10-13T18:58:56.088000"
+    },
+    {
+      "username": "Jxkobyyy#4062",
+      "event_type": "join",
+      "timestamp": "2021-10-13T18:59:06.153000"
+    },
+    {
+      "username": "♰ cob ♰#1706",
+      "event_type": "join",
+      "timestamp": "2021-10-13T18:59:21.126000"
+    },
+    {
+      "username": "CleanShadow#1661",
+      "event_type": "join",
+      "timestamp": "2021-10-13T19:00:01.115000"
+    },
+    {
+      "username": "dfc.sxphie#4949",
+      "event_type": "join",
+      "timestamp": "2021-10-13T19:06:06.200000"
+    },
+    {
+      "username": "KimoTV | Luis#0495",
+      "event_type": "leave",
+      "timestamp": "2021-10-13T20:48:36.682000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "leave",
+      "timestamp": "2021-10-13T22:23:51.740000"
+    },
+    {
+      "username": "xe.ni.aa#6769",
+      "event_type": "join",
+      "timestamp": "2021-10-14T15:40:08.876000"
+    },
+    {
+      "username": "Nikilaus#6097",
+      "event_type": "join",
+      "timestamp": "2021-10-14T15:43:29.069000"
+    },
+    {
+      "username": "𝖘𝖎𝖒𝖔𝖓#1525",
+      "event_type": "leave",
+      "timestamp": "2021-10-14T19:05:19.693000"
+    },
+    {
+      "username": "♰ cryguy ♰#1706",
+      "event_type": "leave",
+      "timestamp": "2021-10-14T22:21:30.483000"
+    },
+    {
+      "username": "Schnabu#2131",
+      "event_type": "join",
+      "timestamp": "2021-10-15T22:34:42.805000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "join",
+      "timestamp": "2021-10-16T18:17:45.942000"
+    },
+    {
+      "username": "Krapfen#4652",
+      "event_type": "join",
+      "timestamp": "2021-10-17T18:22:40.092000"
+    },
+    {
+      "username": "Alpollo#1317",
+      "event_type": "leave",
+      "timestamp": "2021-10-17T18:54:20.541000"
+    },
+    {
+      "username": "Chercheur_de_or#4849",
+      "event_type": "join",
+      "timestamp": "2021-10-18T15:08:52.880000"
+    },
+    {
+      "username": "SaschaCraft20 I Sascha#0068",
+      "event_type": "join",
+      "timestamp": "2021-10-19T04:10:38.563000"
+    },
+    {
+      "username": "SaschaCraft20 I Sascha#0068",
+      "event_type": "leave",
+      "timestamp": "2021-10-19T04:11:28.572000"
+    },
+    {
+      "username": "Genycs#3064",
+      "event_type": "join",
+      "timestamp": "2021-10-19T15:11:12.085000"
+    },
+    {
+      "username": "Verrostet#6878",
+      "event_type": "join",
+      "timestamp": "2021-10-21T15:18:59.824000"
+    },
+    {
+      "username": "The_Kiana_Baum#0093",
+      "event_type": "join",
+      "timestamp": "2021-10-22T18:41:08.717000"
+    },
+    {
+      "username": "Bananenkeksie#9911",
+      "event_type": "join",
+      "timestamp": "2021-10-26T11:14:17.443000"
+    },
+    {
+      "username": "KleinesLara#1863",
+      "event_type": "join",
+      "timestamp": "2021-10-27T09:00:29.031000"
+    },
+    {
+      "username": "KleinesLara#1863",
+      "event_type": "leave",
+      "timestamp": "2021-10-27T09:11:34.020000"
+    },
+    {
+      "username": "KleinesLara#1863",
+      "event_type": "join",
+      "timestamp": "2021-10-27T09:13:59.005000"
+    },
+    {
+      "username": "FluiMC#7315",
+      "event_type": "join",
+      "timestamp": "2021-10-27T09:15:23.997000"
+    },
+    {
+      "username": "Meme_17#3457",
+      "event_type": "join",
+      "timestamp": "2021-10-27T15:01:11.075000"
+    },
+    {
+      "username": "Jaba#8588",
+      "event_type": "join",
+      "timestamp": "2021-10-31T17:25:35.881000"
+    },
+    {
+      "username": "Eternaldelusion#6370",
+      "event_type": "join",
+      "timestamp": "2021-11-01T12:27:18.387000"
+    },
+    {
+      "username": "Timon#9240",
+      "event_type": "join",
+      "timestamp": "2021-11-01T15:54:07.751000"
+    },
+    {
+      "username": "Katze#1997",
+      "event_type": "join",
+      "timestamp": "2021-11-01T16:18:07.761000"
+    },
+    {
+      "username": "PumaKiller666#7310",
+      "event_type": "join",
+      "timestamp": "2021-11-03T16:48:04.529000"
+    },
+    {
+      "username": "Nutella°`° ψ#4845",
+      "event_type": "join",
+      "timestamp": "2021-11-03T20:36:06.135000"
+    },
+    {
+      "username": "gibimele77#5419",
+      "event_type": "join",
+      "timestamp": "2021-11-04T23:17:01.822000"
+    },
+    {
+      "username": "Watabo#5762",
+      "event_type": "join",
+      "timestamp": "2021-11-05T12:12:33.731000"
+    },
+    {
+      "username": "Lion#1779",
+      "event_type": "join",
+      "timestamp": "2021-11-05T23:08:23.658000"
+    },
+    {
+      "username": "Becci#9420",
+      "event_type": "join",
+      "timestamp": "2021-11-06T15:52:43.904000"
+    },
+    {
+      "username": "tibi_123#4282",
+      "event_type": "join",
+      "timestamp": "2021-11-06T20:20:18.895000"
+    },
+    {
+      "username": "Hapuuu#6355",
+      "event_type": "join",
+      "timestamp": "2021-11-06T20:25:12.578000"
+    },
+    {
+      "username": "Lennart#0040",
+      "event_type": "join",
+      "timestamp": "2021-11-06T21:08:58.366000"
+    },
+    {
+      "username": "Rhabarbersaft#6246",
+      "event_type": "join",
+      "timestamp": "2021-11-06T22:09:03.472000"
+    },
+    {
+      "username": "hanahateuchlieb#4786",
+      "event_type": "join",
+      "timestamp": "2021-11-07T18:22:32.260000"
+    },
+    {
+      "username": "Violethea#3273",
+      "event_type": "join",
+      "timestamp": "2021-11-08T21:37:27.740000"
+    },
+    {
+      "username": "ATLLBG#7933",
+      "event_type": "join",
+      "timestamp": "2021-11-10T21:46:20.164000"
+    },
+    {
+      "username": "phxl mundtot🤡#1496",
+      "event_type": "leave",
+      "timestamp": "2021-11-11T17:22:18.402000"
+    },
+    {
+      "username": "Palletto_9666#9002",
+      "event_type": "join",
+      "timestamp": "2021-11-12T16:42:00.495000"
+    },
+    {
+      "username": "Katze_xd miau#1343",
+      "event_type": "join",
+      "timestamp": "2021-11-12T16:50:10.573000"
+    },
+    {
+      "username": "ahdoch#7779",
+      "event_type": "join",
+      "timestamp": "2021-11-12T18:44:15.767000"
+    },
+    {
+      "username": "Jqlian72#1496",
+      "event_type": "join",
+      "timestamp": "2021-11-14T14:20:23.558000"
+    },
+    {
+      "username": "Jqlian72#1496",
+      "event_type": "leave",
+      "timestamp": "2021-11-14T14:53:13.588000"
+    },
+    {
+      "username": "Jqlian72#1496",
+      "event_type": "join",
+      "timestamp": "2021-11-14T15:13:45.363000"
+    },
+    {
+      "username": "Jqlian72#1496",
+      "event_type": "leave",
+      "timestamp": "2021-11-14T15:22:09.299000"
+    },
+    {
+      "username": "KleinesFelix#9834",
+      "event_type": "join",
+      "timestamp": "2021-11-14T18:15:30.221000"
+    },
+    {
+      "username": "KleinesLara#1863",
+      "event_type": "leave",
+      "timestamp": "2021-11-14T18:22:30.178000"
+    },
+    {
+      "username": "KleinesLara#1863",
+      "event_type": "join",
+      "timestamp": "2021-11-14T18:27:55.257000"
+    },
+    {
+      "username": "KleinesLara#1863",
+      "event_type": "leave",
+      "timestamp": "2021-11-14T18:28:10.241000"
+    },
+    {
+      "username": "KleinesLara#1863",
+      "event_type": "join",
+      "timestamp": "2021-11-14T18:45:05.215000"
+    },
+    {
+      "username": "KleinesFelix#9834",
+      "event_type": "leave",
+      "timestamp": "2021-11-14T19:27:20.224000"
+    },
+    {
+      "username": "KleinesFelix#9834",
+      "event_type": "join",
+      "timestamp": "2021-11-15T21:35:06.129000"
+    },
+    {
+      "username": "FluiMC#7315",
+      "event_type": "leave",
+      "timestamp": "2021-11-16T20:11:12.776000"
+    },
+    {
+      "username": "hannah#1640",
+      "event_type": "join",
+      "timestamp": "2021-11-19T12:03:09.612000"
+    },
+    {
+      "username": "Nutella°`° ψ#2909",
+      "event_type": "leave",
+      "timestamp": "2021-11-22T14:07:54.656000"
+    },
+    {
+      "username": "ignxrierter#1734",
+      "event_type": "leave",
+      "timestamp": "2021-11-22T18:41:28.780000"
+    },
+    {
+      "username": "Nutella°`° ψ#2909",
+      "event_type": "join",
+      "timestamp": "2021-11-23T13:28:15.517000"
+    },
+    {
+      "username": "ATLLBG#7933",
+      "event_type": "leave",
+      "timestamp": "2021-11-23T17:53:32.057000"
+    },
+    {
+      "username": "zTypischLaura#7047",
+      "event_type": "join",
+      "timestamp": "2021-11-23T20:17:12.146000"
+    },
+    {
+      "username": "ᴛʜᴏᴍᴀꜱ 🎀#5893",
+      "event_type": "join",
+      "timestamp": "2021-11-23T20:20:02.185000"
+    },
+    {
+      "username": "Jaxify#4231",
+      "event_type": "leave",
+      "timestamp": "2021-11-23T21:00:52.481000"
+    },
+    {
+      "username": "zTypischLaura#7047",
+      "event_type": "leave",
+      "timestamp": "2021-11-23T21:32:33.483000"
+    },
+    {
+      "username": "ᴛʜᴏᴍᴀꜱ 🎀#5893",
+      "event_type": "leave",
+      "timestamp": "2021-11-23T21:32:43.478000"
+    },
+    {
+      "username": "zTypischLaura#7047",
+      "event_type": "join",
+      "timestamp": "2021-11-24T19:07:01.683000"
+    },
+    {
+      "username": "LordIO#6689",
+      "event_type": "join",
+      "timestamp": "2021-11-25T17:17:42.528000"
+    },
+    {
+      "username": "Foyx | noxarmin#9204",
+      "event_type": "join",
+      "timestamp": "2021-11-28T09:09:23.814000"
+    },
+    {
+      "username": "Foyx | noxarmin#9204",
+      "event_type": "leave",
+      "timestamp": "2021-11-28T09:23:07.350000"
+    },
+    {
+      "username": "Gamedude_TV#6332",
+      "event_type": "leave",
+      "timestamp": "2021-11-28T09:29:12.433000"
+    },
+    {
+      "username": "Gamedude_TV#6332",
+      "event_type": "join",
+      "timestamp": "2021-11-28T13:31:41.033000"
+    },
+    {
+      "username": "Gamedude_TV#6332",
+      "event_type": "leave",
+      "timestamp": "2021-11-28T20:35:09.325000"
+    },
+    {
+      "username": "SkirataShadow#0001",
+      "event_type": "join",
+      "timestamp": "2021-11-28T21:34:05.908000"
+    },
+    {
+      "username": "Gamedude_TV#6332",
+      "event_type": "join",
+      "timestamp": "2021-11-29T12:25:20.151000"
+    },
+    {
+      "username": "back2kill#9926",
+      "event_type": "join",
+      "timestamp": "2021-11-30T16:00:44.758000"
+    },
+    {
+      "username": "Becci#9420",
+      "event_type": "leave",
+      "timestamp": "2021-12-01T10:45:03.783000"
+    },
+    {
+      "username": "Gaboss#3608",
+      "event_type": "join",
+      "timestamp": "2021-12-01T17:09:23.636000"
+    },
+    {
+      "username": "Skipper#0293",
+      "event_type": "join",
+      "timestamp": "2021-12-03T21:14:03.453000"
+    },
+    {
+      "username": "Eron†#3053",
+      "event_type": "join",
+      "timestamp": "2021-12-04T12:32:09.082000"
+    },
+    {
+      "username": "Brian_FNA#1137",
+      "event_type": "join",
+      "timestamp": "2021-12-04T13:23:19.084000"
+    },
+    {
+      "username": "Zombiebaendiger LP#4619",
+      "event_type": "join",
+      "timestamp": "2021-12-04T18:58:34.089000"
+    },
+    {
+      "username": "ChefinSelina#4769",
+      "event_type": "join",
+      "timestamp": "2021-12-04T23:27:44.125000"
+    },
+    {
+      "username": "Jaxify#4231",
+      "event_type": "join",
+      "timestamp": "2021-12-05T19:28:54.036000"
+    },
+    {
+      "username": "Jaxify#4231",
+      "event_type": "leave",
+      "timestamp": "2021-12-05T20:12:39.106000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "leave",
+      "timestamp": "2021-12-05T20:30:39.119000"
+    },
+    {
+      "username": "AgressivesAnni#1828",
+      "event_type": "leave",
+      "timestamp": "2021-12-05T20:51:54.102000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "join",
+      "timestamp": "2021-12-05T21:50:29.230000"
+    },
+    {
+      "username": "Rasmus1700#1256",
+      "event_type": "join",
+      "timestamp": "2021-12-06T10:13:39.139000"
+    },
+    {
+      "username": "sinadreams#5473",
+      "event_type": "join",
+      "timestamp": "2021-12-06T12:15:04.123000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "leave",
+      "timestamp": "2021-12-06T20:33:55.616000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "join",
+      "timestamp": "2021-12-06T23:04:55.669000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "leave",
+      "timestamp": "2021-12-08T13:19:25.799000"
+    },
+    {
+      "username": "Just_Kiana#2184",
+      "event_type": "join",
+      "timestamp": "2021-12-08T14:55:00.834000"
+    },
+    {
+      "username": "namesloser.mensch#6574",
+      "event_type": "join",
+      "timestamp": "2021-12-09T14:10:22.220000"
+    },
+    {
+      "username": "Conan#7185",
+      "event_type": "join",
+      "timestamp": "2021-12-09T19:29:42.260000"
+    },
+    {
+      "username": "Tobiii#7830",
+      "event_type": "join",
+      "timestamp": "2021-12-11T16:07:32.217000"
+    },
+    {
+      "username": "Phoenixxx#2861",
+      "event_type": "join",
+      "timestamp": "2021-12-11T22:30:12.222000"
+    },
+    {
+      "username": "Lyneaa#6206",
+      "event_type": "join",
+      "timestamp": "2021-12-12T18:34:52.249000"
+    },
+    {
+      "username": "Niko Thien#4694",
+      "event_type": "join",
+      "timestamp": "2021-12-14T14:50:38.803000"
+    },
+    {
+      "username": "Niko Thien#4694",
+      "event_type": "leave",
+      "timestamp": "2021-12-14T15:32:28.935000"
+    },
+    {
+      "username": "fabi.#0032",
+      "event_type": "join",
+      "timestamp": "2021-12-16T19:20:05.867000"
+    },
+    {
+      "username": "kita#9488",
+      "event_type": "join",
+      "timestamp": "2021-12-17T08:19:35.871000"
+    },
+    {
+      "username": "AgressivesAnni#1828",
+      "event_type": "join",
+      "timestamp": "2021-12-17T20:31:40.656000"
+    },
+    {
+      "username": "LucyLerntLesen#4294",
+      "event_type": "join",
+      "timestamp": "2021-12-17T22:55:05.622000"
+    },
+    {
+      "username": "Aqua_Hannes#8532",
+      "event_type": "join",
+      "timestamp": "2021-12-18T16:31:40.699000"
+    },
+    {
+      "username": "Freeze#6435",
+      "event_type": "join",
+      "timestamp": "2021-12-18T16:32:00.738000"
+    },
+    {
+      "username": "Knqck#5184",
+      "event_type": "join",
+      "timestamp": "2021-12-18T16:41:40.567000"
+    },
+    {
+      "username": "ignxrierter#1734",
+      "event_type": "join",
+      "timestamp": "2021-12-20T14:13:30.625000"
+    },
+    {
+      "username": "SussyWasTaken#4791",
+      "event_type": "join",
+      "timestamp": "2021-12-22T19:46:18.194000"
+    },
+    {
+      "username": "maya_maya#9099",
+      "event_type": "join",
+      "timestamp": "2021-12-22T21:10:13.241000"
+    },
+    {
+      "username": "Freeze#6435",
+      "event_type": "leave",
+      "timestamp": "2021-12-24T17:44:33.265000"
+    },
+    {
+      "username": "Ayumi#6397",
+      "event_type": "join",
+      "timestamp": "2021-12-24T20:26:58.239000"
+    },
+    {
+      "username": "Philippcrossfit#7396",
+      "event_type": "join",
+      "timestamp": "2021-12-24T20:27:03.271000"
+    },
+    {
+      "username": "Ayumi#6397",
+      "event_type": "leave",
+      "timestamp": "2021-12-24T20:27:48.276000"
+    },
+    {
+      "username": "-Toby-#8254",
+      "event_type": "join",
+      "timestamp": "2021-12-24T20:49:58.254000"
+    },
+    {
+      "username": "Tabulater#7293",
+      "event_type": "join",
+      "timestamp": "2021-12-24T21:06:38.780000"
+    },
+    {
+      "username": "Tabulater#7293",
+      "event_type": "leave",
+      "timestamp": "2021-12-24T21:08:03.252000"
+    },
+    {
+      "username": "Zeros#3848",
+      "event_type": "join",
+      "timestamp": "2021-12-24T21:42:58.285000"
+    },
+    {
+      "username": "[RP] Tommi🎅#7901",
+      "event_type": "join",
+      "timestamp": "2021-12-25T09:03:53.245000"
+    },
+    {
+      "username": "Dade cool#2712",
+      "event_type": "join",
+      "timestamp": "2021-12-25T17:11:43.154000"
+    },
+    {
+      "username": "SkirataShadow#0001",
+      "event_type": "leave",
+      "timestamp": "2021-12-27T16:56:36.686000"
+    },
+    {
+      "username": "ignxrierter#1734",
+      "event_type": "leave",
+      "timestamp": "2021-12-28T19:56:16.657000"
+    },
+    {
+      "username": "Jojo56#6334",
+      "event_type": "join",
+      "timestamp": "2021-12-29T13:59:06.675000"
+    },
+    {
+      "username": "Jojo56#6334",
+      "event_type": "leave",
+      "timestamp": "2021-12-29T17:27:01.615000"
+    },
+    {
+      "username": "_Schmoll_Hard_#7204",
+      "event_type": "leave",
+      "timestamp": "2021-12-30T00:34:16.659000"
+    },
+    {
+      "username": "Lizenz7771#1677",
+      "event_type": "join",
+      "timestamp": "2021-12-30T16:18:56.663000"
+    },
+    {
+      "username": "TTHP I Layfley#8575",
+      "event_type": "join",
+      "timestamp": "2021-12-31T12:48:11.681000"
+    },
+    {
+      "username": "Beriiaan | Jay#3089",
+      "event_type": "join",
+      "timestamp": "2022-01-02T16:12:16.677000"
+    },
+    {
+      "username": "Rhabarbersaft#6246",
+      "event_type": "leave",
+      "timestamp": "2022-01-03T00:48:51.652000"
+    },
+    {
+      "username": "𝓜𝓲𝓻𝓸𝓼𝓵𝓪𝓿𝓪#4663",
+      "event_type": "join",
+      "timestamp": "2022-01-03T20:55:31.654000"
+    },
+    {
+      "username": "joline#0011",
+      "event_type": "join",
+      "timestamp": "2022-01-04T23:06:37.188000"
+    },
+    {
+      "username": "LE0N#8393",
+      "event_type": "join",
+      "timestamp": "2022-01-07T21:34:18.959000"
+    },
+    {
+      "username": "SquischMisch#0389",
+      "event_type": "join",
+      "timestamp": "2022-01-08T23:23:38.479000"
+    },
+    {
+      "username": "Tyralinia#2219",
+      "event_type": "join",
+      "timestamp": "2022-01-10T11:08:03.955000"
+    },
+    {
+      "username": "Knock#6367",
+      "event_type": "leave",
+      "timestamp": "2022-01-13T19:48:23.569000"
+    },
+    {
+      "username": "Eternaldelusion#6370",
+      "event_type": "leave",
+      "timestamp": "2022-01-14T16:00:53.503000"
+    },
+    {
+      "username": "Dreaamy#4791",
+      "event_type": "leave",
+      "timestamp": "2022-01-16T00:09:09.427000"
+    },
+    {
+      "username": "thatsphxl#9883",
+      "event_type": "join",
+      "timestamp": "2022-01-17T20:22:29.955000"
+    },
+    {
+      "username": "Eternaldelusion#6370",
+      "event_type": "join",
+      "timestamp": "2022-01-17T20:37:42.351000"
+    },
+    {
+      "username": "Ivel#2792",
+      "event_type": "join",
+      "timestamp": "2022-01-20T19:07:53.710000"
+    },
+    {
+      "username": "SlickJ#2877",
+      "event_type": "join",
+      "timestamp": "2022-01-24T13:00:40.041000"
+    },
+    {
+      "username": "Abitur#7901",
+      "event_type": "leave",
+      "timestamp": "2022-01-25T16:59:03.390000"
+    },
+    {
+      "username": "K1RBY#0032",
+      "event_type": "leave",
+      "timestamp": "2022-01-25T17:11:13.296000"
+    },
+    {
+      "username": "DerRömer#7212",
+      "event_type": "join",
+      "timestamp": "2022-01-25T19:25:13.826000"
+    },
+    {
+      "username": "DerRömer#7212",
+      "event_type": "leave",
+      "timestamp": "2022-01-25T19:27:18.760000"
+    },
+    {
+      "username": "TammemannYT#1739",
+      "event_type": "join",
+      "timestamp": "2022-01-26T16:52:35.466000"
+    },
+    {
+      "username": "CATKID#3036",
+      "event_type": "join",
+      "timestamp": "2022-01-28T13:51:43.857000"
+    },
+    {
+      "username": "Rubinmaennchen#4849",
+      "event_type": "leave",
+      "timestamp": "2022-01-29T07:59:14.605000"
+    },
+    {
+      "username": "Katze#4365",
+      "event_type": "join",
+      "timestamp": "2022-01-29T10:35:56.826000"
+    },
+    {
+      "username": "Lion#1779",
+      "event_type": "leave",
+      "timestamp": "2022-01-29T20:09:46.731000"
+    },
+    {
+      "username": "ellen2511#1978",
+      "event_type": "join",
+      "timestamp": "2022-01-31T18:38:07.530000"
+    },
+    {
+      "username": "iwas#5669",
+      "event_type": "join",
+      "timestamp": "2022-02-01T14:17:03.432000"
+    },
+    {
+      "username": "Kiana#4675",
+      "event_type": "join",
+      "timestamp": "2022-02-01T17:29:26.776000"
+    },
+    {
+      "username": "Geheim🥶#0021",
+      "event_type": "join",
+      "timestamp": "2022-02-01T17:33:01.687000"
+    },
+    {
+      "username": "DerRömer#7212",
+      "event_type": "join",
+      "timestamp": "2022-02-01T19:17:31.818000"
+    },
+    {
+      "username": "wiesel#9757",
+      "event_type": "join",
+      "timestamp": "2022-02-02T08:16:05.518000"
+    },
+    {
+      "username": "RussiaTree#1662",
+      "event_type": "join",
+      "timestamp": "2022-02-02T08:17:25.555000"
+    },
+    {
+      "username": "CreatorEvelyn#6915",
+      "event_type": "join",
+      "timestamp": "2022-02-02T17:08:25.337000"
+    },
+    {
+      "username": "𝑳𝒖𝒄𝒂#6610",
+      "event_type": "join",
+      "timestamp": "2022-02-02T20:18:06.222000"
+    },
+    {
+      "username": "shiqasu#8733",
+      "event_type": "join",
+      "timestamp": "2022-02-03T17:38:14.958000"
+    },
+    {
+      "username": "🅼🅲🅱🅰🅱 🅴🅻.exe (◕_◕)#0790",
+      "event_type": "join",
+      "timestamp": "2022-02-03T17:42:44.965000"
+    },
+    {
+      "username": "Daddy_Smurf_69#0416",
+      "event_type": "join",
+      "timestamp": "2022-02-03T19:17:08.206000"
+    },
+    {
+      "username": "iboprofaxe#8237",
+      "event_type": "join",
+      "timestamp": "2022-02-04T20:19:39.859000"
+    },
+    {
+      "username": "moto#7758",
+      "event_type": "join",
+      "timestamp": "2022-02-04T20:19:49.867000"
+    },
+    {
+      "username": "shiqasu#8733",
+      "event_type": "leave",
+      "timestamp": "2022-02-04T21:29:23.592000"
+    },
+    {
+      "username": "geköpfter#8476",
+      "event_type": "join",
+      "timestamp": "2022-02-04T23:18:43.240000"
+    },
+    {
+      "username": "Fynn#7771",
+      "event_type": "join",
+      "timestamp": "2022-02-05T17:35:10.899000"
+    },
+    {
+      "username": "katsu#9584",
+      "event_type": "leave",
+      "timestamp": "2022-02-05T20:36:59.101000"
+    },
+    {
+      "username": "LE0N#8393",
+      "event_type": "leave",
+      "timestamp": "2022-02-06T09:26:15.362000"
+    },
+    {
+      "username": "Benski#2839",
+      "event_type": "join",
+      "timestamp": "2022-02-07T19:30:15.981000"
+    },
+    {
+      "username": "|| BigBoyJony || ™#4999",
+      "event_type": "join",
+      "timestamp": "2022-02-08T18:49:24.089000"
+    },
+    {
+      "username": "Reallax_GG#1369",
+      "event_type": "join",
+      "timestamp": "2022-02-10T19:00:40.771000"
+    },
+    {
+      "username": "MC Ender#9999",
+      "event_type": "join",
+      "timestamp": "2022-02-11T21:51:25.966000"
+    },
+    {
+      "username": "WolfsfellHD#5623",
+      "event_type": "join",
+      "timestamp": "2022-02-11T21:51:30.862000"
+    },
+    {
+      "username": "MirahIsZw4g#4663",
+      "event_type": "leave",
+      "timestamp": "2022-02-12T22:07:16.320000"
+    },
+    {
+      "username": "Pandarian Maijen#8730",
+      "event_type": "join",
+      "timestamp": "2022-02-13T16:55:26.088000"
+    },
+    {
+      "username": "mil16b#8746",
+      "event_type": "join",
+      "timestamp": "2022-02-13T20:12:44.023000"
+    },
+    {
+      "username": "ATLLBG#7933",
+      "event_type": "join",
+      "timestamp": "2022-02-16T20:16:43.884000"
+    },
+    {
+      "username": "Jòkêr#5982",
+      "event_type": "join",
+      "timestamp": "2022-02-16T21:39:54.469000"
+    },
+    {
+      "username": "RXY#8811",
+      "event_type": "join",
+      "timestamp": "2022-02-17T17:01:28.557000"
+    },
+    {
+      "username": "RXY#8811",
+      "event_type": "leave",
+      "timestamp": "2022-02-18T15:05:51.463000"
+    },
+    {
+      "username": "CATKID#3036",
+      "event_type": "leave",
+      "timestamp": "2022-02-19T08:17:00.272000"
+    },
+    {
+      "username": "𝑨𝒏𝒏𝒂 <𝟑#7159",
+      "event_type": "join",
+      "timestamp": "2022-02-19T22:46:50.182000"
+    },
+    {
+      "username": "Geheim🥶#0021",
+      "event_type": "leave",
+      "timestamp": "2022-02-20T12:09:46.862000"
+    },
+    {
+      "username": "Mikey77#5202",
+      "event_type": "join",
+      "timestamp": "2022-02-20T15:15:07.839000"
+    },
+    {
+      "username": "Mikey77#5202",
+      "event_type": "leave",
+      "timestamp": "2022-02-20T15:15:17.819000"
+    },
+    {
+      "username": "Efe der penis#5996",
+      "event_type": "join",
+      "timestamp": "2022-02-22T12:04:45.348000"
+    },
+    {
+      "username": "EmelyRobloxIstVollBrutal#0848",
+      "event_type": "join",
+      "timestamp": "2022-02-22T12:07:06.936000"
+    },
+    {
+      "username": "alley.ba_;-;#8354",
+      "event_type": "join",
+      "timestamp": "2022-02-22T16:23:29.878000"
+    },
+    {
+      "username": "Efe der penis#5996",
+      "event_type": "leave",
+      "timestamp": "2022-02-23T16:21:53.233000"
+    },
+    {
+      "username": "Eddaa#4685",
+      "event_type": "join",
+      "timestamp": "2022-02-26T10:03:49.143000"
+    },
+    {
+      "username": "EmelyRobloxIstVollBrutal#0848",
+      "event_type": "leave",
+      "timestamp": "2022-02-27T14:47:43.629000"
+    },
+    {
+      "username": "IceCreamDonut#8933",
+      "event_type": "join",
+      "timestamp": "2022-03-03T20:12:20.673000"
+    },
+    {
+      "username": "Philippcrossfit#7396",
+      "event_type": "leave",
+      "timestamp": "2022-03-04T09:58:36.950000"
+    },
+    {
+      "username": "Siuuu#9634",
+      "event_type": "join",
+      "timestamp": "2022-03-04T10:20:39.673000"
+    },
+    {
+      "username": "Meme_17#3457",
+      "event_type": "leave",
+      "timestamp": "2022-03-05T10:18:30.643000"
+    },
+    {
+      "username": "Kiana#0408",
+      "event_type": "join",
+      "timestamp": "2022-03-05T15:38:21.091000"
+    },
+    {
+      "username": "FluiMC#7315",
+      "event_type": "join",
+      "timestamp": "2022-03-05T21:29:56.090000"
+    },
+    {
+      "username": "FluiMC#7315",
+      "event_type": "leave",
+      "timestamp": "2022-03-05T21:30:26.065000"
+    },
+    {
+      "username": "FluiMC#7315",
+      "event_type": "join",
+      "timestamp": "2022-03-05T21:31:36.090000"
+    },
+    {
+      "username": "FifiHDs2#7236",
+      "event_type": "join",
+      "timestamp": "2022-03-07T22:07:49.857000"
+    },
+    {
+      "username": "(ɔ◔◡◔)ɔLuftigerLuca#0187",
+      "event_type": "join",
+      "timestamp": "2022-03-09T17:50:50.949000"
+    },
+    {
+      "username": "xenia#4161",
+      "event_type": "join",
+      "timestamp": "2022-03-09T18:38:23.666000"
+    },
+    {
+      "username": "vibe.with.you#4282",
+      "event_type": "leave",
+      "timestamp": "2022-03-10T13:08:21.340000"
+    },
+    {
+      "username": "Seong Gi-Hun#3840",
+      "event_type": "join",
+      "timestamp": "2022-03-10T18:49:16.577000"
+    },
+    {
+      "username": "Racho3#3720",
+      "event_type": "join",
+      "timestamp": "2022-03-10T18:53:31.844000"
+    },
+    {
+      "username": "Seong Gi-Hun#3840",
+      "event_type": "leave",
+      "timestamp": "2022-03-10T19:49:24.599000"
+    },
+    {
+      "username": "PaxƵ#6143",
+      "event_type": "join",
+      "timestamp": "2022-03-11T18:39:02.173000"
+    },
+    {
+      "username": "PaxƵ#6143",
+      "event_type": "leave",
+      "timestamp": "2022-03-11T19:14:09.248000"
+    },
+    {
+      "username": "[Katzi] 2 acc#2331",
+      "event_type": "join",
+      "timestamp": "2022-03-13T13:43:18.784000"
+    },
+    {
+      "username": "thatsphxl#0001",
+      "event_type": "leave",
+      "timestamp": "2022-03-14T20:47:07.781000"
+    },
+    {
+      "username": "Paul.Acc2#4773",
+      "event_type": "join",
+      "timestamp": "2022-03-15T17:57:15.656000"
+    },
+    {
+      "username": "thatsphxl#0001",
+      "event_type": "join",
+      "timestamp": "2022-03-26T17:04:32.382000"
+    },
+    {
+      "username": "thatsphxl#0001",
+      "event_type": "leave",
+      "timestamp": "2022-03-26T17:04:57.328000"
+    },
+    {
+      "username": "Kiana#2184",
+      "event_type": "leave",
+      "timestamp": "2022-03-26T20:28:17.808000"
+    },
+    {
+      "username": "TammeTRGG#3019",
+      "event_type": "leave",
+      "timestamp": "2022-03-30T15:17:32.681000"
+    },
+    {
+      "username": "Kiana#0408",
+      "event_type": "leave",
+      "timestamp": "2022-03-30T19:19:49.461000"
+    },
+    {
+      "username": "𝓛𝓾𝓬𝓪 𝓵𝓸𝓵#0001",
+      "event_type": "leave",
+      "timestamp": "2022-03-31T19:08:00.579000"
+    },
+    {
+      "username": "Sofiaaa#7379",
+      "event_type": "leave",
+      "timestamp": "2022-04-01T19:33:55.559000"
+    },
+    {
+      "username": "Kiana#2184",
+      "event_type": "join",
+      "timestamp": "2022-04-04T19:33:00.283000"
+    },
+    {
+      "username": "Eternaldelusion#6370",
+      "event_type": "leave",
+      "timestamp": "2022-04-05T14:44:34.285000"
+    },
+    {
+      "username": "Eternaldelusion#6370",
+      "event_type": "join",
+      "timestamp": "2022-04-05T14:49:34.299000"
+    },
+    {
+      "username": "Nutella°`° ψ#8274",
+      "event_type": "leave",
+      "timestamp": "2022-04-06T11:28:42.953000"
+    },
+    {
+      "username": "Hxrmlose#1651",
+      "event_type": "join",
+      "timestamp": "2022-04-07T15:39:53.351000"
+    },
+    {
+      "username": "L3G3nDPvP💤#8430",
+      "event_type": "join",
+      "timestamp": "2022-04-07T15:42:43.351000"
+    },
+    {
+      "username": "Zwerg Kiana#2184",
+      "event_type": "leave",
+      "timestamp": "2022-04-08T19:57:35.475000"
+    },
+    {
+      "username": "Nutella°`° ψ#8274",
+      "event_type": "join",
+      "timestamp": "2022-04-10T13:41:28.124000"
+    },
+    {
+      "username": "Nutella°`° ψ#8274",
+      "event_type": "leave",
+      "timestamp": "2022-04-10T13:44:13.451000"
+    },
+    {
+      "username": "Nutella°`° ψ#8274",
+      "event_type": "join",
+      "timestamp": "2022-04-12T19:26:45.795000"
+    },
+    {
+      "username": "Nutella°`° ψ#8274",
+      "event_type": "leave",
+      "timestamp": "2022-04-12T19:30:10.943000"
+    },
+    {
+      "username": "FriendlyFireFox#7250",
+      "event_type": "join",
+      "timestamp": "2022-04-13T11:29:41.386000"
+    },
+    {
+      "username": "(ɔ◔◡◔)ɔLuftigerLuca#0187",
+      "event_type": "leave",
+      "timestamp": "2022-04-13T17:41:21.690000"
+    },
+    {
+      "username": "!David!#0355",
+      "event_type": "join",
+      "timestamp": "2022-04-14T12:08:43.788000"
+    },
+    {
+      "username": "Cookie .-.#1111",
+      "event_type": "join",
+      "timestamp": "2022-04-14T12:46:30.021000"
+    },
+    {
+      "username": "0H-NDS-B7#5823",
+      "event_type": "join",
+      "timestamp": "2022-04-14T14:22:29.585000"
+    },
+    {
+      "username": "malte die schnalte#4872",
+      "event_type": "join",
+      "timestamp": "2022-04-14T16:20:11.051000"
+    },
+    {
+      "username": "Nutella°`° ψ#8274",
+      "event_type": "join",
+      "timestamp": "2022-04-14T22:05:15.801000"
+    },
+    {
+      "username": "Kaltxer#9755",
+      "event_type": "join",
+      "timestamp": "2022-04-15T13:40:36.356000"
+    },
+    {
+      "username": "Sofiaaa#7379",
+      "event_type": "join",
+      "timestamp": "2022-04-15T17:40:16.250000"
+    },
+    {
+      "username": "Fynn#7771",
+      "event_type": "leave",
+      "timestamp": "2022-04-15T22:35:47.062000"
+    },
+    {
+      "username": "naa_beefriendly#8981",
+      "event_type": "join",
+      "timestamp": "2022-04-18T12:55:30.435000"
+    },
+    {
+      "username": "Zwerg Kiana#2184",
+      "event_type": "join",
+      "timestamp": "2022-04-18T19:22:59.278000"
+    },
+    {
+      "username": "MalteZockt_HD#0474",
+      "event_type": "join",
+      "timestamp": "2022-04-21T16:35:41.643000"
+    },
+    {
+      "username": "CraftMyFoxi#4798",
+      "event_type": "join",
+      "timestamp": "2022-04-21T17:01:21.945000"
+    },
+    {
+      "username": "Playeronede#3443",
+      "event_type": "join",
+      "timestamp": "2022-04-21T19:56:56.145000"
+    },
+    {
+      "username": "Minooo99#6631",
+      "event_type": "join",
+      "timestamp": "2022-04-21T21:37:04.972000"
+    },
+    {
+      "username": "Jayden_Jean#4588",
+      "event_type": "join",
+      "timestamp": "2022-04-22T17:06:47.179000"
+    },
+    {
+      "username": "FRo21#4146",
+      "event_type": "join",
+      "timestamp": "2022-04-24T17:50:35.205000"
+    },
+    {
+      "username": "FRo21#4146",
+      "event_type": "leave",
+      "timestamp": "2022-04-24T18:06:40.455000"
+    },
+    {
+      "username": "Lucaarooo#9852",
+      "event_type": "join",
+      "timestamp": "2022-04-28T15:30:32.903000"
+    },
+    {
+      "username": "FRo21#4146",
+      "event_type": "join",
+      "timestamp": "2022-04-28T18:49:04.731000"
+    },
+    {
+      "username": "FRo21#4146",
+      "event_type": "leave",
+      "timestamp": "2022-04-28T19:09:42.370000"
+    },
+    {
+      "username": "SHBZT#0625",
+      "event_type": "join",
+      "timestamp": "2022-04-29T21:18:26.855000"
+    },
+    {
+      "username": "SønixSøn#0969",
+      "event_type": "join",
+      "timestamp": "2022-05-01T11:23:58.273000"
+    },
+    {
+      "username": "Lyneaa#6206",
+      "event_type": "leave",
+      "timestamp": "2022-05-03T21:48:06.069000"
+    },
+    {
+      "username": "Hxrmlose#1651",
+      "event_type": "leave",
+      "timestamp": "2022-05-03T22:09:17.296000"
+    },
+    {
+      "username": "Dler#4274",
+      "event_type": "join",
+      "timestamp": "2022-05-06T17:14:41.491000"
+    },
+    {
+      "username": "SDFreakSD#8202",
+      "event_type": "join",
+      "timestamp": "2022-05-18T18:41:34.637000"
+    },
+    {
+      "username": "FRo21#4146",
+      "event_type": "join",
+      "timestamp": "2022-05-18T19:22:00.372000"
+    },
+    {
+      "username": "FRo21#4146",
+      "event_type": "leave",
+      "timestamp": "2022-05-18T19:49:35.876000"
+    },
+    {
+      "username": "thatsphxl#0001",
+      "event_type": "join",
+      "timestamp": "2022-05-21T06:11:14.719000"
+    },
+    {
+      "username": "LucyLerntLesen#4506",
+      "event_type": "join",
+      "timestamp": "2022-05-23T19:01:27.936000"
+    },
+    {
+      "username": "Violethea#3273",
+      "event_type": "leave",
+      "timestamp": "2022-05-24T20:32:48.363000"
+    },
+    {
+      "username": "slenxy-煉獄#5167",
+      "event_type": "join",
+      "timestamp": "2022-05-24T21:05:49.150000"
+    },
+    {
+      "username": "ｔｅｄｄｙ#3391",
+      "event_type": "join",
+      "timestamp": "2022-05-24T21:06:19.134000"
+    },
+    {
+      "username": "ｔｅｄｄｙ#3391",
+      "event_type": "leave",
+      "timestamp": "2022-05-25T15:59:14.370000"
+    },
+    {
+      "username": "slenxy-煉獄#5167",
+      "event_type": "leave",
+      "timestamp": "2022-05-25T16:55:01.814000"
+    },
+    {
+      "username": "XPL Gamer 👾#1600",
+      "event_type": "join",
+      "timestamp": "2022-05-25T18:40:16.205000"
+    },
+    {
+      "username": "XPL Gamer 👾#1600",
+      "event_type": "leave",
+      "timestamp": "2022-05-25T21:24:46.453000"
+    },
+    {
+      "username": "TommyTV00#3803",
+      "event_type": "join",
+      "timestamp": "2022-05-26T18:44:25.587000"
+    },
+    {
+      "username": "SpiralHase#4751",
+      "event_type": "join",
+      "timestamp": "2022-05-26T21:09:38.848000"
+    },
+    {
+      "username": "Numi#8463",
+      "event_type": "join",
+      "timestamp": "2022-05-28T14:59:44.452000"
+    },
+    {
+      "username": "Kite#7955",
+      "event_type": "join",
+      "timestamp": "2022-05-28T16:45:08.761000"
+    },
+    {
+      "username": "Kite#7955",
+      "event_type": "leave",
+      "timestamp": "2022-05-28T16:45:18.742000"
+    },
+    {
+      "username": "Kite#7955",
+      "event_type": "join",
+      "timestamp": "2022-05-28T17:26:01.735000"
+    },
+    {
+      "username": "Humi#4296",
+      "event_type": "join",
+      "timestamp": "2022-05-28T18:54:47.463000"
+    },
+    {
+      "username": "Reverse Maxtro#3466",
+      "event_type": "join",
+      "timestamp": "2022-05-29T15:16:43.023000"
+    },
+    {
+      "username": "𝗣𝗮𝘂𝗹#8589",
+      "event_type": "leave",
+      "timestamp": "2022-05-31T13:59:58.763000"
+    },
+    {
+      "username": "𝗣𝗮𝘂𝗹#8589",
+      "event_type": "join",
+      "timestamp": "2022-05-31T14:47:11.470000"
+    },
+    {
+      "username": "XPL Gamer 👾#1600",
+      "event_type": "join",
+      "timestamp": "2022-05-31T17:58:56.948000"
+    },
+    {
+      "username": "XPL Gamer 👾#1600",
+      "event_type": "leave",
+      "timestamp": "2022-05-31T17:59:17.020000"
+    },
+    {
+      "username": "ChefinSelina#4769",
+      "event_type": "leave",
+      "timestamp": "2022-06-01T17:24:46.621000"
+    },
+    {
+      "username": "Slowly#8964",
+      "event_type": "join",
+      "timestamp": "2022-06-01T19:29:17.961000"
+    },
+    {
+      "username": "Pascal#4884",
+      "event_type": "join",
+      "timestamp": "2022-06-02T15:10:36.753000"
+    },
+    {
+      "username": "Timexy#0525",
+      "event_type": "join",
+      "timestamp": "2022-06-02T16:39:09.169000"
+    },
+    {
+      "username": "Alek on Ketamine#5571",
+      "event_type": "join",
+      "timestamp": "2022-06-03T18:19:25.027000"
+    },
+    {
+      "username": "Tornado_cat#8315",
+      "event_type": "join",
+      "timestamp": "2022-06-04T19:22:57.648000"
+    },
+    {
+      "username": "Cookie .-.#6109",
+      "event_type": "leave",
+      "timestamp": "2022-06-09T12:00:31.574000"
+    },
+    {
+      "username": "KiÄnÄ#2184",
+      "event_type": "leave",
+      "timestamp": "2022-06-10T22:12:50.400000"
+    },
+    {
+      "username": "KiÄnÄ#6320",
+      "event_type": "join",
+      "timestamp": "2022-06-10T22:17:10.405000"
+    },
+    {
+      "username": "samhakwinsgamer#4246",
+      "event_type": "join",
+      "timestamp": "2022-06-12T15:16:14.433000"
+    },
+    {
+      "username": "Cengiz#8436",
+      "event_type": "join",
+      "timestamp": "2022-06-21T15:49:12.143000"
+    },
+    {
+      "username": "Reallax_GG#1369",
+      "event_type": "leave",
+      "timestamp": "2022-06-23T10:13:47.253000"
+    },
+    {
+      "username": "CreatorEvelyn#6915",
+      "event_type": "leave",
+      "timestamp": "2022-06-24T07:55:54.921000"
+    },
+    {
+      "username": "Sti7ches#8240",
+      "event_type": "join",
+      "timestamp": "2022-06-24T21:07:25.729000"
+    },
+    {
+      "username": "ELP#6512",
+      "event_type": "leave",
+      "timestamp": "2022-06-25T00:17:03.671000"
+    },
+    {
+      "username": "Holografix#2079",
+      "event_type": "join",
+      "timestamp": "2022-06-29T22:07:18.565000"
+    },
+    {
+      "username": "Holografix#2079",
+      "event_type": "leave",
+      "timestamp": "2022-06-29T22:25:21.263000"
+    },
+    {
+      "username": "Raider#8677",
+      "event_type": "join",
+      "timestamp": "2022-06-30T10:37:19.766000"
+    },
+    {
+      "username": "Bmmn44#9345",
+      "event_type": "join",
+      "timestamp": "2022-07-05T17:46:13.030000"
+    },
+    {
+      "username": "ich¯\\_(ツ)_/¯#8181",
+      "event_type": "join",
+      "timestamp": "2022-07-07T15:11:36.113000"
+    },
+    {
+      "username": "lolol_HP#1685",
+      "event_type": "join",
+      "timestamp": "2022-07-07T16:00:08.949000"
+    },
+    {
+      "username": "JudgeJonas#1415",
+      "event_type": "join",
+      "timestamp": "2022-07-08T11:51:16.549000"
+    },
+    {
+      "username": "knirpsi 000#9958",
+      "event_type": "join",
+      "timestamp": "2022-07-09T18:17:50.038000"
+    },
+    {
+      "username": "_Psyˡᵉᵃ_#7663",
+      "event_type": "join",
+      "timestamp": "2022-07-11T08:29:38.175000"
+    },
+    {
+      "username": "Kismetz#3573",
+      "event_type": "join",
+      "timestamp": "2022-07-14T15:37:53.988000"
+    },
+    {
+      "username": "Karou#2605",
+      "event_type": "join",
+      "timestamp": "2022-07-14T18:04:37.235000"
+    },
+    {
+      "username": "michelle<3#9047",
+      "event_type": "join",
+      "timestamp": "2022-07-14T18:38:59.359000"
+    },
+    {
+      "username": "xAdrianx#1780",
+      "event_type": "join",
+      "timestamp": "2022-07-15T12:21:15.882000"
+    },
+    {
+      "username": "Enamtsi#5691",
+      "event_type": "join",
+      "timestamp": "2022-07-15T12:23:45.966000"
+    },
+    {
+      "username": "Trunks#9999",
+      "event_type": "join",
+      "timestamp": "2022-07-15T19:02:31.794000"
+    },
+    {
+      "username": "prophead#9821",
+      "event_type": "join",
+      "timestamp": "2022-07-15T19:04:36.758000"
+    },
+    {
+      "username": "niklas.hr__#4408",
+      "event_type": "join",
+      "timestamp": "2022-07-15T19:04:56.777000"
+    },
+    {
+      "username": "Hottie#8591",
+      "event_type": "join",
+      "timestamp": "2022-07-15T19:13:21.938000"
+    },
+    {
+      "username": "splatsho#0001",
+      "event_type": "join",
+      "timestamp": "2022-07-15T19:19:34.997000"
+    },
+    {
+      "username": "FyRex#1807",
+      "event_type": "join",
+      "timestamp": "2022-07-15T19:30:12.651000"
+    },
+    {
+      "username": "Namenlos#4539",
+      "event_type": "join",
+      "timestamp": "2022-07-15T19:47:45.796000"
+    },
+    {
+      "username": "Karoujdgduxsbhd#7684",
+      "event_type": "join",
+      "timestamp": "2022-07-15T20:56:12.230000"
+    },
+    {
+      "username": "juliantico#7022",
+      "event_type": "join",
+      "timestamp": "2022-07-15T21:42:32.978000"
+    },
+    {
+      "username": "AsunaHunter#7639",
+      "event_type": "join",
+      "timestamp": "2022-07-15T22:50:13.025000"
+    },
+    {
+      "username": "Fuss_Hasser187#6301",
+      "event_type": "join",
+      "timestamp": "2022-07-15T23:03:13.216000"
+    },
+    {
+      "username": "viølet<3#0012",
+      "event_type": "join",
+      "timestamp": "2022-07-15T23:08:33.234000"
+    },
+    {
+      "username": "AsunaHunter#7639",
+      "event_type": "leave",
+      "timestamp": "2022-07-15T23:14:20.906000"
+    },
+    {
+      "username": "AsunaHunter#7639",
+      "event_type": "join",
+      "timestamp": "2022-07-15T23:14:27.923000"
+    },
+    {
+      "username": "Lxnaa38#8465",
+      "event_type": "join",
+      "timestamp": "2022-07-16T07:51:10.151000"
+    },
+    {
+      "username": "Finnex#2597",
+      "event_type": "join",
+      "timestamp": "2022-07-16T13:31:55.959000"
+    },
+    {
+      "username": "Vin Diesel#6644",
+      "event_type": "join",
+      "timestamp": "2022-07-16T13:32:00.965000"
+    },
+    {
+      "username": "Fuss_Hasser187#8630",
+      "event_type": "join",
+      "timestamp": "2022-07-16T14:06:21.853000"
+    },
+    {
+      "username": "Finnex#2597",
+      "event_type": "leave",
+      "timestamp": "2022-07-16T14:16:33.172000"
+    },
+    {
+      "username": "jaaaayyyyy#3089",
+      "event_type": "leave",
+      "timestamp": "2022-07-16T15:05:39.500000"
+    },
+    {
+      "username": "Fuss_Hasser420#8630",
+      "event_type": "leave",
+      "timestamp": "2022-07-16T15:09:22.714000"
+    },
+    {
+      "username": "rechtsanwalt_fusslord#4056",
+      "event_type": "join",
+      "timestamp": "2022-07-16T15:13:17.734000"
+    },
+    {
+      "username": "rechtsanwalt_fusslord#4056",
+      "event_type": "leave",
+      "timestamp": "2022-07-16T15:24:14.097000"
+    },
+    {
+      "username": "sage main#3819",
+      "event_type": "join",
+      "timestamp": "2022-07-16T15:42:14.402000"
+    },
+    {
+      "username": "iptrackenderboss#6318",
+      "event_type": "join",
+      "timestamp": "2022-07-16T15:46:49.452000"
+    },
+    {
+      "username": "iptrackenderboss#6318",
+      "event_type": "leave",
+      "timestamp": "2022-07-16T15:55:54.589000"
+    },
+    {
+      "username": "prophead#9821",
+      "event_type": "leave",
+      "timestamp": "2022-07-17T00:03:23.666000"
+    },
+    {
+      "username": "Hottie#8591",
+      "event_type": "leave",
+      "timestamp": "2022-07-17T09:10:01.263000"
+    },
+    {
+      "username": "Ogoli#1297",
+      "event_type": "join",
+      "timestamp": "2022-07-17T15:57:24.886000"
+    },
+    {
+      "username": "《𝐌𝐞𝐥𝐢𝐧𝐚》#8389",
+      "event_type": "join",
+      "timestamp": "2022-07-17T16:39:37.402000"
+    },
+    {
+      "username": "ᵖʰᵒᵉⁿᶦˣ#2861",
+      "event_type": "leave",
+      "timestamp": "2022-07-18T15:30:40.402000"
+    },
+    {
+      "username": "Gamedude_TV#6332",
+      "event_type": "leave",
+      "timestamp": "2022-07-18T16:42:39.269000"
+    },
+    {
+      "username": "Kite#7955",
+      "event_type": "leave",
+      "timestamp": "2022-07-18T18:26:28.549000"
+    },
+    {
+      "username": "Vin Diesel#6644",
+      "event_type": "leave",
+      "timestamp": "2022-07-19T20:29:59.027000"
+    },
+    {
+      "username": "Genycs#8409",
+      "event_type": "leave",
+      "timestamp": "2022-07-21T15:11:41.777000"
+    },
+    {
+      "username": "Trunks#9999",
+      "event_type": "leave",
+      "timestamp": "2022-07-22T22:00:47.624000"
+    },
+    {
+      "username": "wiesel#9757",
+      "event_type": "leave",
+      "timestamp": "2022-07-28T15:18:24.521000"
+    },
+    {
+      "username": "ritzi ritzi aua aua#0694",
+      "event_type": "join",
+      "timestamp": "2022-07-28T20:58:04.179000"
+    },
+    {
+      "username": "dfc.sxphie#4948",
+      "event_type": "leave",
+      "timestamp": "2022-07-28T22:33:58.968000"
+    },
+    {
+      "username": "Ogoli#1297",
+      "event_type": "leave",
+      "timestamp": "2022-07-30T20:16:35.995000"
+    },
+    {
+      "username": "RachoOG#3720",
+      "event_type": "leave",
+      "timestamp": "2022-07-31T09:42:41.690000"
+    },
+    {
+      "username": "xAdrianx#1780",
+      "event_type": "leave",
+      "timestamp": "2022-07-31T18:41:02.387000"
+    },
+    {
+      "username": "6100#8066",
+      "event_type": "join",
+      "timestamp": "2022-08-01T23:14:53.979000"
+    },
+    {
+      "username": ".shifty.#1658",
+      "event_type": "join",
+      "timestamp": "2022-08-02T18:11:08.761000"
+    },
+    {
+      "username": "iSimp4u#7858",
+      "event_type": "join",
+      "timestamp": "2022-08-02T18:11:33.798000"
+    },
+    {
+      "username": "Tornado_cat#3810",
+      "event_type": "join",
+      "timestamp": "2022-08-04T19:07:55.686000"
+    },
+    {
+      "username": "SUP Aquadig#8532",
+      "event_type": "leave",
+      "timestamp": "2022-08-04T22:32:12.367000"
+    },
+    {
+      "username": "Arcann#3608",
+      "event_type": "leave",
+      "timestamp": "2022-08-05T00:24:13.065000"
+    },
+    {
+      "username": "YMC GommeWQHD#4728",
+      "event_type": "join",
+      "timestamp": "2022-08-11T17:55:19.093000"
+    },
+    {
+      "username": "xenoTree#5594",
+      "event_type": "join",
+      "timestamp": "2022-08-12T11:52:55.636000"
+    },
+    {
+      "username": "Calix0978#6245",
+      "event_type": "join",
+      "timestamp": "2022-08-12T15:14:04.821000"
+    },
+    {
+      "username": "macs#0525",
+      "event_type": "leave",
+      "timestamp": "2022-08-18T17:50:08.820000"
+    },
+    {
+      "username": "Elisa <3#8581",
+      "event_type": "join",
+      "timestamp": "2022-08-19T18:12:51.893000"
+    },
+    {
+      "username": "Slny#5167",
+      "event_type": "join",
+      "timestamp": "2022-08-19T20:18:31.885000"
+    },
+    {
+      "username": "Deinemommy<3#9047",
+      "event_type": "leave",
+      "timestamp": "2022-08-20T21:39:07.224000"
+    },
+    {
+      "username": "Terror#9016",
+      "event_type": "join",
+      "timestamp": "2022-08-21T14:43:28.885000"
+    },
+    {
+      "username": "!BigChungus!#8905",
+      "event_type": "join",
+      "timestamp": "2022-08-21T16:14:07.942000"
+    },
+    {
+      "username": "Geschlafener#2083",
+      "event_type": "join",
+      "timestamp": "2022-08-24T11:51:49.882000"
+    },
+    {
+      "username": "Titanmice#9787",
+      "event_type": "join",
+      "timestamp": "2022-08-25T14:02:23.909000"
+    },
+    {
+      "username": "FRo21#4146",
+      "event_type": "join",
+      "timestamp": "2022-08-28T10:14:06.587000"
+    },
+    {
+      "username": "FRo21#4146",
+      "event_type": "leave",
+      "timestamp": "2022-08-28T10:16:36.634000"
+    },
+    {
+      "username": "espamv#4508",
+      "event_type": "join",
+      "timestamp": "2022-08-28T10:39:35.430000"
+    },
+    {
+      "username": "JudgeJonas#1415",
+      "event_type": "leave",
+      "timestamp": "2022-09-04T08:46:15.192000"
+    },
+    {
+      "username": "Crying Tsunami#6907",
+      "event_type": "join",
+      "timestamp": "2022-09-04T11:48:19.612000"
+    },
+    {
+      "username": "Domi1#8689",
+      "event_type": "join",
+      "timestamp": "2022-09-07T21:46:36.596000"
+    },
+    {
+      "username": "DynoNugget#4432",
+      "event_type": "join",
+      "timestamp": "2022-09-12T18:05:39.298000"
+    },
+    {
+      "username": "laura.111#2771",
+      "event_type": "join",
+      "timestamp": "2022-09-17T07:59:35.588000"
+    },
+    {
+      "username": "laura.111#2771",
+      "event_type": "leave",
+      "timestamp": "2022-09-17T09:39:27.182000"
+    },
+    {
+      "username": "JPika1306#5355",
+      "event_type": "join",
+      "timestamp": "2022-09-17T18:30:06.473000"
+    },
+    {
+      "username": "《𝐌𝐞𝐥𝐢𝐧𝐚》#8389",
+      "event_type": "leave",
+      "timestamp": "2022-09-18T19:29:47.502000"
+    },
+    {
+      "username": "Kiana#4608",
+      "event_type": "join",
+      "timestamp": "2022-09-22T14:29:51.911000"
+    },
+    {
+      "username": "TommyTV#9790",
+      "event_type": "join",
+      "timestamp": "2022-09-25T19:42:25.389000"
+    },
+    {
+      "username": "Damian._.prv#3080",
+      "event_type": "join",
+      "timestamp": "2022-09-29T18:55:38.977000"
+    },
+    {
+      "username": "fck fann#0641",
+      "event_type": "join",
+      "timestamp": "2022-10-05T05:40:06.282000"
+    },
+    {
+      "username": "Ἄαɾon웃#1313",
+      "event_type": "join",
+      "timestamp": "2022-10-07T19:32:54.857000"
+    },
+    {
+      "username": "Fabo0814#0001",
+      "event_type": "join",
+      "timestamp": "2022-10-08T13:48:37.305000"
+    },
+    {
+      "username": "Mohsen4Win#3180",
+      "event_type": "join",
+      "timestamp": "2022-10-08T15:59:18.145000"
+    },
+    {
+      "username": "Fuchsi#8941",
+      "event_type": "join",
+      "timestamp": "2022-10-10T16:34:59.575000"
+    },
+    {
+      "username": "Trymeus#0794",
+      "event_type": "join",
+      "timestamp": "2022-10-11T17:17:22.235000"
+    },
+    {
+      "username": "reeplem#1069",
+      "event_type": "join",
+      "timestamp": "2022-10-11T17:17:32.138000"
+    },
+    {
+      "username": "uWu_girl122#9279",
+      "event_type": "join",
+      "timestamp": "2022-10-13T15:14:58.923000"
+    },
+    {
+      "username": "Kite#7955",
+      "event_type": "join",
+      "timestamp": "2022-10-14T12:53:12.354000"
+    },
+    {
+      "username": "manu5454#0973",
+      "event_type": "join",
+      "timestamp": "2022-10-15T22:28:13.601000"
+    },
+    {
+      "username": "Trymeus#0794",
+      "event_type": "leave",
+      "timestamp": "2022-10-17T09:17:36.428000"
+    },
+    {
+      "username": "on crack#7303",
+      "event_type": "join",
+      "timestamp": "2022-10-18T20:03:20.161000"
+    },
+    {
+      "username": "on crack#7303",
+      "event_type": "leave",
+      "timestamp": "2022-10-19T15:46:50.404000"
+    },
+    {
+      "username": "thatsphxl#0001",
+      "event_type": "leave",
+      "timestamp": "2022-10-20T03:18:48.200000"
+    },
+    {
+      "username": "2812_manu#0117",
+      "event_type": "join",
+      "timestamp": "2022-10-20T10:58:39.670000"
+    },
+    {
+      "username": "daniel  123#8119",
+      "event_type": "join",
+      "timestamp": "2022-10-22T13:45:40.357000"
+    },
+    {
+      "username": "sintySamu#1083",
+      "event_type": "join",
+      "timestamp": "2022-10-22T13:51:10.433000"
+    },
+    {
+      "username": "Dylan#3620",
+      "event_type": "join",
+      "timestamp": "2022-10-23T12:16:54.887000"
+    },
+    {
+      "username": "Toyotsune#1677",
+      "event_type": "leave",
+      "timestamp": "2022-10-27T21:32:07.899000"
+    },
+    {
+      "username": "Bmmn44#9345",
+      "event_type": "leave",
+      "timestamp": "2022-10-29T09:41:00.878000"
+    },
+    {
+      "username": "xenoTree#5594",
+      "event_type": "leave",
+      "timestamp": "2022-11-01T17:18:04.167000"
+    },
+    {
+      "username": "Trymeus#0794",
+      "event_type": "join",
+      "timestamp": "2022-11-01T18:13:29.401000"
+    },
+    {
+      "username": "xenoTree#5594",
+      "event_type": "join",
+      "timestamp": "2022-11-02T06:32:57.453000"
+    },
+    {
+      "username": "Smatyyy#9296",
+      "event_type": "join",
+      "timestamp": "2022-11-02T18:57:24.433000"
+    },
+    {
+      "username": "CrazyPhilip25#9973",
+      "event_type": "join",
+      "timestamp": "2022-11-08T21:03:14.823000"
+    },
+    {
+      "username": "Hobbyloser Stein#6673",
+      "event_type": "join",
+      "timestamp": "2022-11-13T22:32:17.831000"
+    },
+    {
+      "username": "a mistake#0342",
+      "event_type": "leave",
+      "timestamp": "2022-11-14T19:21:21.537000"
+    },
+    {
+      "username": "Nive#1323",
+      "event_type": "leave",
+      "timestamp": "2022-11-15T21:16:27.177000"
+    },
+    {
+      "username": "Toast RDW#5957",
+      "event_type": "join",
+      "timestamp": "2022-11-17T21:14:31.592000"
+    },
+    {
+      "username": "Mohsen4Win#3180",
+      "event_type": "leave",
+      "timestamp": "2022-11-19T16:20:05.454000"
+    },
+    {
+      "username": "Pacco_the_taco#7184",
+      "event_type": "join",
+      "timestamp": "2022-11-22T21:24:59.442000"
+    },
+    {
+      "username": "KiritoSanHalt#9545",
+      "event_type": "join",
+      "timestamp": "2022-11-28T21:39:42.378000"
+    },
+    {
+      "username": "Ayran#2496",
+      "event_type": "join",
+      "timestamp": "2022-12-02T18:49:43.915000"
+    },
+    {
+      "username": "Leeee#3796",
+      "event_type": "join",
+      "timestamp": "2022-12-03T16:15:37.568000"
+    },
+    {
+      "username": "Sti7ches#8240",
+      "event_type": "leave",
+      "timestamp": "2022-12-04T23:22:56.497000"
+    },
+    {
+      "username": "Sti7ches#8240",
+      "event_type": "join",
+      "timestamp": "2022-12-06T08:28:24.102000"
+    },
+    {
+      "username": "CrazyPhilip25#9973",
+      "event_type": "join",
+      "timestamp": "2022-12-09T20:08:25.529000"
+    },
+    {
+      "username": "Humi#4296",
+      "event_type": "leave",
+      "timestamp": "2022-12-15T19:04:09.558000"
+    },
+    {
+      "username": "EhrenBapfel#7197",
+      "event_type": "join",
+      "timestamp": "2022-12-15T19:09:44.701000"
+    },
+    {
+      "username": "Nezuko1#7047",
+      "event_type": "leave",
+      "timestamp": "2022-12-15T19:50:34.632000"
+    },
+    {
+      "username": "Sti7ches#8240",
+      "event_type": "leave",
+      "timestamp": "2022-12-15T20:37:00.106000"
+    },
+    {
+      "username": "einfachnurnicoxD#6026",
+      "event_type": "join",
+      "timestamp": "2022-12-17T21:40:28.284000"
+    },
+    {
+      "username": "Chihiro#8062",
+      "event_type": "leave",
+      "timestamp": "2022-12-17T21:59:11.863000"
+    },
+    {
+      "username": "Kite#7955",
+      "event_type": "leave",
+      "timestamp": "2022-12-21T20:44:24.760000"
+    },
+    {
+      "username": "Endergaming6805#1583",
+      "event_type": "join",
+      "timestamp": "2022-12-22T22:05:16.531000"
+    },
+    {
+      "username": "Endergaming6805#1583",
+      "event_type": "leave",
+      "timestamp": "2022-12-22T22:07:01.561000"
+    },
+    {
+      "username": "Endergaming6805#1583",
+      "event_type": "join",
+      "timestamp": "2022-12-22T22:20:51.064000"
+    },
+    {
+      "username": "Endergaming6805#1583",
+      "event_type": "leave",
+      "timestamp": "2022-12-22T22:21:56.073000"
+    },
+    {
+      "username": "Endergaming6805#1583",
+      "event_type": "join",
+      "timestamp": "2022-12-23T21:18:41.986000"
+    },
+    {
+      "username": "Endergaming6805#1583",
+      "event_type": "leave",
+      "timestamp": "2022-12-23T21:26:54.705000"
+    },
+    {
+      "username": "Hobbyloser Stein#6673",
+      "event_type": "leave",
+      "timestamp": "2022-12-23T21:33:19.814000"
+    },
+    {
+      "username": "AWD#7696",
+      "event_type": "join",
+      "timestamp": "2022-12-23T21:36:39.043000"
+    },
+    {
+      "username": "Diximixi ツ#2582",
+      "event_type": "join",
+      "timestamp": "2022-12-28T18:54:56.733000"
+    },
+    {
+      "username": "Verrostet#0001",
+      "event_type": "leave",
+      "timestamp": "2022-12-29T14:44:55.499000"
+    },
+    {
+      "username": "2812_manu#0117",
+      "event_type": "leave",
+      "timestamp": "2022-12-29T17:29:16.419000"
+    },
+    {
+      "username": "WeißIchNicht#8062",
+      "event_type": "join",
+      "timestamp": "2022-12-30T02:18:25.387000"
+    },
+    {
+      "username": "Fuss_Hasser187#6301",
+      "event_type": "leave",
+      "timestamp": "2022-12-30T14:04:41.944000"
+    },
+    {
+      "username": "supading#9776",
+      "event_type": "leave",
+      "timestamp": "2022-12-30T14:05:26.909000"
+    },
+    {
+      "username": "black_widow#3922",
+      "event_type": "join",
+      "timestamp": "2023-01-05T16:42:54.287000"
+    },
+    {
+      "username": "gibimele77#5419",
+      "event_type": "leave",
+      "timestamp": "2023-01-06T21:54:11.023000"
+    },
+    {
+      "username": "DerGuppy88#2319",
+      "event_type": "join",
+      "timestamp": "2023-01-07T00:22:12.823000"
+    },
+    {
+      "username": "black_widow#3922",
+      "event_type": "leave",
+      "timestamp": "2023-01-07T23:45:11.057000"
+    },
+    {
+      "username": "FBI1904#2895",
+      "event_type": "join",
+      "timestamp": "2023-01-09T15:06:35.614000"
+    },
+    {
+      "username": "rain4455#7553",
+      "event_type": "join",
+      "timestamp": "2023-01-10T17:31:18.850000"
+    },
+    {
+      "username": "Lori#7308",
+      "event_type": "join",
+      "timestamp": "2023-01-12T11:46:15.832000"
+    },
+    {
+      "username": "Dragon_blender#7408",
+      "event_type": "join",
+      "timestamp": "2023-01-14T21:29:43.590000"
+    },
+    {
+      "username": "JRS.exe#3840",
+      "event_type": "join",
+      "timestamp": "2023-01-16T20:21:50.288000"
+    },
+    {
+      "username": "JRS.exe#3840",
+      "event_type": "leave",
+      "timestamp": "2023-01-16T20:28:30.403000"
+    },
+    {
+      "username": "Slny.exe#5167",
+      "event_type": "leave",
+      "timestamp": "2023-01-16T20:28:35.436000"
+    },
+    {
+      "username": "EinfachHuhn#8325",
+      "event_type": "join",
+      "timestamp": "2023-01-18T18:05:47.714000"
+    },
+    {
+      "username": "Silasmagschnitzel#4309",
+      "event_type": "join",
+      "timestamp": "2023-01-19T16:15:01.598000"
+    },
+    {
+      "username": "-Toby-#8254",
+      "event_type": "leave",
+      "timestamp": "2023-01-19T17:03:00.189000"
+    },
+    {
+      "username": "Justus#6408",
+      "event_type": "leave",
+      "timestamp": "2023-01-23T19:22:40.933000"
+    },
+    {
+      "username": "Big Tasty Toastie#5571",
+      "event_type": "join",
+      "timestamp": "2023-01-24T18:28:26.140000"
+    },
+    {
+      "username": "JaxigesFussball#8270",
+      "event_type": "join",
+      "timestamp": "2023-01-25T19:23:01.407000"
+    },
+    {
+      "username": "Gobo9#3552",
+      "event_type": "join",
+      "timestamp": "2023-01-25T19:52:58.101000"
+    },
+    {
+      "username": "rain4455#7553",
+      "event_type": "leave",
+      "timestamp": "2023-01-26T17:03:01.373000"
+    },
+    {
+      "username": "NightJason#7005",
+      "event_type": "join",
+      "timestamp": "2023-01-29T18:54:30.836000"
+    },
+    {
+      "username": "liveaid#6129",
+      "event_type": "join",
+      "timestamp": "2023-01-29T20:26:56.171000"
+    },
+    {
+      "username": "liveaid#6129",
+      "event_type": "leave",
+      "timestamp": "2023-01-29T20:28:21.153000"
+    },
+    {
+      "username": "Miizu#7029",
+      "event_type": "join",
+      "timestamp": "2023-01-29T20:51:04.856000"
+    },
+    {
+      "username": "Miizu#7029",
+      "event_type": "leave",
+      "timestamp": "2023-01-29T20:51:14.829000"
+    },
+    {
+      "username": "Pingu#2697",
+      "event_type": "join",
+      "timestamp": "2023-01-31T18:53:06.117000"
+    },
+    {
+      "username": "MaaraLB#6927",
+      "event_type": "join",
+      "timestamp": "2023-01-31T18:57:46.297000"
+    },
+    {
+      "username": "wiesel#9757",
+      "event_type": "join",
+      "timestamp": "2023-02-01T15:36:17.949000"
+    },
+    {
+      "username": "Hosttale_player3#5254",
+      "event_type": "join",
+      "timestamp": "2023-02-02T13:12:55.128000"
+    },
+    {
+      "username": "Myuri#0379",
+      "event_type": "join",
+      "timestamp": "2023-02-02T17:27:15.623000"
+    },
+    {
+      "username": "thatsphxl#0655",
+      "event_type": "leave",
+      "timestamp": "2023-02-05T12:56:50.979000"
+    },
+    {
+      "username": "Gobo9#3552",
+      "event_type": "leave",
+      "timestamp": "2023-02-05T18:42:10.897000"
+    },
+    {
+      "username": "Mondwolf#6109",
+      "event_type": "join",
+      "timestamp": "2023-02-10T13:40:12.881000"
+    },
+    {
+      "username": "mischamaus#0389",
+      "event_type": "leave",
+      "timestamp": "2023-02-18T08:39:02.658000"
+    },
+    {
+      "username": "D1fficult#5571",
+      "event_type": "leave",
+      "timestamp": "2023-02-19T10:44:14.676000"
+    },
+    {
+      "username": "itzzphilip#8108",
+      "event_type": "leave",
+      "timestamp": "2023-02-19T18:58:03.758000"
+    },
+    {
+      "username": "SweaterLOL#8529",
+      "event_type": "leave",
+      "timestamp": "2023-02-21T19:12:38.331000"
+    },
+    {
+      "username": "Florenbella#1624",
+      "event_type": "join",
+      "timestamp": "2023-02-22T14:31:18.414000"
+    },
+    {
+      "username": "Florenbella#1624",
+      "event_type": "leave",
+      "timestamp": "2023-02-22T15:29:30.427000"
+    },
+    {
+      "username": "NightJason#7005",
+      "event_type": "leave",
+      "timestamp": "2023-03-01T23:42:48.470000"
+    },
+    {
+      "username": "espamv#4508",
+      "event_type": "leave",
+      "timestamp": "2023-03-02T10:18:40.897000"
+    },
+    {
+      "username": "rentner#7858",
+      "event_type": "leave",
+      "timestamp": "2023-03-02T16:29:56.521000"
+    },
+    {
+      "username": "CraftMyFoxi#4798",
+      "event_type": "leave",
+      "timestamp": "2023-03-08T20:42:50.418000"
+    },
+    {
+      "username": ".exe#4608",
+      "event_type": "leave",
+      "timestamp": "2023-03-15T19:59:17.919000"
+    },
+    {
+      "username": "Hasi246#0278",
+      "event_type": "join",
+      "timestamp": "2023-03-17T19:12:20.760000"
+    },
+    {
+      "username": "itzzphilip#8108",
+      "event_type": "join",
+      "timestamp": "2023-03-28T10:17:03.131000"
+    },
+    {
+      "username": "The FBI#2895",
+      "event_type": "leave",
+      "timestamp": "2023-03-31T00:53:52.700000"
+    },
+    {
+      "username": "Crying Tsunami#6907",
+      "event_type": "leave",
+      "timestamp": "2023-04-01T12:20:12.417000"
+    },
+    {
+      "username": "niklas#6247",
+      "event_type": "leave",
+      "timestamp": "2023-04-02T14:26:27.621000"
+    },
+    {
+      "username": "Parie#4884",
+      "event_type": "leave",
+      "timestamp": "2023-04-04T19:47:17.251000"
+    },
+    {
+      "username": "zxlqli#3283",
+      "event_type": "join",
+      "timestamp": "2023-04-12T10:39:33.725000"
+    },
+    {
+      "username": "lina abi#9392",
+      "event_type": "join",
+      "timestamp": "2023-04-12T10:46:28.850000"
+    },
+    {
+      "username": "Arc#9103",
+      "event_type": "join",
+      "timestamp": "2023-04-13T17:02:16.224000"
+    },
+    {
+      "username": "Ð尺Цﾒ乙#1313",
+      "event_type": "leave",
+      "timestamp": "2023-04-17T19:31:47.771000"
+    },
+    {
+      "username": "Anni#5119",
+      "event_type": "leave",
+      "timestamp": "2023-04-27T14:15:03.153000"
+    },
+    {
+      "username": "ABJulius#3251",
+      "event_type": "join",
+      "timestamp": "2023-04-29T19:19:01.818000"
+    },
+    {
+      "username": "Skythakitten#9097",
+      "event_type": "join",
+      "timestamp": "2023-05-01T19:02:11.350000"
+    },
+    {
+      "username": "Jòkêr#5982",
+      "event_type": "leave",
+      "timestamp": "2023-05-04T08:49:25.135000"
+    },
+    {
+      "username": "yoshi fan64#8382",
+      "event_type": "join",
+      "timestamp": "2023-05-11T19:44:21.030000"
+    },
+    {
+      "username": "caity#7423",
+      "event_type": "join",
+      "timestamp": "2023-05-16T16:14:28.459000"
+    },
+    {
+      "username": "KleinesLara#9999",
+      "event_type": "join",
+      "timestamp": "2023-05-24T12:56:29.375000"
+    },
+    {
+      "username": "KleinesLara#9999",
+      "event_type": "leave",
+      "timestamp": "2023-05-26T07:41:49.595000"
+    },
+    {
+      "username": "𝓢𝓮𝓵𝓲𝓷𝓪#6259",
+      "event_type": "join",
+      "timestamp": "2023-05-29T12:26:24.014000"
+    },
+    {
+      "username": "Felix_B45#6779",
+      "event_type": "join",
+      "timestamp": "2023-05-29T14:42:01.327000"
+    },
+    {
+      "username": "Skipper#0293",
+      "event_type": "leave",
+      "timestamp": "2023-06-01T22:29:37.420000"
+    },
+    {
+      "username": "tiger1509#0",
+      "event_type": "join",
+      "timestamp": "2023-06-17T21:41:59.008000"
+    },
+    {
+      "username": "tilliboy#0",
+      "event_type": "join",
+      "timestamp": "2023-06-21T17:48:33.420000"
+    },
+    {
+      "username": "Parie321#4884",
+      "event_type": "join",
+      "timestamp": "2023-06-21T17:48:58.379000"
+    },
+    {
+      "username": "sam💚#8990",
+      "event_type": "join",
+      "timestamp": "2023-06-24T20:08:15.788000"
+    },
+    {
+      "username": "Du.hrs#6574",
+      "event_type": "leave",
+      "timestamp": "2023-07-09T08:16:31.040000"
+    },
+    {
+      "username": "Hosttale_player3#5254",
+      "event_type": "leave",
+      "timestamp": "2023-07-16T01:48:18.996000"
+    },
+    {
+      "username": "DerRömer#7212",
+      "event_type": "leave",
+      "timestamp": "2023-07-17T19:26:52.328000"
+    },
+    {
+      "username": "apfelmus#4042",
+      "event_type": "join",
+      "timestamp": "2023-07-22T12:35:06.746000"
+    },
+    {
+      "username": "nilei#0",
+      "event_type": "join",
+      "timestamp": "2023-07-27T21:02:33.770000"
+    },
+    {
+      "username": "nilei#0",
+      "event_type": "leave",
+      "timestamp": "2023-08-08T17:48:59.778000"
+    },
+    {
+      "username": "nilei#0",
+      "event_type": "join",
+      "timestamp": "2023-08-12T22:20:49.022000"
+    },
+    {
+      "username": "Jxkobyyy#4062",
+      "event_type": "leave",
+      "timestamp": "2023-08-16T22:18:15.184000"
+    },
+    {
+      "username": "maximusprimexy",
+      "event_type": "join",
+      "timestamp": "2023-09-07T16:40:03.982000"
+    },
+    {
+      "username": "alley.ba_",
+      "event_type": "leave",
+      "timestamp": "2023-09-17T13:03:51.728000"
+    },
+    {
+      "username": "einfachhuhn",
+      "event_type": "leave",
+      "timestamp": "2023-09-18T06:46:50.706000"
+    },
+    {
+      "username": "fabo0814",
+      "event_type": "leave",
+      "timestamp": "2023-09-21T16:40:02.772000"
+    },
+    {
+      "username": "evkg",
+      "event_type": "join",
+      "timestamp": "2023-09-25T08:56:22.452000"
+    },
+    {
+      "username": "violetnightowl",
+      "event_type": "leave",
+      "timestamp": "2023-09-25T17:33:48.410000"
+    },
+    {
+      "username": "jaxigesfussball",
+      "event_type": "leave",
+      "timestamp": "2023-10-01T14:59:01.151000"
+    },
+    {
+      "username": "DerGuppy88#2319",
+      "event_type": "leave",
+      "timestamp": "2023-10-01T15:24:37.673000"
+    },
+    {
+      "username": "mysticwolfhbfan",
+      "event_type": "join",
+      "timestamp": "2023-10-05T17:31:32.921000"
+    },
+    {
+      "username": "hxnni.",
+      "event_type": "join",
+      "timestamp": "2023-10-05T17:50:28.160000"
+    },
+    {
+      "username": "icecreamdonut",
+      "event_type": "leave",
+      "timestamp": "2023-10-10T14:16:03.161000"
+    },
+    {
+      "username": "pingusklon",
+      "event_type": "join",
+      "timestamp": "2023-10-10T20:25:29.601000"
+    },
+    {
+      "username": "jowanni",
+      "event_type": "leave",
+      "timestamp": "2023-10-13T21:19:27.990000"
+    },
+    {
+      "username": "philsgoldentime",
+      "event_type": "join",
+      "timestamp": "2023-10-25T14:15:58.823000"
+    },
+    {
+      "username": "nextb1ke",
+      "event_type": "join",
+      "timestamp": "2023-10-26T18:07:41.459000"
+    },
+    {
+      "username": "jantastisch",
+      "event_type": "join",
+      "timestamp": "2023-10-31T14:57:39.377000"
+    },
+    {
+      "username": "vertex537",
+      "event_type": "join",
+      "timestamp": "2023-11-06T16:15:38.747000"
+    },
+    {
+      "username": "localplug47",
+      "event_type": "leave",
+      "timestamp": "2023-11-15T15:13:26.129000"
+    },
+    {
+      "username": "niklas0469",
+      "event_type": "join",
+      "timestamp": "2023-11-15T20:32:25.047000"
+    },
+    {
+      "username": "niklas._1231231",
+      "event_type": "leave",
+      "timestamp": "2023-11-21T08:38:02.156000"
+    },
+    {
+      "username": "weissixhnicht",
+      "event_type": "join",
+      "timestamp": "2023-11-29T16:49:11.598000"
+    },
+    {
+      "username": "the_nugnu",
+      "event_type": "join",
+      "timestamp": "2023-12-12T05:35:59.089000"
+    },
+    {
+      "username": "Mr. Riös#9106",
+      "event_type": "join",
+      "timestamp": "2023-12-12T05:37:09.167000"
+    },
+    {
+      "username": "simeon_wall",
+      "event_type": "join",
+      "timestamp": "2023-12-18T11:13:40.080000"
+    },
+    {
+      "username": "xskyler_",
+      "event_type": "join",
+      "timestamp": "2023-12-22T22:27:18.316000"
+    },
+    {
+      "username": "itzmuh67",
+      "event_type": "leave",
+      "timestamp": "2023-12-28T14:41:57.582000"
+    },
+    {
+      "username": "ryan_ghg",
+      "event_type": "join",
+      "timestamp": "2023-12-28T14:58:09.588000"
+    },
+    {
+      "username": "christoph.s.",
+      "event_type": "join",
+      "timestamp": "2024-01-03T17:25:07.364000"
+    },
+    {
+      "username": "christoph.s.",
+      "event_type": "leave",
+      "timestamp": "2024-01-04T09:34:33.024000"
+    },
+    {
+      "username": "spielkino",
+      "event_type": "join",
+      "timestamp": "2024-01-06T14:00:11.907000"
+    },
+    {
+      "username": "skythakitten",
+      "event_type": "leave",
+      "timestamp": "2024-01-13T16:54:09.953000"
+    },
+    {
+      "username": "spielkino",
+      "event_type": "leave",
+      "timestamp": "2024-01-14T12:35:59.928000"
+    },
+    {
+      "username": "niklas0469",
+      "event_type": "leave",
+      "timestamp": "2024-02-04T13:32:30.873000"
+    },
+    {
+      "username": "xskyler_",
+      "event_type": "leave",
+      "timestamp": "2024-02-05T17:55:18.470000"
+    },
+    {
+      "username": "calix_1",
+      "event_type": "leave",
+      "timestamp": "2024-02-17T17:32:28.772000"
+    },
+    {
+      "username": "destroyeronion",
+      "event_type": "join",
+      "timestamp": "2024-02-22T17:47:46.658000"
+    },
+    {
+      "username": "raider8677",
+      "event_type": "leave",
+      "timestamp": "2024-03-22T12:43:40.214000"
+    },
+    {
+      "username": "dragon_blender",
+      "event_type": "leave",
+      "timestamp": "2024-04-03T12:22:03.228000"
+    },
+    {
+      "username": "parie321",
+      "event_type": "leave",
+      "timestamp": "2024-04-14T21:23:42.736000"
+    },
+    {
+      "username": "zombiebaendiger",
+      "event_type": "leave",
+      "timestamp": "2024-05-07T16:52:53.288000"
+    },
+    {
+      "username": "dler7",
+      "event_type": "leave",
+      "timestamp": "2024-05-08T19:06:22.202000"
+    },
+    {
+      "username": "knqck",
+      "event_type": "leave",
+      "timestamp": "2024-05-11T12:40:31.479000"
+    },
+    {
+      "username": "palletto_96669002",
+      "event_type": "leave",
+      "timestamp": "2024-05-15T10:18:55.091000"
+    },
+    {
+      "username": "binichlostoderbinichlogisch0312",
+      "event_type": "leave",
+      "timestamp": "2024-05-16T03:16:46.441000"
+    },
+    {
+      "username": "the_kiana_baum0093",
+      "event_type": "leave",
+      "timestamp": "2024-05-21T06:52:13.277000"
+    },
+    {
+      "username": "siuuu9634",
+      "event_type": "leave",
+      "timestamp": "2024-06-11T19:52:19.392000"
+    },
+    {
+      "username": "hannah077962",
+      "event_type": "leave",
+      "timestamp": "2024-07-05T21:06:41.495000"
+    },
+    {
+      "username": "roco0092",
+      "event_type": "join",
+      "timestamp": "2024-07-12T01:36:30.678000"
+    },
+    {
+      "username": "roco0092",
+      "event_type": "leave",
+      "timestamp": "2024-07-12T01:38:49.591000"
+    },
+    {
+      "username": "weissixhnicht",
+      "event_type": "leave",
+      "timestamp": "2024-07-20T22:08:56.143000"
+    },
+    {
+      "username": "paul.acc24773",
+      "event_type": "leave",
+      "timestamp": "2024-07-31T17:14:41.154000"
+    },
+    {
+      "username": "skimmyy_",
+      "event_type": "leave",
+      "timestamp": "2024-08-11T19:17:24.996000"
+    },
+    {
+      "username": "sagemain3819",
+      "event_type": "leave",
+      "timestamp": "2024-09-04T18:52:55.748000"
+    },
+    {
+      "username": "maximusprimexy",
+      "event_type": "leave",
+      "timestamp": "2024-09-06T07:39:05.628000"
+    },
+    {
+      "username": "furryhunter698463",
+      "event_type": "leave",
+      "timestamp": "2024-09-12T16:44:13.687000"
+    },
+    {
+      "username": "dyno__",
+      "event_type": "leave",
+      "timestamp": "2024-09-29T19:49:45.782000"
+    },
+    {
+      "username": "pumakiller667",
+      "event_type": "leave",
+      "timestamp": "2024-10-02T12:48:52.148000"
+    },
+    {
+      "username": "memetderpro0694",
+      "event_type": "leave",
+      "timestamp": "2024-10-08T16:22:34.637000"
+    },
+    {
+      "username": "the.devils.woman",
+      "event_type": "join",
+      "timestamp": "2024-10-16T15:00:34.014000"
+    },
+    {
+      "username": "dylan7777777",
+      "event_type": "leave",
+      "timestamp": "2024-10-20T14:29:18.040000"
+    },
+    {
+      "username": "donphinaldo",
+      "event_type": "leave",
+      "timestamp": "2024-10-28T22:05:56.753000"
+    },
+    {
+      "username": "odinsplitter665_6384",
+      "event_type": "join",
+      "timestamp": "2024-10-30T20:46:22.250000"
+    },
+    {
+      "username": "iwas5669",
+      "event_type": "leave",
+      "timestamp": "2024-10-31T17:15:58.987000"
+    },
+    {
+      "username": "nutella_hjt",
+      "event_type": "leave",
+      "timestamp": "2024-11-03T09:52:21.979000"
+    },
+    {
+      "username": "weissixhnicht",
+      "event_type": "join",
+      "timestamp": "2024-11-03T16:43:48.771000"
+    },
+    {
+      "username": "critho",
+      "event_type": "join",
+      "timestamp": "2024-11-03T16:43:58.769000"
+    },
+    {
+      "username": "manu54540973",
+      "event_type": "leave",
+      "timestamp": "2024-11-04T18:09:44.242000"
+    },
+    {
+      "username": "silasmagschnitzel",
+      "event_type": "leave",
+      "timestamp": "2024-11-05T12:00:08.412000"
+    },
+    {
+      "username": "maya_maya9099",
+      "event_type": "leave",
+      "timestamp": "2024-11-14T17:23:44.801000"
+    },
+    {
+      "username": "nutella_hjt",
+      "event_type": "leave",
+      "timestamp": "2024-11-30T22:57:08.427000"
+    },
+    {
+      "username": ".187123",
+      "event_type": "join",
+      "timestamp": "2024-12-13T20:42:34.483000"
+    },
+    {
+      "username": "paulus8029",
+      "event_type": "join",
+      "timestamp": "2024-12-14T11:47:27.550000"
+    },
+    {
+      "username": "stkly",
+      "event_type": "join",
+      "timestamp": "2024-12-14T23:15:03.444000"
+    },
+    {
+      "username": "pacco_the_taco",
+      "event_type": "leave",
+      "timestamp": "2024-12-28T09:16:53.548000"
+    },
+    {
+      "username": ".deinehoseistnass",
+      "event_type": "leave",
+      "timestamp": "2024-12-28T13:58:45.665000"
+    },
+    {
+      "username": "weissixhnicht",
+      "event_type": "leave",
+      "timestamp": "2024-12-28T20:54:01.985000"
+    },
+    {
+      "username": "critho",
+      "event_type": "leave",
+      "timestamp": "2024-12-30T00:33:00.162000"
+    },
+    {
+      "username": ".it_is_what_it_is",
+      "event_type": "join",
+      "timestamp": "2025-01-01T11:04:44.904000"
+    },
+    {
+      "username": "iaccdontknow_xd",
+      "event_type": "join",
+      "timestamp": "2025-01-01T11:15:34.970000"
+    },
+    {
+      "username": "back2hug",
+      "event_type": "leave",
+      "timestamp": "2025-01-01T14:05:48.990000"
+    },
+    {
+      "username": "stxpitxbxrritx",
+      "event_type": "join",
+      "timestamp": "2025-01-01T15:46:15.197000"
+    },
+    {
+      "username": "tornado_cat",
+      "event_type": "leave",
+      "timestamp": "2025-01-05T19:11:43.804000"
+    },
+    {
+      "username": "nutella_hjt",
+      "event_type": "join",
+      "timestamp": "2025-01-06T10:19:26.308000"
+    },
+    {
+      "username": "nutella_hjt",
+      "event_type": "leave",
+      "timestamp": "2025-01-06T10:20:01.337000"
+    },
+    {
+      "username": "unclejonytm",
+      "event_type": "leave",
+      "timestamp": "2025-01-16T09:31:46.470000"
+    },
+    {
+      "username": "playeronede",
+      "event_type": "leave",
+      "timestamp": "2025-01-23T13:40:40.303000"
+    },
+    {
+      "username": ".it_is_what_it_is",
+      "event_type": "leave",
+      "timestamp": "2025-01-25T14:04:25.374000"
+    },
+    {
+      "username": "cacyy",
+      "event_type": "leave",
+      "timestamp": "2025-01-30T13:49:44.443000"
+    },
+    {
+      "username": "nudeltsra",
+      "event_type": "join",
+      "timestamp": "2025-01-31T13:41:34.119000"
+    },
+    {
+      "username": "maxiking1770",
+      "event_type": "join",
+      "timestamp": "2025-02-01T18:48:49.001000"
+    },
+    {
+      "username": "inviskickt",
+      "event_type": "leave",
+      "timestamp": "2025-02-02T22:15:57.258000"
+    },
+    {
+      "username": "wooollffi",
+      "event_type": "join",
+      "timestamp": "2025-02-14T15:49:24.835000"
+    },
+    {
+      "username": "joline01855",
+      "event_type": "leave",
+      "timestamp": "2025-03-21T19:02:15.185000"
+    },
+    {
+      "username": "domi18689",
+      "event_type": "leave",
+      "timestamp": "2025-03-21T20:18:21.758000"
+    },
+    {
+      "username": "samhakwinsgamer",
+      "event_type": "leave",
+      "timestamp": "2025-03-30T18:13:13.631000"
+    },
+    {
+      "username": "hoizialex",
+      "event_type": "join",
+      "timestamp": "2025-04-21T14:32:45.593000"
+    },
+    {
+      "username": "pingu0205_",
+      "event_type": "join",
+      "timestamp": "2025-05-01T18:20:14.044000"
+    },
+    {
+      "username": "cloverlyasta",
+      "event_type": "join",
+      "timestamp": "2025-06-08T14:07:40.890000"
+    },
+    {
+      "username": "orange._.207",
+      "event_type": "join",
+      "timestamp": "2025-06-13T10:43:53.667000"
+    },
+    {
+      "username": "rarxaria",
+      "event_type": "join",
+      "timestamp": "2025-06-15T16:10:05.242000"
+    },
+    {
+      "username": ".lordvile",
+      "event_type": "join",
+      "timestamp": "2025-06-22T16:46:50.425000"
+    },
+    {
+      "username": "caity7423",
+      "event_type": "leave",
+      "timestamp": "2025-06-27T22:14:59.811000"
+    },
+    {
+      "username": "uwu_girl122",
+      "event_type": "leave",
+      "timestamp": "2025-07-10T18:05:23.344000"
+    },
+    {
+      "username": "pingu0205_",
+      "event_type": "leave",
+      "timestamp": "2025-07-25T20:33:13.745000"
+    },
+    {
+      "username": "outpainted",
+      "event_type": "join",
+      "timestamp": "2025-08-19T10:42:07.257000"
+    },
+    {
+      "username": "outpainted",
+      "event_type": "leave",
+      "timestamp": "2025-08-19T10:44:12.286000"
+    },
+    {
+      "username": "dusogamer",
+      "event_type": "join",
+      "timestamp": "2025-08-29T10:42:04.553000"
+    },
+    {
+      "username": "dusogamer",
+      "event_type": "leave",
+      "timestamp": "2025-09-12T16:10:22.943000"
+    },
+    {
+      "username": "gabothebabo",
+      "event_type": "join",
+      "timestamp": "2025-09-21T11:11:48.329000"
+    },
+    {
+      "username": "iaccdontknow_xd",
+      "event_type": "leave",
+      "timestamp": "2025-09-21T12:04:49.689000"
+    },
+    {
+      "username": "gabothebabo",
+      "event_type": "leave",
+      "timestamp": "2025-09-25T11:06:15.081000"
+    },
+    {
+      "username": "marie_vtuber55",
+      "event_type": "join",
+      "timestamp": "2025-10-01T18:58:40.902000"
+    },
+    {
+      "username": "marie_vtuber55",
+      "event_type": "leave",
+      "timestamp": "2025-10-02T20:47:07.353000"
+    },
+    {
+      "username": "mamaentlein",
+      "event_type": "join",
+      "timestamp": "2025-10-11T19:09:08.431000"
+    },
+    {
+      "username": "timberclaw_",
+      "event_type": "join",
+      "timestamp": "2025-10-13T19:01:11.661000"
+    },
+    {
+      "username": "sakolei",
+      "event_type": "join",
+      "timestamp": "2025-10-13T19:33:22.265000"
+    },
+    {
+      "username": "raupedieechte",
+      "event_type": "join",
+      "timestamp": "2025-10-30T20:41:44.166000"
+    },
+    {
+      "username": "mz0ckerc",
+      "event_type": "join",
+      "timestamp": "2025-10-31T20:05:23.757000"
+    },
+    {
+      "username": "death.koi",
+      "event_type": "join",
+      "timestamp": "2025-11-04T17:47:28.255000"
+    },
+    {
+      "username": "maxiking1770",
+      "event_type": "leave",
+      "timestamp": "2025-11-06T20:43:15.055000"
+    },
+    {
+      "username": "sinadreams",
+      "event_type": "leave",
+      "timestamp": "2025-11-08T19:29:13.106000"
+    },
+    {
+      "username": "fordster09",
+      "event_type": "join",
+      "timestamp": "2025-11-12T12:12:03.666000"
+    },
+    {
+      "username": "jxst_ari18",
+      "event_type": "leave",
+      "timestamp": "2025-11-14T07:37:40.070000"
+    },
+    {
+      "username": "mamaentlein",
+      "event_type": "leave",
+      "timestamp": "2025-12-06T23:07:47.063000"
+    },
+    {
+      "username": "unkennbarer",
+      "event_type": "join",
+      "timestamp": "2025-12-08T14:41:00.544000"
+    },
+    {
+      "username": "nono08415",
+      "event_type": "leave",
+      "timestamp": "2025-12-08T17:52:08.514000"
+    },
+    {
+      "username": "blacky7759",
+      "event_type": "join",
+      "timestamp": "2025-12-22T20:52:42.353000"
+    },
+    {
+      "username": "zerosyep",
+      "event_type": "leave",
+      "timestamp": "2025-12-24T15:42:11.221000"
+    },
+    {
+      "username": "braun9090",
+      "event_type": "join",
+      "timestamp": "2026-01-01T19:11:38.306000"
+    },
+    {
+      "username": "katzi_is_gone",
+      "event_type": "join",
+      "timestamp": "2026-01-02T18:49:22.443000"
+    },
+    {
+      "username": "fordster09.",
+      "event_type": "join",
+      "timestamp": "2026-01-12T11:30:20.036000"
+    },
+    {
+      "username": "hasi246",
+      "event_type": "leave",
+      "timestamp": "2026-01-17T16:15:39.461000"
+    },
+    {
+      "username": "schaasi",
+      "event_type": "join",
+      "timestamp": "2026-01-18T20:47:23.796000"
+    },
+    {
+      "username": "ryan_ghg",
+      "event_type": "leave",
+      "timestamp": "2026-01-21T17:20:21.343000"
+    },
+    {
+      "username": "karoujdgduxsbhd",
+      "event_type": "leave",
+      "timestamp": "2026-01-22T12:29:58.035000"
+    },
+    {
+      "username": "gameknight272",
+      "event_type": "join",
+      "timestamp": "2026-02-01T19:35:25.821000"
+    },
+    {
+      "username": "nils.617",
+      "event_type": "join",
+      "timestamp": "2026-02-01T19:51:45.941000"
+    },
+    {
+      "username": "lost_2space",
+      "event_type": "join",
+      "timestamp": "2026-02-01T20:13:41.662000"
+    },
+    {
+      "username": "raaaahhhhhhh_",
+      "event_type": "join",
+      "timestamp": "2026-02-05T06:41:40.174000"
+    },
+    {
+      "username": "raaaahhhhhhh_",
+      "event_type": "leave",
+      "timestamp": "2026-02-05T07:15:30.510000"
+    },
+    {
+      "username": "raaaahhhhhhh_",
+      "event_type": "join",
+      "timestamp": "2026-02-05T07:58:36.931000"
+    },
+    {
+      "username": "raaaahhhhhhh_",
+      "event_type": "leave",
+      "timestamp": "2026-02-05T08:08:27.023000"
+    },
+    {
+      "username": "raaaahhhhhhh_",
+      "event_type": "join",
+      "timestamp": "2026-02-05T10:25:59.339000"
+    },
+    {
+      "username": "raaaahhhhhhh_",
+      "event_type": "leave",
+      "timestamp": "2026-02-05T10:26:39.288000"
+    },
+    {
+      "username": "quint7379",
+      "event_type": "join",
+      "timestamp": "2026-02-05T23:48:07.228000"
+    },
+    {
+      "username": "quint7379",
+      "event_type": "leave",
+      "timestamp": "2026-02-05T23:59:41.868000"
+    },
+    {
+      "username": "lucylerntlesen.",
+      "event_type": "leave",
+      "timestamp": "2026-02-06T16:52:56.175000"
+    },
+    {
+      "username": "cosr104",
+      "event_type": "join",
+      "timestamp": "2026-02-15T17:53:50.924000"
+    },
+    {
+      "username": "kuschligekatze",
+      "event_type": "leave",
+      "timestamp": "2026-02-20T19:13:23.155000"
+    },
+    {
+      "username": "katzi_is_gone",
+      "event_type": "leave",
+      "timestamp": "2026-02-27T14:56:39.109000"
+    },
+    {
+      "username": "tommytv_",
+      "event_type": "leave",
+      "timestamp": "2026-02-28T15:13:29.939000"
+    },
+    {
+      "username": "lucylerntlesen",
+      "event_type": "leave",
+      "timestamp": "2026-03-04T11:33:52.122000"
+    },
+    {
+      "username": "nora_fee_",
+      "event_type": "join",
+      "timestamp": "2026-03-08T11:53:48.440000"
+    },
+    {
+      "username": "einfachnurnicoxd",
+      "event_type": "leave",
+      "timestamp": "2026-03-25T16:07:36.016000"
+    },
+    {
+      "username": "skuldandi",
+      "event_type": "join",
+      "timestamp": "2026-04-01T09:37:09.705000"
+    },
+    {
+      "username": "shbzt361",
+      "event_type": "leave",
+      "timestamp": "2026-04-04T14:40:48.608000"
+    },
+    {
+      "username": "benni3_lohk4",
+      "event_type": "join",
+      "timestamp": "2026-04-05T09:51:22.631000"
+    },
+    {
+      "username": "weissixhnicht",
+      "event_type": "join",
+      "timestamp": "2026-04-10T20:38:24.754000"
+    },
+    {
+      "username": "l3g3ndpvp",
+      "event_type": "leave",
+      "timestamp": "2026-05-19T15:43:29.618000"
+    },
+    {
+      "username": "timberclaw_",
+      "event_type": "leave",
+      "timestamp": "2026-05-22T10:04:41.131000"
+    },
+    {
+      "username": "kiteoe",
+      "event_type": "join",
+      "timestamp": "2026-06-27T22:47:06.072000"
+    },
+    {
+      "username": "kiteoe",
+      "event_type": "leave",
+      "timestamp": "2026-07-08T23:05:33.738000"
+    },
+    {
+      "username": "daveskoinagawgas_63768",
+      "event_type": "join",
+      "timestamp": "2026-07-14T14:44:42.769000"
+    },
+    {
+      "username": "lost_2space",
+      "event_type": "leave",
+      "timestamp": "2026-07-14T14:48:12.787000"
+    },
+    {
+      "username": "_pandaria_",
+      "event_type": "leave",
+      "timestamp": "2026-07-31T14:11:02.795000"
+    },
+    {
+      "username": "kaltxer",
+      "event_type": "leave",
+      "timestamp": "2026-08-13T09:52:13.497000"
+    },
+    {
+      "username": "rasmus1700",
+      "event_type": "leave",
+      "timestamp": "2026-08-19T07:53:44.474000"
+    },
+    {
+      "username": "nils.617",
+      "event_type": "leave",
+      "timestamp": "2026-08-30T08:28:14.122000"
     }
   ]
 }

@@ -35,6 +35,10 @@ def build_export():
     voice_totals = fetch_all(
         con, "SELECT user_id, SUM(duration_seconds) AS secs FROM voice_sessions GROUP BY user_id"
     )
+    member_events = fetch_all(
+        con,
+        "SELECT username, event_type, timestamp FROM member_events ORDER BY timestamp ASC"
+    )
     con.close()
 
     member_map = {m["user_id"]: m for m in members}
@@ -62,6 +66,7 @@ def build_export():
         "total_voice_seconds": sum(voice_map.values()),
         "member_count": len(members),
         "users": users,
+        "member_events": member_events,
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)

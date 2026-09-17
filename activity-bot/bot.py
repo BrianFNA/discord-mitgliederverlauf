@@ -90,6 +90,16 @@ def init_db():
             UNIQUE(user_id, channel_name, joined_at)
         )
     """)
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS member_events (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            user_id TEXT NOT NULL,
+            username TEXT NOT NULL,
+            event_type TEXT NOT NULL,
+            timestamp TEXT NOT NULL,
+            UNIQUE(user_id, event_type, timestamp)
+        )
+    """)
     con.commit()
     con.close()
 
@@ -113,6 +123,17 @@ def upsert_member(user_id, username, avatar_url, joined_at=None):
                 username=excluded.username,
                 avatar_url=excluded.avatar_url
         """, (str(user_id), username, avatar_url))
+    con.commit()
+    con.close()
+
+
+def log_member_event(user_id, username, event_type, timestamp):
+    con = sqlite3.connect(DB_PATH)
+    con.execute(
+        "INSERT OR IGNORE INTO member_events (user_id, username, event_type, timestamp) "
+        "VALUES (?, ?, ?, ?)",
+        (str(user_id), username, event_type, timestamp)
+    )
     con.commit()
     con.close()
 
@@ -183,6 +204,14 @@ async def on_member_join(member):
         return
     joined_at = member.joined_at.replace(tzinfo=None).isoformat() if member.joined_at else None
     upsert_member(member.id, str(member), member.display_avatar.url, joined_at)
+    log_member_event(member.id, str(member), "join", joined_at or datetime.datetime.utcnow().isoformat())
+
+
+@client.event
+async def on_member_remove(member):
+    if member.bot:
+        return
+    log_member_event(member.id, str(member), "leave", datetime.datetime.utcnow().isoformat())
 
 
 @client.event
