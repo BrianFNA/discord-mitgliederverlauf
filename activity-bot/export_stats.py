@@ -41,11 +41,12 @@ def build_export():
     msg_map = {r["user_id"]: r["cnt"] for r in msg_counts}
     voice_map = {r["user_id"]: r["secs"] for r in voice_totals}
 
-    all_ids = set(member_map) | set(msg_map) | set(voice_map)
-
+    # Nur bekannte Mitglieder (mit Eintrag in der members-Tabelle) - Nachrichten/
+    # Voice-Sessions von User-IDs ohne Mitgliedsdatensatz ("Unbekannt") werden
+    # nicht als eigene Zeile aufgeführt, fließen aber weiter in die Gesamt-
+    # summen (total_messages/total_voice_seconds) ein.
     users = []
-    for uid in all_ids:
-        m = member_map.get(uid, {})
+    for uid, m in member_map.items():
         users.append({
             "user_id": uid,
             "username": m.get("username", "Unbekannt"),
@@ -82,9 +83,10 @@ def build_voicelog():
     )
     con.close()
 
+    # Nur bekannte Mitglieder - Sessions von User-IDs ohne Mitgliedsdatensatz
+    # ("Unbekannt") werden komplett verworfen, nicht nur unbenannt angezeigt.
     users = {m["user_id"]: {"username": m["username"], "avatar_url": m["avatar_url"]} for m in members}
-    for s in sessions:
-        users.setdefault(s["user_id"], {"username": "Unbekannt", "avatar_url": None})
+    sessions = [s for s in sessions if s["user_id"] in users]
 
     voicelog = {
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",

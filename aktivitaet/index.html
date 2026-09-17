@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Server-Aktivität</title>
 <link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head>
 <body>
 
@@ -44,6 +45,20 @@
     <input type="search" id="search" placeholder="Nutzer suchen…" autocomplete="off">
   </div>
 
+  <div id="join-chart-wrap" class="join-chart-wrap" hidden>
+    <div class="join-chart-toolbar">
+      <span class="join-chart-hint">Mitgliederverlauf – Mausrad zum Zoomen, ziehen zum Verschieben</span>
+      <div class="join-chart-controls">
+        <button id="join-zoom-out" type="button" aria-label="Verkleinern">−</button>
+        <button id="join-zoom-reset" type="button">Reset</button>
+        <button id="join-zoom-in" type="button" aria-label="Vergrößern">+</button>
+        <span id="join-zoom-lvl" class="join-zoom-lvl">1.0×</span>
+      </div>
+    </div>
+    <svg id="join-chart" viewBox="0 0 900 320" preserveAspectRatio="xMidYMid meet"></svg>
+    <div id="join-tooltip" class="join-tooltip"></div>
+  </div>
+
   <ol class="leaderboard" id="leaderboard"></ol>
   <p class="empty-state" id="empty-state" hidden>Keine Einträge gefunden.</p>
 </main>
@@ -72,5 +87,6 @@
 
 <script src="script.js"></script>
 <script src="voicelog.js"></script>
+<script src="join-chart.js"></script>
 </body>
 </html>

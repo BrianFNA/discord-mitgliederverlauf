@@ -134,7 +134,10 @@ function setTab(tab) {
   document.querySelectorAll(".tab").forEach((btn) => {
     btn.classList.toggle("active", btn.dataset.tab === tab);
   });
+  const chartWrap = document.getElementById("join-chart-wrap");
+  if (chartWrap) chartWrap.hidden = tab !== "joins";
   render();
+  if (tab === "joins" && window.filterJoinChart) window.filterJoinChart(searchTerm);
 }
 
 document.querySelectorAll(".tab").forEach((btn) => {
@@ -144,6 +147,7 @@ document.querySelectorAll(".tab").forEach((btn) => {
 searchEl.addEventListener("input", (e) => {
   searchTerm = e.target.value;
   render();
+  if (currentTab === "joins" && window.filterJoinChart) window.filterJoinChart(searchTerm);
 });
 
 async function load() {
@@ -158,6 +162,7 @@ async function load() {
     document.getElementById("stat-updated").textContent = formatRelativeUpdate(data.generated_at);
 
     render();
+    if (window.initJoinChart) window.initJoinChart(allUsers);
   } catch (err) {
     emptyStateEl.hidden = false;
     emptyStateEl.textContent = "Daten konnten nicht geladen werden.";
