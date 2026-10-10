@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T18:00:00.082926Z",
+  "generated_at": "2026-10-10T13:56:35.003261Z",
   "users": {
     "1515734202862145660": {
       "username": "daveskoinagawgas_63768",
@@ -43,7 +43,7 @@
     },
     "1079715112551727144": {
       "username": "chefinselina",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1079715112551727144/37255ace2407453b6653fef12107bcff.png?size=1024"
+      "avatar_url": "https://cdn.discordapp.com/avatars/1079715112551727144/c17739b232fe4c96bf1a941154ccf1c5.png?size=1024"
     },
     "996901520530477196": {
       "username": "lea269",
@@ -175,7 +175,7 @@
     },
     "804344831811256351": {
       "username": "sakolei",
-      "avatar_url": "https://cdn.discordapp.com/avatars/804344831811256351/61d297f26968a32183b30f4415d266df.png?size=1024"
+      "avatar_url": "https://cdn.discordapp.com/avatars/804344831811256351/9b25f558dbc423266a5dbccfa18dfd21.png?size=1024"
     },
     "802561114293403679": {
       "username": "aureyla",
@@ -267,7 +267,7 @@
     },
     "725770348162973797": {
       "username": "leaxoxo",
-      "avatar_url": "https://cdn.discordapp.com/avatars/725770348162973797/1f07b03c855950e301ce393a0410236a.png?size=1024"
+      "avatar_url": "https://cdn.discordapp.com/avatars/725770348162973797/4f452e5fb811f9eb24c23fae240c427a.png?size=1024"
     },
     "717392986547290244": {
       "username": "tramalama.",
@@ -519,7 +519,7 @@
     },
     "265203243276173313": {
       "username": "hannimoon",
-      "avatar_url": "https://cdn.discordapp.com/avatars/265203243276173313/b560c63cb04084ab0f31b61740d68fed.png?size=1024"
+      "avatar_url": "https://cdn.discordapp.com/avatars/265203243276173313/b05d47d4b20e55c94435689e7b18c8a7.png?size=1024"
     },
     "265146624546701313": {
       "username": "diximixi",
@@ -1644,6 +1644,10 @@
     "376714709136572427": {
       "username": "raaaahhhhhhh_",
       "avatar_url": null
+    },
+    "1243630132015665176": {
+      "username": "4my5unrise",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1243630132015665176/51869ddaf95d12ff84fe5f8361b3ce3d.png?size=1024"
     }
   },
   "sessions": [
@@ -91281,6 +91285,146 @@
       "joined_at": "2026-09-13T15:50:03.797000",
       "left_at": "2026-09-13T17:10:45.344000",
       "duration_seconds": 4841
+    },
+    {
+      "user_id": "661942807346413578",
+      "channel_name": "Laberecke 2",
+      "joined_at": "2026-09-25T18:04:24.073000",
+      "left_at": "2026-09-25T19:11:11.547000",
+      "duration_seconds": 4007
+    },
+    {
+      "user_id": "710581165660307478",
+      "channel_name": "Laberecke 2",
+      "joined_at": "2026-09-25T18:34:20.131000",
+      "left_at": "2026-09-25T18:37:05.183000",
+      "duration_seconds": 165
+    },
+    {
+      "user_id": "952547173919236126",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-09-25T20:54:18.799000",
+      "left_at": "2026-09-25T21:00:23.825000",
+      "duration_seconds": 365
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-09-26T19:37:56.881520",
+      "left_at": "2026-09-26T19:59:57.364301",
+      "duration_seconds": 1320
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-09-26T19:38:00.047000",
+      "left_at": "2026-09-26T20:00:00.240000",
+      "duration_seconds": 1320
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-10-02T18:45:28.611000",
+      "left_at": "2026-10-02T20:22:25.193000",
+      "duration_seconds": 5816
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-03T18:42:56.859000",
+      "left_at": "2026-10-03T19:34:47.845000",
+      "duration_seconds": 3110
+    },
+    {
+      "user_id": "1079715112551727144",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-04T16:59:35.264000",
+      "left_at": "2026-10-04T16:59:44.240000",
+      "duration_seconds": 8
+    },
+    {
+      "user_id": "1079715112551727144",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-04T16:59:49.209000",
+      "left_at": "2026-10-04T17:34:04.770000",
+      "duration_seconds": 2055
+    },
+    {
+      "user_id": "1079715112551727144",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-04T17:34:14.699000",
+      "left_at": "2026-10-04T17:45:09.686000",
+      "duration_seconds": 654
+    },
+    {
+      "user_id": "760836402807570504",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-04T17:36:54.767000",
+      "left_at": "2026-10-04T18:01:06.951000",
+      "duration_seconds": 1452
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-10-05T19:17:38.690000",
+      "left_at": "2026-10-05T19:39:49.446000",
+      "duration_seconds": 1330
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-10-05T19:40:29.474000",
+      "left_at": "2026-10-05T20:07:59.844000",
+      "duration_seconds": 1650
+    },
+    {
+      "user_id": "760836402807570504",
+      "channel_name": "Laberecke 2",
+      "joined_at": "2026-10-07T14:36:01.004000",
+      "left_at": "2026-10-07T14:43:25.986000",
+      "duration_seconds": 444
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-09T18:29:37.724000",
+      "left_at": "2026-10-09T19:48:33.943000",
+      "duration_seconds": 4736
+    },
+    {
+      "user_id": "710581165660307478",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-09T18:29:47.710000",
+      "left_at": "2026-10-09T18:29:57.734000",
+      "duration_seconds": 10
+    },
+    {
+      "user_id": "1195509359111835730",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-09T19:12:28.532000",
+      "left_at": "2026-10-09T19:22:38.487000",
+      "duration_seconds": 609
+    },
+    {
+      "user_id": "1195509359111835730",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-09T19:22:48.464000",
+      "left_at": "2026-10-09T20:13:24.274000",
+      "duration_seconds": 3035
+    },
+    {
+      "user_id": "1195509359111835730",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-09T20:13:29.289000",
+      "left_at": "2026-10-09T22:01:25.348000",
+      "duration_seconds": 6476
+    },
+    {
+      "user_id": "1243630132015665176",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-09T21:10:19.921000",
+      "left_at": "2026-10-09T21:31:45.025000",
+      "duration_seconds": 1285
     }
   ]
 }
