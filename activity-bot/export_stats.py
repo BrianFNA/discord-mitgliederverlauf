@@ -121,6 +121,16 @@ def push_to_github():
         if commit.returncode != 0 and "nothing to commit" not in commit.stdout:
             print(f"git commit: {commit.stdout}{commit.stderr}")
             return
+        # Falls zwischendurch (z.B. vom PC) Code gepusht wurde, sonst würde der Push
+        # abgelehnt. "-X theirs" bevorzugt beim Rebase unseren frisch erzeugten Export.
+        pull = subprocess.run(
+            ["git", "pull", "--rebase", "--autostash", "-X", "theirs", "--no-edit"],
+            cwd=REPO_ROOT, capture_output=True, text=True,
+        )
+        if pull.returncode != 0:
+            subprocess.run(["git", "rebase", "--abort"], cwd=REPO_ROOT, capture_output=True, text=True)
+            print(f"git pull --rebase fehlgeschlagen: {pull.stdout}{pull.stderr}")
+            return
         push = subprocess.run(
             ["git", "push"],
             cwd=REPO_ROOT, capture_output=True, text=True,
