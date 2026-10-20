@@ -25,6 +25,7 @@
   let range = "last12";
   let today = null;
   let dataUntil = null;
+  let firstDay = null;
 
   const iso = (d) => d.toISOString().slice(0, 10);
   const utcDate = (s) => {
@@ -85,7 +86,7 @@
       const row = i % 7;
       const key = iso(d);
       const rec = days.get(key);
-      shown++;
+      if (key >= firstDay) shown++;
       if (rec) {
         totMsg += rec.m;
         totVoice += rec.v;
@@ -198,6 +199,7 @@
 
       today = (data.generated_at || new Date().toISOString()).slice(0, 10);
       dataUntil = data.data_until || rows[rows.length - 1][0];
+      firstDay = rows[0][0];
 
       const firstYear = Number(rows[0][0].slice(0, 4));
       const lastYear = Number(today.slice(0, 4));
