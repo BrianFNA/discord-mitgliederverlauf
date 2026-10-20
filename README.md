@@ -78,13 +78,15 @@ Discord-Bot-Application ist bereits angelegt und eingeladen: `Bot_FNA#4474`.
   nachgeladen von `backfill_joins.py`) statt einer manuell kopierten
   Logdatei. Grüne Punkte = Beitritt, rote = Austritt.
 - `aktivitaet/heatmap.js` + `aktivitaet/daily.json` — Aktivitäts-Graph im
-  GitHub-Stil oberhalb der Tabs: ein Feld pro Tag (UTC), Farbe nach Menge.
-  Umschaltbar zwischen Gesamt (stärkere der beiden Stufen), Nachrichten und
-  Voice, Zeitraum "Letzte 12 Monate" oder einzelnes Jahr. Die Farbstufen sind
+  GitHub-Stil oberhalb der Tabs: ein Feld pro Tag (UTC), Farbe nach Menge,
+  über die gesamte Historie horizontal scrollbar (startet bei den neuesten
+  Wochen, die Wochentage links bleiben stehen). Umschaltbar zwischen Gesamt
+  (stärkere der beiden Stufen), Nachrichten und Voice. Die Farbstufen sind
   Quartile der Tage mit Aktivität. `daily.json` (`[Tag, Nachrichten,
   Voice-Sekunden]`) erzeugt `export_stats.py` (`build_daily()`) zusammen mit
-  den anderen Exporten; weicht das Exportdatum mehr als 2 Tage vom letzten
-  Datenstand ab, zeigt die Seite einen gelben Hinweis.
+  den anderen Exporten. Ändert sich eine CSS-/JS-Datei, die Versionsnummer
+  (`?v=`) in `index.html` erhöhen, sonst liefert der Browser-Cache (GitHub
+  Pages: 10 Minuten) kurz die alte Datei zur neuen Seite.
 
 Nutzer ohne Eintrag in der `members`-Tabelle (z. B. sehr alte Nachrichten/
 Voice-Sessions von jemandem, der vor dem ersten Bot-Start bereits wieder

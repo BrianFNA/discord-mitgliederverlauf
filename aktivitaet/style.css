@@ -774,20 +774,23 @@ footer {
   color: #fff;
 }
 
-#heat-year {
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  color: var(--text);
-  border-radius: 999px;
-  padding: 6px 12px;
-  font-size: 12px;
-  font-family: inherit;
-  outline: none;
+.heat-body {
+  display: flex;
+  align-items: flex-start;
+}
+
+#heat-weekdays {
+  flex: none;
+  display: block;
 }
 
 .heat-scroll {
+  flex: 1;
+  min-width: 0;
   overflow-x: auto;
   padding-bottom: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff30 transparent;
 }
 
 #heat-svg {
@@ -798,6 +801,11 @@ footer {
 .heat-label {
   fill: var(--text-dim);
   font-size: 10px;
+}
+
+.heat-label-year {
+  fill: var(--text);
+  font-weight: 700;
 }
 
 .heat-cell.l0 { fill: #ffffff0f; background: #ffffff0f; }
@@ -818,16 +826,12 @@ rect.heat-cell:hover {
 .heat-foot {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 6px;
   font-size: 11.5px;
   color: var(--text-dim);
-}
-
-.heat-stale {
-  color: var(--gold);
 }
 
 .heat-legend {

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Server-Aktivität</title>
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="style.css?v=5">
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head>
 <body>
@@ -48,12 +48,13 @@
           <button type="button" data-metric="messages">Nachrichten</button>
           <button type="button" data-metric="voice">Voice</button>
         </div>
-        <select id="heat-year" aria-label="Zeitraum"></select>
       </div>
     </div>
-    <div class="heat-scroll" id="heat-scroll"><svg id="heat-svg" role="img" aria-label="Aktivität pro Tag"></svg></div>
+    <div class="heat-body">
+      <svg id="heat-weekdays" aria-hidden="true"></svg>
+      <div class="heat-scroll" id="heat-scroll"><svg id="heat-svg" role="img" aria-label="Aktivität pro Tag"></svg></div>
+    </div>
     <div class="heat-foot">
-      <span class="heat-note" id="heat-note"></span>
       <span class="heat-legend">Weniger <i class="heat-cell l0"></i><i class="heat-cell l1"></i><i class="heat-cell l2"></i><i class="heat-cell l3"></i><i class="heat-cell l4"></i> Mehr</span>
     </div>
   </div>
@@ -113,9 +114,9 @@
   </div>
 </div>
 
-<script src="script.js?v=3"></script>
-<script src="voicelog.js?v=3"></script>
-<script src="join-chart.js?v=3"></script>
-<script src="heatmap.js?v=3"></script>
+<script src="script.js?v=5"></script>
+<script src="voicelog.js?v=5"></script>
+<script src="join-chart.js?v=5"></script>
+<script src="heatmap.js?v=5"></script>
 </body>
 </html>

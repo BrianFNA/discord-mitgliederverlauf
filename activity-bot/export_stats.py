@@ -127,7 +127,6 @@ def build_daily():
 
     daily = {
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-        "data_until": max(days) if days else None,
         "days": [[d, m, v] for d, (m, v) in sorted(days.items())],
     }
 

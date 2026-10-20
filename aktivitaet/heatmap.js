@@ -1,5 +1,6 @@
 /* Aktivitäts-Graph im GitHub-Stil: ein Feld pro Tag (UTC), Farbe nach
- * Aktivität. Daten aus daily.json: [Datum, Nachrichten, Voice-Sekunden].
+ * Aktivität, über die gesamte Historie horizontal scrollbar (startet bei den
+ * neuesten Wochen). Daten aus daily.json: [Datum, Nachrichten, Voice-Sekunden].
  * Farbstufen sind Quartile der Tage MIT Aktivität, damit einzelne
  * Ausreißer-Tage nicht alle anderen Tage ausbleichen. */
 (function () {
@@ -7,24 +8,21 @@
   if (!wrap) return;
 
   const svgEl = document.getElementById("heat-svg");
+  const dayLabelsEl = document.getElementById("heat-weekdays");
   const scrollEl = document.getElementById("heat-scroll");
-  const yearSel = document.getElementById("heat-year");
   const summaryEl = document.getElementById("heat-summary");
-  const noteEl = document.getElementById("heat-note");
   const tipEl = document.getElementById("heat-tooltip");
 
   const MONTHS = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"];
   const WEEKDAY_LABELS = { 0: "Mo", 2: "Mi", 4: "Fr" };
-  const CELL = 11, STEP = 14, LEFT = 28, TOP = 18;
+  const CELL = 11, STEP = 14, LEFT = 2, TOP = 18;
   const DAY_MS = 86400000;
 
   const days = new Map();
   let thMsg = [0, 0, 0];
   let thVoice = [0, 0, 0];
   let metric = "all";
-  let range = "last12";
   let today = null;
-  let dataUntil = null;
   let firstDay = null;
 
   const iso = (d) => d.toISOString().slice(0, 10);
@@ -33,7 +31,6 @@
     return new Date(Date.UTC(y, m - 1, d));
   };
   const weekday = (d) => (d.getUTCDay() + 6) % 7;
-  const fmtDay = (s) => utcDate(s).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric", timeZone: "UTC" });
 
   function thresholds(values) {
     const v = values.filter((x) => x > 0).sort((a, b) => a - b);
@@ -59,18 +56,19 @@
     return Math.max(lm, lv);
   }
 
-  function bounds() {
-    const end0 = utcDate(today);
-    if (range === "last12") {
-      return { start: new Date(end0.getTime() - 364 * DAY_MS), end: end0 };
-    }
-    const y = Number(range);
-    const yearEnd = new Date(Date.UTC(y, 11, 31));
-    return { start: new Date(Date.UTC(y, 0, 1)), end: yearEnd < end0 ? yearEnd : end0 };
+  function renderWeekdayLabels() {
+    let html = "";
+    Object.keys(WEEKDAY_LABELS).forEach((row) => {
+      html += `<text class="heat-label" x="0" y="${TOP + row * STEP + CELL - 1}">${WEEKDAY_LABELS[row]}</text>`;
+    });
+    dayLabelsEl.setAttribute("width", 22);
+    dayLabelsEl.setAttribute("height", TOP + 7 * STEP);
+    dayLabelsEl.innerHTML = html;
   }
 
   function render() {
-    const { start, end } = bounds();
+    const start = utcDate(firstDay);
+    const end = utcDate(today);
     const gridStart = new Date(start.getTime() - weekday(start) * DAY_MS);
     const totalDays = Math.round((end - gridStart) / DAY_MS) + 1;
     const cols = Math.ceil(totalDays / 7);
@@ -86,26 +84,26 @@
       const row = i % 7;
       const key = iso(d);
       const rec = days.get(key);
-      if (key >= firstDay) shown++;
+      shown++;
       if (rec) {
         totMsg += rec.m;
         totVoice += rec.v;
         if (rec.m > 0 || rec.v > 0) active++;
       }
-      if (d.getUTCDate() === 1) monthLabels.push({ col, text: MONTHS[d.getUTCMonth()] });
+      if (d.getUTCDate() === 1) {
+        const m = d.getUTCMonth();
+        monthLabels.push({ col, text: m === 0 ? String(d.getUTCFullYear()) : MONTHS[m], year: m === 0 });
+      }
       cells += `<rect class="heat-cell l${cellLevel(rec)}" x="${LEFT + col * STEP}" y="${TOP + row * STEP}" width="${CELL}" height="${CELL}" rx="2" data-d="${key}"></rect>`;
     }
 
     if (!monthLabels.length || monthLabels[0].col >= 3) {
-      monthLabels.unshift({ col: 0, text: MONTHS[start.getUTCMonth()] });
+      monthLabels.unshift({ col: 0, text: MONTHS[start.getUTCMonth()], year: false });
     }
 
     let labels = "";
     monthLabels.forEach((m) => {
-      labels += `<text class="heat-label" x="${LEFT + m.col * STEP}" y="${TOP - 6}">${m.text}</text>`;
-    });
-    Object.keys(WEEKDAY_LABELS).forEach((row) => {
-      labels += `<text class="heat-label" x="0" y="${TOP + row * STEP + CELL - 1}">${WEEKDAY_LABELS[row]}</text>`;
+      labels += `<text class="heat-label${m.year ? " heat-label-year" : ""}" x="${LEFT + m.col * STEP}" y="${TOP - 6}">${m.text}</text>`;
     });
 
     const width = LEFT + cols * STEP;
@@ -172,17 +170,14 @@
 
   document.querySelectorAll("#heat-metric button").forEach((btn) => {
     btn.addEventListener("click", () => {
+      const keepScroll = scrollEl.scrollLeft;
       metric = btn.dataset.metric;
       document.querySelectorAll("#heat-metric button").forEach((b) => {
         b.classList.toggle("active", b === btn);
       });
       render();
+      scrollEl.scrollLeft = keepScroll;
     });
-  });
-
-  yearSel.addEventListener("change", () => {
-    range = yearSel.value;
-    render();
   });
 
   fetch("daily.json", { cache: "no-store" })
@@ -197,25 +192,10 @@
       thMsg = thresholds(rows.map((r) => r[1]));
       thVoice = thresholds(rows.map((r) => r[2]));
 
-      today = (data.generated_at || new Date().toISOString()).slice(0, 10);
-      dataUntil = data.data_until || rows[rows.length - 1][0];
       firstDay = rows[0][0];
+      today = (data.generated_at || new Date().toISOString()).slice(0, 10);
 
-      const firstYear = Number(rows[0][0].slice(0, 4));
-      const lastYear = Number(today.slice(0, 4));
-      yearSel.innerHTML = '<option value="last12">Letzte 12 Monate</option>';
-      for (let y = lastYear; y >= firstYear; y--) {
-        yearSel.insertAdjacentHTML("beforeend", `<option value="${y}">${y}</option>`);
-      }
-
-      let note = `Tage in UTC · Stand ${fmtDay(today)}`;
-      const lagDays = (utcDate(today) - utcDate(dataUntil)) / DAY_MS;
-      if (lagDays > 2) {
-        note += ` · letzte erfasste Aktivität: ${fmtDay(dataUntil)}`;
-        noteEl.classList.add("heat-stale");
-      }
-      noteEl.textContent = note;
-
+      renderWeekdayLabels();
       wrap.hidden = false;
       render();
     })
