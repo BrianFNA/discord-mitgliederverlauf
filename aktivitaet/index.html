@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Server-Aktivität</title>
 <link rel="stylesheet" href="style.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head>
 <body>
 
@@ -33,6 +33,31 @@
     <span class="stat-value" id="stat-updated">–</span>
     <span class="stat-label">Letztes Update</span>
   </div>
+</section>
+
+<section class="heat-section" id="heat-wrap" hidden>
+  <div class="heat-card">
+    <div class="heat-head">
+      <div class="heat-title">
+        <h2>Aktivität pro Tag</h2>
+        <span class="heat-summary" id="heat-summary"></span>
+      </div>
+      <div class="heat-controls">
+        <div class="heat-pills" id="heat-metric" role="group" aria-label="Metrik">
+          <button type="button" data-metric="all" class="active">Gesamt</button>
+          <button type="button" data-metric="messages">Nachrichten</button>
+          <button type="button" data-metric="voice">Voice</button>
+        </div>
+        <select id="heat-year" aria-label="Zeitraum"></select>
+      </div>
+    </div>
+    <div class="heat-scroll" id="heat-scroll"><svg id="heat-svg" role="img" aria-label="Aktivität pro Tag"></svg></div>
+    <div class="heat-foot">
+      <span class="heat-note" id="heat-note"></span>
+      <span class="heat-legend">Weniger <i class="heat-cell l0"></i><i class="heat-cell l1"></i><i class="heat-cell l2"></i><i class="heat-cell l3"></i><i class="heat-cell l4"></i> Mehr</span>
+    </div>
+  </div>
+  <div id="heat-tooltip" class="join-tooltip"></div>
 </section>
 
 <main class="panel">
@@ -91,5 +116,6 @@
 <script src="script.js"></script>
 <script src="voicelog.js"></script>
 <script src="join-chart.js"></script>
+<script src="heatmap.js"></script>
 </body>
 </html>

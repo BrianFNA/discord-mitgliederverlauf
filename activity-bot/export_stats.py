@@ -16,6 +16,7 @@ DB_PATH = os.path.join(os.path.dirname(__file__), "activity.db")
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_PATH = os.path.join(REPO_ROOT, "aktivitaet", "data.json")
 VOICELOG_OUT_PATH = os.path.join(REPO_ROOT, "aktivitaet", "voicelog.json")
+DAILY_OUT_PATH = os.path.join(REPO_ROOT, "aktivitaet", "daily.json")
 
 
 def fetch_all(con, query):
@@ -107,11 +108,42 @@ def build_voicelog():
     return voicelog
 
 
+def build_daily():
+    """Nachrichten und Voice-Sekunden pro Tag (UTC) für den Aktivitäts-Graphen."""
+    con = sqlite3.connect(DB_PATH)
+    msgs = con.execute(
+        "SELECT substr(timestamp, 1, 10), COUNT(*) FROM messages GROUP BY 1"
+    ).fetchall()
+    voice = con.execute(
+        "SELECT substr(joined_at, 1, 10), SUM(duration_seconds) FROM voice_sessions GROUP BY 1"
+    ).fetchall()
+    con.close()
+
+    days = {}
+    for day, count in msgs:
+        days.setdefault(day, [0, 0])[0] = count
+    for day, secs in voice:
+        days.setdefault(day, [0, 0])[1] = int(secs)
+
+    daily = {
+        "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "data_until": max(days) if days else None,
+        "days": [[d, m, v] for d, (m, v) in sorted(days.items())],
+    }
+
+    os.makedirs(os.path.dirname(DAILY_OUT_PATH), exist_ok=True)
+    with open(DAILY_OUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(daily, f, ensure_ascii=False, separators=(",", ":"))
+
+    print(f"Tagesaktivität geschrieben nach {DAILY_OUT_PATH} ({len(days)} Tage).")
+    return daily
+
+
 def push_to_github():
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     try:
         subprocess.run(
-            ["git", "add", "aktivitaet/data.json", "aktivitaet/voicelog.json"],
+            ["git", "add", "aktivitaet/data.json", "aktivitaet/voicelog.json", "aktivitaet/daily.json"],
             cwd=REPO_ROOT, check=True, capture_output=True, text=True,
         )
         commit = subprocess.run(
@@ -146,3 +178,4 @@ def push_to_github():
 if __name__ == "__main__":
     build_export()
     build_voicelog()
+    build_daily()

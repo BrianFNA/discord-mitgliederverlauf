@@ -32,7 +32,7 @@ import discord
 from discord.ext import tasks
 from dotenv import load_dotenv
 
-from export_stats import build_export, build_voicelog, push_to_github
+from export_stats import build_daily, build_export, build_voicelog, push_to_github
 
 load_dotenv()
 
@@ -260,6 +260,7 @@ def _export_and_publish():
     try:
         build_export()
         build_voicelog()
+        build_daily()
         push_to_github()
     except Exception as e:
         print(f"Fehler beim Export/Veröffentlichen: {e}")

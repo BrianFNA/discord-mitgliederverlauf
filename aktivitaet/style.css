@@ -705,3 +705,140 @@ footer {
 .join-tooltip .jt-row.jt-leave {
   color: #f23f42;
 }
+
+/* ---------- Aktivitäts-Graph (GitHub-Stil) ---------- */
+
+.heat-section {
+  max-width: 900px;
+  margin: 28px auto 0;
+  padding: 0 24px;
+}
+
+.heat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px 12px;
+}
+
+.heat-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.heat-title h2 {
+  margin: 0 0 2px;
+  font-size: 15px;
+}
+
+.heat-summary {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.heat-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.heat-pills {
+  display: flex;
+  gap: 4px;
+  background: var(--bg-elevated);
+  padding: 3px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+.heat-pills button {
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 12px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.heat-pills button:hover { color: var(--text); }
+
+.heat-pills button.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+#heat-year {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-family: inherit;
+  outline: none;
+}
+
+.heat-scroll {
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+#heat-svg {
+  display: block;
+  max-width: none;
+}
+
+.heat-label {
+  fill: var(--text-dim);
+  font-size: 10px;
+}
+
+.heat-cell.l0 { fill: #ffffff0f; background: #ffffff0f; }
+.heat-cell.l1 { fill: #2f3470; background: #2f3470; }
+.heat-cell.l2 { fill: #4048a8; background: #4048a8; }
+.heat-cell.l3 { fill: #5865f2; background: #5865f2; }
+.heat-cell.l4 { fill: #9aa3ff; background: #9aa3ff; }
+
+rect.heat-cell {
+  cursor: pointer;
+}
+
+rect.heat-cell:hover {
+  stroke: #ffffffcc;
+  stroke-width: 1.5;
+}
+
+.heat-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+  font-size: 11.5px;
+  color: var(--text-dim);
+}
+
+.heat-stale {
+  color: var(--gold);
+}
+
+.heat-legend {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+i.heat-cell {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 2px;
+}
