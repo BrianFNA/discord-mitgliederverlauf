@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T18:00:00.044408Z",
+  "generated_at": "2026-10-27T10:34:00.063735Z",
   "total_messages": 219291,
   "total_voice_seconds": 40494289,
-  "member_count": 412,
+  "member_count": 414,
   "users": [
     {
       "user_id": "1515734202862145660",
@@ -87,7 +87,7 @@
     {
       "user_id": "1079715112551727144",
       "username": "chefinselina",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1079715112551727144/c17739b232fe4c96bf1a941154ccf1c5.png?size=1024",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1079715112551727144/e60b10ac7e6969ae804639013628af4b.png?size=1024",
       "message_count": 118,
       "voice_seconds": 102557,
       "joined_at": "2023-05-29T12:26:24.014000"
@@ -183,7 +183,7 @@
     {
       "user_id": "933145228553097216",
       "username": "ichlecksiewund.",
-      "avatar_url": "https://cdn.discordapp.com/avatars/933145228553097216/82aecedaf27f69dd673264d9ec9b8910.png?size=1024",
+      "avatar_url": "https://cdn.discordapp.com/avatars/933145228553097216/0bf82b13f6eb7dbc7cce3612a39fe025.png?size=1024",
       "message_count": 12151,
       "voice_seconds": 139158,
       "joined_at": "2024-10-16T15:00:34.014000"
@@ -535,7 +535,7 @@
     {
       "user_id": "725770348162973797",
       "username": "leaxoxo",
-      "avatar_url": "https://cdn.discordapp.com/avatars/725770348162973797/4f452e5fb811f9eb24c23fae240c427a.png?size=1024",
+      "avatar_url": "https://cdn.discordapp.com/avatars/725770348162973797/403fe53bc565f55ff1c2d29f5a1d3752.png?size=1024",
       "message_count": 7,
       "voice_seconds": 1369,
       "joined_at": "2022-07-11T08:29:38.175000"
@@ -567,7 +567,7 @@
     {
       "user_id": "710455477103755306",
       "username": "tilliboy",
-      "avatar_url": "https://cdn.discordapp.com/avatars/710455477103755306/5c15adff85509bb287eb23cc48fa24db.png?size=1024",
+      "avatar_url": "https://cdn.discordapp.com/avatars/710455477103755306/3044899929efe60914265a9aa9e0a05e.png?size=1024",
       "message_count": 0,
       "voice_seconds": 4880,
       "joined_at": "2023-06-21T17:48:33.420000"
@@ -3295,10 +3295,26 @@
     {
       "user_id": "1243630132015665176",
       "username": "4my5unrise",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1243630132015665176/51869ddaf95d12ff84fe5f8361b3ce3d.png?size=1024",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1243630132015665176/207f0a3900b087012f4c70ad0a42b35f.png?size=1024",
       "message_count": 0,
       "voice_seconds": 1285,
       "joined_at": "2026-10-09T21:10:09.863000"
+    },
+    {
+      "user_id": "1395441373603168388",
+      "username": "ein_lion",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1395441373603168388/64d60bf5feace836539980e251a520fb.png?size=1024",
+      "message_count": 0,
+      "voice_seconds": 0,
+      "joined_at": "2026-10-25T14:13:50.928000"
+    },
+    {
+      "user_id": "795396883295240192",
+      "username": "xmarie_",
+      "avatar_url": "https://cdn.discordapp.com/avatars/795396883295240192/5e0441f563673b087760d92146a0d86f.png?size=1024",
+      "message_count": 0,
+      "voice_seconds": 0,
+      "joined_at": "2026-10-25T18:42:07.771000"
     }
   ],
   "member_events": [
