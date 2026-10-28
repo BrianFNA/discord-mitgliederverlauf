@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T06:00:00.107862Z",
-  "total_messages": 219349,
+  "generated_at": "2026-10-28T12:00:00.133605Z",
+  "total_messages": 219350,
   "total_voice_seconds": 40494289,
   "member_count": 414,
   "users": [
@@ -87,7 +87,7 @@
     {
       "user_id": "1079715112551727144",
       "username": "chefinselina",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1079715112551727144/e60b10ac7e6969ae804639013628af4b.png?size=1024",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1079715112551727144/70b729e3e6c7a72eab7e24f15acab7ca.png?size=1024",
       "message_count": 118,
       "voice_seconds": 102557,
       "joined_at": "2023-05-29T12:26:24.014000"
@@ -1008,7 +1008,7 @@
       "user_id": "324609725134012418",
       "username": "the_nugnu",
       "avatar_url": "https://cdn.discordapp.com/avatars/324609725134012418/ef5571c786ba3f87a4afb6f77a3496e8.png?size=1024",
-      "message_count": 367,
+      "message_count": 368,
       "voice_seconds": 12964,
       "joined_at": "2023-12-12T05:35:59.089000"
     },
