@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T18:00:00.434449Z",
-  "total_messages": 219348,
+  "generated_at": "2026-10-28T00:00:00.178136Z",
+  "total_messages": 219349,
   "total_voice_seconds": 40494289,
   "member_count": 414,
   "users": [
@@ -552,7 +552,7 @@
       "user_id": "710581165660307478",
       "username": "ichbineinalienkeinmensch",
       "avatar_url": "https://cdn.discordapp.com/avatars/710581165660307478/c09806b71bcb694cf15497c9f6d5804e.png?size=1024",
-      "message_count": 7832,
+      "message_count": 7833,
       "voice_seconds": 4947771,
       "joined_at": "2021-10-07T15:45:08.894000"
     },
