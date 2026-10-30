@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T18:00:00.145825Z",
-  "total_messages": 219359,
-  "total_voice_seconds": 40508483,
+  "generated_at": "2026-10-30T00:00:00.105615Z",
+  "total_messages": 219365,
+  "total_voice_seconds": 40527977,
   "member_count": 415,
   "users": [
     {
@@ -128,8 +128,8 @@
       "user_id": "965230328845303870",
       "username": "geschlafener",
       "avatar_url": "https://cdn.discordapp.com/avatars/965230328845303870/a44e5b24b7772923b709bce3ebe99aa1.png?size=1024",
-      "message_count": 35,
-      "voice_seconds": 54778,
+      "message_count": 36,
+      "voice_seconds": 59417,
       "joined_at": "2022-08-24T11:51:49.882000"
     },
     {
@@ -377,7 +377,7 @@
       "username": "ellen2511",
       "avatar_url": "https://cdn.discordapp.com/avatars/789585087477710858/71f4825b037719d8bf6acd2330faaa1c.png?size=1024",
       "message_count": 54183,
-      "voice_seconds": 2359664,
+      "voice_seconds": 2363141,
       "joined_at": "2021-10-10T10:15:10.993000"
     },
     {
@@ -513,7 +513,7 @@
       "username": "cosi___",
       "avatar_url": "https://cdn.discordapp.com/avatars/732175178900963369/f4318e1a49d550e4c7dcc8ec65b70f29.png?size=1024",
       "message_count": 6,
-      "voice_seconds": 2606,
+      "voice_seconds": 4802,
       "joined_at": "2026-02-15T17:53:50.924000"
     },
     {
@@ -736,7 +736,7 @@
       "user_id": "604177348455039007",
       "username": "stec47",
       "avatar_url": "https://cdn.discordapp.com/avatars/604177348455039007/9472fe369e523e5bae2cd77a98c54f4a.png?size=1024",
-      "message_count": 1420,
+      "message_count": 1421,
       "voice_seconds": 245250,
       "joined_at": "2023-10-26T18:07:41.459000"
     },
@@ -864,8 +864,8 @@
       "user_id": "507227222902571008",
       "username": "brian_fna",
       "avatar_url": "https://cdn.discordapp.com/avatars/507227222902571008/5cafcd98e7b4c43778e765c17ade9ed8.png?size=1024",
-      "message_count": 23794,
-      "voice_seconds": 6121378,
+      "message_count": 23796,
+      "voice_seconds": 6130401,
       "joined_at": "2021-09-12T09:39:37.773000"
     },
     {
@@ -1008,8 +1008,8 @@
       "user_id": "324609725134012418",
       "username": "the_nugnu",
       "avatar_url": "https://cdn.discordapp.com/avatars/324609725134012418/ef5571c786ba3f87a4afb6f77a3496e8.png?size=1024",
-      "message_count": 368,
-      "voice_seconds": 12964,
+      "message_count": 370,
+      "voice_seconds": 13123,
       "joined_at": "2023-12-12T05:35:59.089000"
     },
     {

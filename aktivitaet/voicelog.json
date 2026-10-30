@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T18:00:00.180265Z",
+  "generated_at": "2026-10-30T00:00:00.139569Z",
   "users": {
     "1515734202862145660": {
       "username": "daveskoinagawgas_63768",
@@ -91773,6 +91773,76 @@
       "joined_at": "2026-10-28T20:51:39.001676",
       "left_at": "2026-10-28T20:55:13.201946",
       "duration_seconds": 214
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-29T20:01:45.835405",
+      "left_at": "2026-10-29T22:32:09.808964",
+      "duration_seconds": 9023
+    },
+    {
+      "user_id": "324609725134012418",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-29T20:03:08.814436",
+      "left_at": "2026-10-29T20:05:48.215847",
+      "duration_seconds": 159
+    },
+    {
+      "user_id": "789585087477710858",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-29T20:16:53.283349",
+      "left_at": "2026-10-29T20:23:33.583693",
+      "duration_seconds": 400
+    },
+    {
+      "user_id": "789585087477710858",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-29T20:23:33.583693",
+      "left_at": "2026-10-29T20:45:52.298411",
+      "duration_seconds": 1338
+    },
+    {
+      "user_id": "789585087477710858",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-29T20:45:52.298411",
+      "left_at": "2026-10-29T20:48:50.660183",
+      "duration_seconds": 178
+    },
+    {
+      "user_id": "789585087477710858",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-29T20:48:50.660183",
+      "left_at": "2026-10-29T21:14:52.398926",
+      "duration_seconds": 1561
+    },
+    {
+      "user_id": "965230328845303870",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-29T21:14:51.877332",
+      "left_at": "2026-10-29T22:32:10.988561",
+      "duration_seconds": 4639
+    },
+    {
+      "user_id": "732175178900963369",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-29T21:26:42.534025",
+      "left_at": "2026-10-29T21:26:44.421952",
+      "duration_seconds": 1
+    },
+    {
+      "user_id": "732175178900963369",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-29T21:26:44.421952",
+      "left_at": "2026-10-29T22:01:07.246894",
+      "duration_seconds": 2062
+    },
+    {
+      "user_id": "732175178900963369",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-29T22:01:07.246894",
+      "left_at": "2026-10-29T22:03:20.638789",
+      "duration_seconds": 133
     }
   ]
 }
