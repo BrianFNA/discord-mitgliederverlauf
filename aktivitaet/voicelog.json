@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:00:00.073692Z",
+  "generated_at": "2026-10-31T18:00:00.127147Z",
   "users": {
     "1515734202862145660": {
       "username": "daveskoinagawgas_63768",
@@ -92008,6 +92008,20 @@
       "joined_at": "2026-10-30T21:35:31.180960",
       "left_at": "2026-10-30T21:35:32.630333",
       "duration_seconds": 1
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-31T17:14:21.192708",
+      "left_at": "2026-10-31T17:24:12.286530",
+      "duration_seconds": 591
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 4",
+      "joined_at": "2026-10-31T17:37:46.417649",
+      "left_at": "2026-10-31T17:44:25.215188",
+      "duration_seconds": 398
     }
   ]
 }
