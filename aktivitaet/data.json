@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T18:00:00.155578Z",
+  "generated_at": "2026-10-31T00:00:00.134560Z",
   "total_messages": 219383,
-  "total_voice_seconds": 40534570,
-  "member_count": 415,
+  "total_voice_seconds": 40552722,
+  "member_count": 416,
   "users": [
     {
       "user_id": "1515734202862145660",
@@ -81,7 +81,7 @@
       "username": "unkennbarer",
       "avatar_url": "https://cdn.discordapp.com/avatars/1091381704855392338/d6271797243e1c65de1be947630493b8.png?size=1024",
       "message_count": 259,
-      "voice_seconds": 225689,
+      "voice_seconds": 239827,
       "joined_at": "2025-12-08T14:41:00.544000"
     },
     {
@@ -377,7 +377,7 @@
       "username": "ellen2511",
       "avatar_url": "https://cdn.discordapp.com/avatars/789585087477710858/71f4825b037719d8bf6acd2330faaa1c.png?size=1024",
       "message_count": 54183,
-      "voice_seconds": 2363141,
+      "voice_seconds": 2365254,
       "joined_at": "2021-10-10T10:15:10.993000"
     },
     {
@@ -865,7 +865,7 @@
       "username": "brian_fna",
       "avatar_url": "https://cdn.discordapp.com/avatars/507227222902571008/5cafcd98e7b4c43778e765c17ade9ed8.png?size=1024",
       "message_count": 23797,
-      "voice_seconds": 6130401,
+      "voice_seconds": 6132294,
       "joined_at": "2021-09-12T09:39:37.773000"
     },
     {
@@ -1009,7 +1009,7 @@
       "username": "the_nugnu",
       "avatar_url": "https://cdn.discordapp.com/avatars/324609725134012418/ef5571c786ba3f87a4afb6f77a3496e8.png?size=1024",
       "message_count": 372,
-      "voice_seconds": 13123,
+      "voice_seconds": 13131,
       "joined_at": "2023-12-12T05:35:59.089000"
     },
     {
@@ -3323,6 +3323,14 @@
       "message_count": 1,
       "voice_seconds": 0,
       "joined_at": "2026-10-28T19:48:36.825785"
+    },
+    {
+      "user_id": "1467244308808859915",
+      "username": "kakue007",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1467244308808859915/04952f890912af6983ff5780ba46122e.png?size=1024",
+      "message_count": 0,
+      "voice_seconds": 0,
+      "joined_at": "2026-10-30T18:50:53.827702"
     }
   ],
   "member_events": [
@@ -7135,6 +7143,16 @@
       "username": "sellibelli",
       "event_type": "join",
       "timestamp": "2026-10-28T19:48:36.825785"
+    },
+    {
+      "username": "kakue007",
+      "event_type": "join",
+      "timestamp": "2026-10-30T18:50:53.827702"
+    },
+    {
+      "username": "kakue007",
+      "event_type": "leave",
+      "timestamp": "2026-10-30T18:57:08.795182"
     }
   ]
 }

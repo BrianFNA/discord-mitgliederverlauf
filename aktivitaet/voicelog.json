@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:00:00.233927Z",
+  "generated_at": "2026-10-31T00:00:00.168802Z",
   "users": {
     "1515734202862145660": {
       "username": "daveskoinagawgas_63768",
@@ -1660,6 +1660,10 @@
     "502847711066849292": {
       "username": "sellibelli",
       "avatar_url": "https://cdn.discordapp.com/avatars/502847711066849292/eac3c3834108434ecc179aa7916361ea.png?size=1024"
+    },
+    "1467244308808859915": {
+      "username": "kakue007",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1467244308808859915/04952f890912af6983ff5780ba46122e.png?size=1024"
     }
   },
   "sessions": [
@@ -91934,6 +91938,76 @@
       "joined_at": "2026-10-30T17:31:07.364707",
       "left_at": "2026-10-30T17:31:43.389935",
       "duration_seconds": 36
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-30T17:31:43.389935",
+      "left_at": "2026-10-30T20:31:55.371940",
+      "duration_seconds": 10811
+    },
+    {
+      "user_id": "324609725134012418",
+      "channel_name": "Stage",
+      "joined_at": "2026-10-30T18:10:01.237107",
+      "left_at": "2026-10-30T18:10:09.678876",
+      "duration_seconds": 8
+    },
+    {
+      "user_id": "789585087477710858",
+      "channel_name": "Administration",
+      "joined_at": "2026-10-30T19:28:18.132364",
+      "left_at": "2026-10-30T19:28:28.545182",
+      "duration_seconds": 10
+    },
+    {
+      "user_id": "789585087477710858",
+      "channel_name": "Administration",
+      "joined_at": "2026-10-30T19:28:28.545182",
+      "left_at": "2026-10-30T20:03:32.060585",
+      "duration_seconds": 2103
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-10-30T19:31:58.317693",
+      "left_at": "2026-10-30T19:37:37.946126",
+      "duration_seconds": 339
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-10-30T19:37:37.946126",
+      "left_at": "2026-10-30T19:41:17.801417",
+      "duration_seconds": 219
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-10-30T19:41:17.801417",
+      "left_at": "2026-10-30T20:03:32.950785",
+      "duration_seconds": 1335
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-30T20:40:04.287817",
+      "left_at": "2026-10-30T20:40:09.398275",
+      "duration_seconds": 5
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-30T20:40:09.398275",
+      "left_at": "2026-10-30T21:35:31.180960",
+      "duration_seconds": 3321
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-30T21:35:31.180960",
+      "left_at": "2026-10-30T21:35:32.630333",
+      "duration_seconds": 1
     }
   ]
 }
