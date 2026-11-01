@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-31T18:00:00.093373Z",
-  "total_messages": 219390,
-  "total_voice_seconds": 40553711,
+  "generated_at": "2026-11-01T00:00:00.078225Z",
+  "total_messages": 219396,
+  "total_voice_seconds": 40574684,
   "member_count": 416,
   "users": [
     {
@@ -49,7 +49,7 @@
       "username": "nora_fee_",
       "avatar_url": "https://cdn.discordapp.com/avatars/1217798671098449923/b787e2e898f73445a8e54a5e1a7fee6b.png?size=1024",
       "message_count": 0,
-      "voice_seconds": 0,
+      "voice_seconds": 403,
       "joined_at": "2026-03-08T11:53:48.440000"
     },
     {
@@ -80,8 +80,8 @@
       "user_id": "1091381704855392338",
       "username": "unkennbarer",
       "avatar_url": "https://cdn.discordapp.com/avatars/1091381704855392338/d6271797243e1c65de1be947630493b8.png?size=1024",
-      "message_count": 263,
-      "voice_seconds": 240418,
+      "message_count": 267,
+      "voice_seconds": 246965,
       "joined_at": "2025-12-08T14:41:00.544000"
     },
     {
@@ -105,7 +105,7 @@
       "username": "_ch1h1ro_",
       "avatar_url": "https://cdn.discordapp.com/avatars/984934979932946443/41fea2f902e5af014ea46db781200af6.png?size=1024",
       "message_count": 573,
-      "voice_seconds": 690939,
+      "voice_seconds": 695635,
       "joined_at": "2026-04-10T20:38:24.754000"
     },
     {
@@ -513,7 +513,7 @@
       "username": "cosi___",
       "avatar_url": "https://cdn.discordapp.com/avatars/732175178900963369/f4318e1a49d550e4c7dcc8ec65b70f29.png?size=1024",
       "message_count": 6,
-      "voice_seconds": 4802,
+      "voice_seconds": 8286,
       "joined_at": "2026-02-15T17:53:50.924000"
     },
     {
@@ -864,8 +864,8 @@
       "user_id": "507227222902571008",
       "username": "brian_fna",
       "avatar_url": "https://cdn.discordapp.com/avatars/507227222902571008/5cafcd98e7b4c43778e765c17ade9ed8.png?size=1024",
-      "message_count": 23800,
-      "voice_seconds": 6132692,
+      "message_count": 23802,
+      "voice_seconds": 6138535,
       "joined_at": "2021-09-12T09:39:37.773000"
     },
     {
