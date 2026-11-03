@@ -1,4 +1,5 @@
 activity.db
+activity.db.bak*
 voicelog_raw_dump.txt
 .env
 __pycache__/

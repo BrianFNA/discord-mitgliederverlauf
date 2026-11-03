@@ -53,6 +53,9 @@ Discord-Bot-Application ist bereits angelegt und eingeladen: `Bot_FNA#4474`.
   `aktivitaet/data.json` und pusht die Änderung per Git; wird von `bot.py`
   automatisch aufgerufen, kann aber auch manuell mit `python export_stats.py`
   ausgeführt werden
+- `activity-bot/backfill_gap.py` — holt Nachrichten, Voice-Sessions und
+  Beitritte/Austritte nur für ein Zeitfenster nach, wenn `bot.py` eine Weile
+  nicht lief (siehe „Lücken nachladen“)
 - `activity-bot/dump_channel_raw.py` — Debug-Skript, liest rohen Text+Embed-
   Inhalt eines einzelnen Channels aus, um Log-Formate anderer Bots zu prüfen
 - `aktivitaet/` — die eigentliche Website (`index.html`, `style.css`,
@@ -113,6 +116,29 @@ python activity-bot/export_stats.py
 - Vor dem dauerhaften Start von `bot.py` einmalig laufen lassen, sonst
   können sich historische und live erfasste Voice-Sessions überschneiden
 - Danach läuft `bot.py` normal weiter und trackt nur noch neue Ereignisse
+
+### Lücken nachladen
+
+War `bot.py` zwischendurch offline (z. B. Netzausfall), fehlen für diese Zeit
+alle Daten. Die vollen Backfill-Skripte eignen sich dafür **nicht**: `bot.py`
+speichert bei Nachrichten die Empfangszeit, die API liefert die Erstellzeit,
+dadurch würden live erfasste Nachrichten doppelt eingetragen.
+`backfill_gap.py` liest stattdessen nur das angegebene Fenster (Zeiten in UTC):
+
+```
+sudo systemctl stop discord-bot
+cp activity-bot/activity.db activity-bot/activity.db.bak-$(date +%F)
+python activity-bot/backfill_gap.py --from 2026-10-09T18:23:42 --to 2026-10-27T13:18:40 --dry-run
+python activity-bot/backfill_gap.py --from 2026-10-09T18:23:42 --to 2026-10-27T13:18:40
+sudo systemctl start discord-bot
+python activity-bot/export_stats.py
+```
+
+- `--from` knapp nach dem letzten, `--to` knapp vor dem ersten live
+  erfassten Eintrag wählen, damit sich nichts überschneidet
+- Voice-Sessions, die sich mit vorhandenen Sessions desselben Users
+  überschneiden, werden automatisch übersprungen
+- So wurde die Lücke vom 10.10. bis 26.10.2026 gefüllt
 
 ### Setup
 
