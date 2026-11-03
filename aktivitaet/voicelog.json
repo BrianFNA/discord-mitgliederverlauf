@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T06:00:00.136485Z",
+  "generated_at": "2026-11-03T10:13:19.281653Z",
   "users": {
     "1515734202862145660": {
       "username": "daveskoinagawgas_63768",
@@ -43,7 +43,7 @@
     },
     "1079715112551727144": {
       "username": "chefinselina",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1079715112551727144/70b729e3e6c7a72eab7e24f15acab7ca.png?size=1024"
+      "avatar_url": "https://cdn.discordapp.com/avatars/1079715112551727144/753d394f6e58a22b77bce98dfc2c0309.png?size=1024"
     },
     "996901520530477196": {
       "username": "lea269",
@@ -71,7 +71,7 @@
     },
     "952547173919236126": {
       "username": "schnabus_kadsi",
-      "avatar_url": "https://cdn.discordapp.com/avatars/952547173919236126/a_cec44fe3dcf6fb9df00c38e9f31cf997.gif?size=1024"
+      "avatar_url": "https://cdn.discordapp.com/avatars/952547173919236126/cec44fe3dcf6fb9df00c38e9f31cf997.png?size=1024"
     },
     "951186130571771995": {
       "username": "xe.ni.aa",
@@ -91,7 +91,7 @@
     },
     "933145228553097216": {
       "username": "ichlecksiewund.",
-      "avatar_url": "https://cdn.discordapp.com/avatars/933145228553097216/0bf82b13f6eb7dbc7cce3612a39fe025.png?size=1024"
+      "avatar_url": "https://cdn.discordapp.com/avatars/933145228553097216/499e43b56e7ec15a447cc49ff5595de4.png?size=1024"
     },
     "931861749072793620": {
       "username": "namenlos4539",
@@ -91441,6 +91441,153 @@
       "joined_at": "2026-10-09T21:10:19.921000",
       "left_at": "2026-10-09T21:31:45.025000",
       "duration_seconds": 1285
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 3",
+      "joined_at": "2026-10-10T18:13:39.284000",
+      "left_at": "2026-10-10T19:27:05.095000",
+      "duration_seconds": 4405
+    },
+    {
+      "user_id": "710581165660307478",
+      "channel_name": "Laberecke 3",
+      "joined_at": "2026-10-10T18:13:54.326000",
+      "left_at": "2026-10-10T19:27:11.960000",
+      "duration_seconds": 4397
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-11T11:50:40.653000",
+      "left_at": "2026-10-11T12:42:21.610000",
+      "duration_seconds": 3100
+    },
+    {
+      "user_id": "760836402807570504",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-11T12:11:40.810000",
+      "left_at": "2026-10-11T14:37:54.758000",
+      "duration_seconds": 8773
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 3",
+      "joined_at": "2026-10-15T15:51:06.659000",
+      "left_at": "2026-10-15T16:59:37.162000",
+      "duration_seconds": 4110
+    },
+    {
+      "user_id": "760836402807570504",
+      "channel_name": "Laberecke 3",
+      "joined_at": "2026-10-15T15:52:51.430000",
+      "left_at": "2026-10-15T16:18:26.797000",
+      "duration_seconds": 1535
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-16T15:19:48.024000",
+      "left_at": "2026-10-16T19:37:00.101000",
+      "duration_seconds": 15432
+    },
+    {
+      "user_id": "710581165660307478",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-19T16:41:21.913000",
+      "left_at": "2026-10-19T16:50:47.965000",
+      "duration_seconds": 566
+    },
+    {
+      "user_id": "760836402807570504",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-19T16:41:31.918000",
+      "left_at": "2026-10-19T16:53:17.114000",
+      "duration_seconds": 705
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-10-19T17:49:48.732000",
+      "left_at": "2026-10-19T19:02:29.784000",
+      "duration_seconds": 4361
+    },
+    {
+      "user_id": "760836402807570504",
+      "channel_name": "Date Time",
+      "joined_at": "2026-10-22T15:02:16.943000",
+      "left_at": "2026-10-22T16:08:02.674000",
+      "duration_seconds": 3945
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-22T15:03:36.787000",
+      "left_at": "2026-10-22T16:07:57.734000",
+      "duration_seconds": 3860
+    },
+    {
+      "user_id": "1243630132015665176",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-22T15:10:11.825000",
+      "left_at": "2026-10-22T15:36:07.882000",
+      "duration_seconds": 1556
+    },
+    {
+      "user_id": "925369804586623066",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-22T15:24:07.012000",
+      "left_at": "2026-10-22T15:30:37.034000",
+      "duration_seconds": 390
+    },
+    {
+      "user_id": "604177348455039007",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-22T15:30:22.154000",
+      "left_at": "2026-10-22T16:10:47.764000",
+      "duration_seconds": 2425
+    },
+    {
+      "user_id": "710581165660307478",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-23T12:03:41.217000",
+      "left_at": "2026-10-23T13:22:34.647000",
+      "duration_seconds": 4733
+    },
+    {
+      "user_id": "604177348455039007",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-10-23T12:03:46.201000",
+      "left_at": "2026-10-23T13:22:29.641000",
+      "duration_seconds": 4723
+    },
+    {
+      "user_id": "925369804586623066",
+      "channel_name": "3er Talk",
+      "joined_at": "2026-10-25T17:59:44.372000",
+      "left_at": "2026-10-25T18:36:12.297000",
+      "duration_seconds": 2187
+    },
+    {
+      "user_id": "710581165660307478",
+      "channel_name": "3er Talk",
+      "joined_at": "2026-10-25T18:00:04.846000",
+      "left_at": "2026-10-25T18:36:15.196000",
+      "duration_seconds": 2170
+    },
+    {
+      "user_id": "795396883295240192",
+      "channel_name": "3er Talk",
+      "joined_at": "2026-10-25T18:43:05.197000",
+      "left_at": "2026-10-25T20:01:51.404000",
+      "duration_seconds": 4726
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-10-26T19:11:04.429000",
+      "left_at": "2026-10-26T21:02:25.151000",
+      "duration_seconds": 6680
     },
     {
       "user_id": "1079715112551727144",
