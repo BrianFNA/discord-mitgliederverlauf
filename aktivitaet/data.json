@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T06:00:00.064877Z",
-  "total_messages": 220133,
+  "generated_at": "2026-11-05T12:00:00.105729Z",
+  "total_messages": 220134,
   "total_voice_seconds": 40675992,
   "member_count": 416,
   "users": [
@@ -808,7 +808,7 @@
       "user_id": "538846506195615764",
       "username": "friendlyfirefox",
       "avatar_url": "https://cdn.discordapp.com/avatars/538846506195615764/d136e4a511a012a2bc0919459ac0bcd9.png?size=1024",
-      "message_count": 832,
+      "message_count": 833,
       "voice_seconds": 27563,
       "joined_at": "2022-04-13T11:29:41.386000"
     },
