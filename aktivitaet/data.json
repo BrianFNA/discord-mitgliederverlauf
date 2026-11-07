@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-06T18:00:00.086799Z",
-  "total_messages": 220142,
-  "total_voice_seconds": 40675992,
+  "generated_at": "2026-11-07T00:00:00.130725Z",
+  "total_messages": 220143,
+  "total_voice_seconds": 40684708,
   "member_count": 416,
   "users": [
     {
@@ -81,7 +81,7 @@
       "username": "unkennbarer",
       "avatar_url": "https://cdn.discordapp.com/avatars/1091381704855392338/d6271797243e1c65de1be947630493b8.png?size=1024",
       "message_count": 272,
-      "voice_seconds": 267885,
+      "voice_seconds": 276601,
       "joined_at": "2025-12-08T14:41:00.544000"
     },
     {
@@ -1008,7 +1008,7 @@
       "user_id": "324609725134012418",
       "username": "the_nugnu",
       "avatar_url": "https://cdn.discordapp.com/avatars/324609725134012418/ef5571c786ba3f87a4afb6f77a3496e8.png?size=1024",
-      "message_count": 495,
+      "message_count": 496,
       "voice_seconds": 13131,
       "joined_at": "2023-12-12T05:35:59.089000"
     },
@@ -3303,7 +3303,7 @@
     {
       "user_id": "1395441373603168388",
       "username": "ein_lion",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1395441373603168388/64d60bf5feace836539980e251a520fb.png?size=1024",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1395441373603168388/dda9f7b88bdd8eb39e85c619534a7609.png?size=1024",
       "message_count": 0,
       "voice_seconds": 0,
       "joined_at": "2026-10-25T14:13:50.928000"

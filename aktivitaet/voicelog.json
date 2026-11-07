@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T18:00:00.120938Z",
+  "generated_at": "2026-11-07T00:00:00.165280Z",
   "users": {
     "1515734202862145660": {
       "username": "daveskoinagawgas_63768",
@@ -1651,7 +1651,7 @@
     },
     "1395441373603168388": {
       "username": "ein_lion",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1395441373603168388/64d60bf5feace836539980e251a520fb.png?size=1024"
+      "avatar_url": "https://cdn.discordapp.com/avatars/1395441373603168388/dda9f7b88bdd8eb39e85c619534a7609.png?size=1024"
     },
     "795396883295240192": {
       "username": "xmarie_",
@@ -92414,6 +92414,27 @@
       "joined_at": "2026-11-02T20:02:29.009147",
       "left_at": "2026-11-02T20:45:23.059136",
       "duration_seconds": 2574
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-11-06T19:17:19.866844",
+      "left_at": "2026-11-06T19:17:30.931756",
+      "duration_seconds": 11
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-11-06T19:17:30.931756",
+      "left_at": "2026-11-06T20:14:01.200857",
+      "duration_seconds": 3390
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-11-06T20:14:01.955648",
+      "left_at": "2026-11-06T21:42:37.676186",
+      "duration_seconds": 5315
     }
   ]
 }
