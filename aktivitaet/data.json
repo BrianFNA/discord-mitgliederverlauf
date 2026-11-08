@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-07T18:00:00.135651Z",
+  "generated_at": "2026-11-08T00:00:00.061495Z",
   "total_messages": 220146,
-  "total_voice_seconds": 40690139,
+  "total_voice_seconds": 40694526,
   "member_count": 416,
   "users": [
     {
@@ -81,7 +81,7 @@
       "username": "unkennbarer",
       "avatar_url": "https://cdn.discordapp.com/avatars/1091381704855392338/d6271797243e1c65de1be947630493b8.png?size=1024",
       "message_count": 272,
-      "voice_seconds": 282032,
+      "voice_seconds": 286419,
       "joined_at": "2025-12-08T14:41:00.544000"
     },
     {
