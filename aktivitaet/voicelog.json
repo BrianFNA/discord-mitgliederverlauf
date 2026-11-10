@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:00:00.126233Z",
+  "generated_at": "2026-11-10T00:00:00.126672Z",
   "users": {
     "1515734202862145660": {
       "username": "daveskoinagawgas_63768",
@@ -92449,6 +92449,20 @@
       "joined_at": "2026-11-07T19:45:09.984753",
       "left_at": "2026-11-07T20:58:17.098931",
       "duration_seconds": 4387
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-11-09T20:15:09.919150",
+      "left_at": "2026-11-09T20:41:53.636965",
+      "duration_seconds": 1603
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-11-09T20:41:53.636965",
+      "left_at": "2026-11-09T21:20:03.534138",
+      "duration_seconds": 2289
     }
   ]
 }
