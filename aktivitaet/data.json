@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T06:00:00.065300Z",
-  "total_messages": 220170,
+  "generated_at": "2026-11-11T12:00:00.038548Z",
+  "total_messages": 220180,
   "total_voice_seconds": 40698418,
   "member_count": 416,
   "users": [
@@ -736,7 +736,7 @@
       "user_id": "604177348455039007",
       "username": "stec47",
       "avatar_url": "https://cdn.discordapp.com/avatars/604177348455039007/9472fe369e523e5bae2cd77a98c54f4a.png?size=1024",
-      "message_count": 1491,
+      "message_count": 1492,
       "voice_seconds": 256354,
       "joined_at": "2023-10-26T18:07:41.459000"
     },
@@ -864,7 +864,7 @@
       "user_id": "507227222902571008",
       "username": "brian_fna",
       "avatar_url": "https://cdn.discordapp.com/avatars/507227222902571008/5cafcd98e7b4c43778e765c17ade9ed8.png?size=1024",
-      "message_count": 24094,
+      "message_count": 24098,
       "voice_seconds": 6176028,
       "joined_at": "2021-09-12T09:39:37.773000"
     },
@@ -1008,7 +1008,7 @@
       "user_id": "324609725134012418",
       "username": "the_nugnu",
       "avatar_url": "https://cdn.discordapp.com/avatars/324609725134012418/ef5571c786ba3f87a4afb6f77a3496e8.png?size=1024",
-      "message_count": 505,
+      "message_count": 510,
       "voice_seconds": 13131,
       "joined_at": "2023-12-12T05:35:59.089000"
     },
