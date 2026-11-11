@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T18:00:00.088013Z",
-  "total_messages": 220165,
+  "generated_at": "2026-11-11T00:00:00.131949Z",
+  "total_messages": 220166,
   "total_voice_seconds": 40698418,
   "member_count": 416,
   "users": [
@@ -672,7 +672,7 @@
       "user_id": "661942807346413578",
       "username": "faris_degen",
       "avatar_url": "https://cdn.discordapp.com/avatars/661942807346413578/cb92da2b2d3c70ae648ff5f12fc7e7e1.png?size=1024",
-      "message_count": 268,
+      "message_count": 269,
       "voice_seconds": 735511,
       "joined_at": "2021-09-19T16:45:31.259000"
     },
