@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:00:00.093892Z",
+  "generated_at": "2026-11-13T18:00:00.111858Z",
   "users": {
     "1515734202862145660": {
       "username": "daveskoinagawgas_63768",
@@ -92463,6 +92463,27 @@
       "joined_at": "2026-11-09T20:41:53.636965",
       "left_at": "2026-11-09T21:20:03.534138",
       "duration_seconds": 2289
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-11-13T15:52:50.967261",
+      "left_at": "2026-11-13T17:18:31.338084",
+      "duration_seconds": 5140
+    },
+    {
+      "user_id": "710581165660307478",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-11-13T17:17:52.655370",
+      "left_at": "2026-11-13T17:19:01.865247",
+      "duration_seconds": 69
+    },
+    {
+      "user_id": "1091381704855392338",
+      "channel_name": "Laberecke 1",
+      "joined_at": "2026-11-13T17:18:31.338084",
+      "left_at": "2026-11-13T17:19:00.375991",
+      "duration_seconds": 29
     }
   ]
 }

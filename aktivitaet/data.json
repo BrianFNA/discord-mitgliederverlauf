@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T12:00:00.059142Z",
-  "total_messages": 220214,
-  "total_voice_seconds": 40698418,
+  "generated_at": "2026-11-13T18:00:00.077380Z",
+  "total_messages": 220216,
+  "total_voice_seconds": 40703656,
   "member_count": 416,
   "users": [
     {
@@ -81,7 +81,7 @@
       "username": "unkennbarer",
       "avatar_url": "https://cdn.discordapp.com/avatars/1091381704855392338/d6271797243e1c65de1be947630493b8.png?size=1024",
       "message_count": 272,
-      "voice_seconds": 286419,
+      "voice_seconds": 291588,
       "joined_at": "2025-12-08T14:41:00.544000"
     },
     {
@@ -553,7 +553,7 @@
       "username": "ichbineinalienkeinmensch",
       "avatar_url": "https://cdn.discordapp.com/avatars/710581165660307478/c09806b71bcb694cf15497c9f6d5804e.png?size=1024",
       "message_count": 7892,
-      "voice_seconds": 4959637,
+      "voice_seconds": 4959706,
       "joined_at": "2021-10-07T15:45:08.894000"
     },
     {
@@ -864,7 +864,7 @@
       "user_id": "507227222902571008",
       "username": "brian_fna",
       "avatar_url": "https://cdn.discordapp.com/avatars/507227222902571008/5cafcd98e7b4c43778e765c17ade9ed8.png?size=1024",
-      "message_count": 24112,
+      "message_count": 24114,
       "voice_seconds": 6176028,
       "joined_at": "2021-09-12T09:39:37.773000"
     },
