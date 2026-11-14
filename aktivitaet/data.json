@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T12:00:00.101145Z",
-  "total_messages": 220216,
+  "generated_at": "2026-11-14T18:00:00.110805Z",
+  "total_messages": 220218,
   "total_voice_seconds": 40703656,
-  "member_count": 416,
+  "member_count": 417,
   "users": [
     {
       "user_id": "1515734202862145660",
@@ -864,7 +864,7 @@
       "user_id": "507227222902571008",
       "username": "brian_fna",
       "avatar_url": "https://cdn.discordapp.com/avatars/507227222902571008/5cafcd98e7b4c43778e765c17ade9ed8.png?size=1024",
-      "message_count": 24114,
+      "message_count": 24115,
       "voice_seconds": 6176028,
       "joined_at": "2021-09-12T09:39:37.773000"
     },
@@ -3331,6 +3331,14 @@
       "message_count": 0,
       "voice_seconds": 0,
       "joined_at": "2026-10-30T18:50:53.827702"
+    },
+    {
+      "user_id": "1438927828602065027",
+      "username": "red_panda_0811",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1438927828602065027/58d1a68106f5031af362a7bbf876bcb8.png?size=1024",
+      "message_count": 1,
+      "voice_seconds": 0,
+      "joined_at": "2026-11-14T14:26:49.528989"
     }
   ],
   "member_events": [
@@ -7173,6 +7181,11 @@
       "username": "kakue007",
       "event_type": "leave",
       "timestamp": "2026-10-30T18:57:08.795182"
+    },
+    {
+      "username": "red_panda_0811",
+      "event_type": "join",
+      "timestamp": "2026-11-14T14:26:49.528989"
     }
   ]
 }
