@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T18:00:00.517491Z",
+  "generated_at": "2026-11-18T00:00:00.447024Z",
   "users": {
     "1515734202862145660": {
       "username": "daveskoinagawgas_63768",
@@ -92523,6 +92523,55 @@
       "joined_at": "2026-11-15T17:59:12.219937",
       "left_at": "2026-11-15T18:27:57.163739",
       "duration_seconds": 1724
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-11-17T18:27:55.459323",
+      "left_at": "2026-11-17T18:38:04.133240",
+      "duration_seconds": 608
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-11-17T18:38:04.133240",
+      "left_at": "2026-11-17T18:46:11.930956",
+      "duration_seconds": 487
+    },
+    {
+      "user_id": "789585087477710858",
+      "channel_name": "Administration",
+      "joined_at": "2026-11-17T18:45:59.923042",
+      "left_at": "2026-11-17T18:48:58.577750",
+      "duration_seconds": 178
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Administration",
+      "joined_at": "2026-11-17T18:46:11.930956",
+      "left_at": "2026-11-17T19:48:19.470208",
+      "duration_seconds": 3727
+    },
+    {
+      "user_id": "789585087477710858",
+      "channel_name": "Administration",
+      "joined_at": "2026-11-17T18:48:58.577750",
+      "left_at": "2026-11-17T18:51:03.378846",
+      "duration_seconds": 124
+    },
+    {
+      "user_id": "789585087477710858",
+      "channel_name": "Administration",
+      "joined_at": "2026-11-17T18:51:05.892144",
+      "left_at": "2026-11-17T18:51:10.830064",
+      "duration_seconds": 4
+    },
+    {
+      "user_id": "789585087477710858",
+      "channel_name": "Administration",
+      "joined_at": "2026-11-17T18:51:10.830064",
+      "left_at": "2026-11-17T19:48:23.328946",
+      "duration_seconds": 3432
     }
   ]
 }
