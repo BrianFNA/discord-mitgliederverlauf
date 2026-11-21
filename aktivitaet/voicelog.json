@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T06:00:00.102376Z",
+  "generated_at": "2026-11-21T12:00:00.074552Z",
   "users": {
     "1515734202862145660": {
       "username": "daveskoinagawgas_63768",
@@ -92572,6 +92572,13 @@
       "joined_at": "2026-11-17T18:51:10.830064",
       "left_at": "2026-11-17T19:48:23.328946",
       "duration_seconds": 3432
+    },
+    {
+      "user_id": "507227222902571008",
+      "channel_name": "Laberecke 3",
+      "joined_at": "2026-11-21T09:27:25.006967",
+      "left_at": "2026-11-21T10:03:34.394513",
+      "duration_seconds": 2169
     }
   ]
 }
